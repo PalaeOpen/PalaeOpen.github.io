@@ -1,0 +1,76 @@
+---
+title: "People"
+---
+
+### Dr Thomas Giesecke <img src="https://www.uu.nl/medewerkers/RestApi/Public/GetImage?Employee=48498&t=" align="right" width="120"/>
+
+* ![](https://img.shields.io/badge/Leadership-Action--Chair-gold)
+* 🏦Utrecht University, NL
+* 📞phone: +31302531034
+* 📬email: t.giesecke(at)uu.nl
+* [![orcid](https://img.shields.io/badge/orcid-0000--0002--5132--1061-brightgreen.svg)](https://orcid.org/0000-0002-5132-1061)
+* [🔗personal webiste](https://www.uu.nl/staff/TGiesecke)
+
+### Dr Sandra Nogué Bosch <img src="https://www.creaf.cat/sites/default/files/inline-images/wp_uploads/2022/05/Sandra-Nogue-investigadora-1.png" align="right" width="120"/>
+
+* ![](https://img.shields.io/badge/Leadership-Action--Vice--Chair-gold)
+* 🏦UAB Barcelona, ES
+* 📞phone: 935814669
+* 📬email: sandra.nogue(at)uab.cat
+* [![orcid](https://img.shields.io/badge/orcid-0000--0003--0093--4252-brightgreen.svg)](https://orcid.org/0000-0003-0093-4252)
+* [🔗personal webiste](https://portalrecerca.uab.cat/en/persons/sandra-nogue-boschh)
+ 
+## Leadership & Staff (Alphabetical order)
+
+### Dr Xavier Benito
+
+* ![](https://img.shields.io/badge/Leadership-WG2--Co--Leader-silver) 	
+
+### Prof Richard Bradshaw
+
+* ![](https://img.shields.io/badge/Leadership-Senior--Advisor-CD7F32)
+
+### Dr Sandra Olivia Brugger
+
+* ![](https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-CD7F32)
+
+### Prof Elisabeth Dietze
+
+* ![](https://img.shields.io/badge/Leadership-WG1--Co--Leader-silver) 	
+
+### Dr Kirsten Elger
+
+* ![](https://img.shields.io/badge/Leadership-WG3--Leader-silver) 	
+
+### Dr Stefan Engels
+
+* ![](https://img.shields.io/badge/Leadership-WG2--Leader-silver) 	
+
+### Dr Walter Finsinger
+
+* ![](https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator-CD7F32) 		
+
+### Ms Aldona Gembalik
+
+* ![](https://img.shields.io/badge/Staff-Administrative--Officer-purple)
+
+### Dr Graciela Gil-Romera
+
+* ![](https://img.shields.io/badge/Leadership-WG4--Leader-silver)
+* ![](https://img.shields.io/badge/Leadership-Science--Communication--Coordinator-CD7F32)	
+
+### Dr Petr Kuneš
+
+* ![](https://img.shields.io/badge/Leadership-WG1--Leader-silver)	
+
+### Dr Ondrej Mottl
+
+* ![](https://img.shields.io/badge/Leadership-WG3--Co--Leader-silver)
+
+### Dr Federica Ortelli
+
+* ![](https://img.shields.io/badge/Staff-Science--Officer-purple)
+
+### Dr Celia Martin Puertas
+
+* ![](https://img.shields.io/badge/Leadership-WG4--Co--Leader-silver)
