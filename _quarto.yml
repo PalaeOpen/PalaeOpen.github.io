@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "PalaeOpen"
+
+  page-footer:
+    left: "&copy; Copyright 2024, Ondřej Mottl"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: about.qmd
+        text: About
+
+      - href: people.qmd
+        text: People
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    toc-depth: 2
+
+
+
