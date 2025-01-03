@@ -18,8 +18,8 @@ website:
       - href: about.qmd
         text: About
 
-      - href: people.qmd
-        text: People
+      - href: coregroup.qmd
+        text: Core Group
 
 format:
   html:
