@@ -91,9 +91,13 @@ title: "People"
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0001--9605--8204-brightgreen.svg)](https://orcid.org/0000-0001-9605-8204)
 -   [🔗personal website](https://natur.cuni.cz/en/person?poid=1494806729387701)
 
-### Dr Ondrej Mottl
+### Dr Ondřej Mottl <img src="https://ondrejmottl.github.io/profile_mottl_zoom.jpg" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-WG3--Co--Leader-silver)
+-   🏦Department of Botany, Faculty of Science, Charles University, Prague, Czech Republic
+-   📬email: ondrej.mottl(at)gmail.com
+-   [![ORCID](https://img.shields.io/badge/orcid-0000--0002--9796--5081-brightgreen.svg)](https://orcid.org/0000-0002-9796-5081)
+-   [🔗personal webiste](https://ondrejmottl.github.io/)
 
 ### Dr Federica Ortelli
 
