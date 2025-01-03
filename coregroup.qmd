@@ -22,7 +22,7 @@ title: "People"
 
 ## Leadership & Staff (Alphabetical order)
 
-### Dr Xavier Benito ![](Materials/XBenito.JPG){data-fig-align="right" width="120"} 
+### Dr Xavier Benito <img src="Materials/XBenito.JPG" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-WG2--Co--Leader-silver)\
 -   🏦Institute of Agrifood Research and Technology (IRTA), Spain
