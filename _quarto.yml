@@ -12,14 +12,24 @@ website:
 
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: Home
+        href: index.qmd
+        
 
-      - href: about.qmd
-        text: About
+      - text: About
+        href: about.qmd
+        
 
-      - href: coregroup.qmd
-        text: Core Group
+      - text: Core Group
+        href: coregroup.qmd
+        
+      - text: Outreach
+        menu:
+          - text: Press Release 2025
+            href: outreach/press_release_2025.qmd
+
+      - text: Join us!
+        href: https://e-services.cost.eu/action/CA23116/working-groups/applications
 
 format:
   html:
