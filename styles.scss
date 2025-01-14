@@ -1,0 +1,15 @@
+/*-- scss:rules --*/
+
+.btn {
+  background-color: $white;
+  color: $primary;
+  border-color: $primary;
+  font-variant-caps: all-petite-caps;
+  border-radius: 10px;
+  &:hover {
+    background-color: $white;
+    color: $link-color;
+    border-color: $link-color;
+  }
+}
+
