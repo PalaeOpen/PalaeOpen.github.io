@@ -18,5 +18,8 @@ about:
 
 The COST Action **Open Palaeoecological Data** (PalaeOpen), funded by the European Cooperation in Science and Technology ([COST](https://www.cost.eu/)), aims to advance the understanding of ecosystem responses to climate and land-use changes over decades to millennia. By bringing dispersed palaeoecological data into the public domain, harmonising taxonomy and metadata, and integrating domain-specific repositories, this Action will enable continental-scale analyses of terrestrial and aquatic ecosystems. It fosters collaboration between palaeoecologists, macroecologists, and conservation practitioners, addressing knowledge gaps and supporting nature conservation. Through workshops, outreach, and educational initiatives, PalaeOpen will make its findings accessible to researchers, practitioners, and the public, building foresight for future environmental management.
 
+[COST - Action CA23116](https://www.cost.eu/actions/CA23116/){.btn} [Join the network](https://e-services.cost.eu/action/CA23116/working-groups/applications){.btn}
+
 :::
+
 
