@@ -7,8 +7,8 @@ website:
   title: "PalaeOpen"
 
   page-footer:
-    left: "&copy; Copyright 2024, Ondřej Mottl"
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2025, PalaeOpen"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/) by Ondřej Mottl."
 
   navbar:
     left:
