@@ -1,0 +1,99 @@
+---
+date: 2025/01/22
+date-format: long
+date-modified: last-modified
+format:
+  html:
+    embed-resources: true
+---
+
+# Open Call for Short-Term Scientific Mission (STSM) Applications
+   
+We are pleased to announce this year's STSM application process for the PalaeOpen COST Action is now live.  
+   
+## Purpose of STSMs 
+
+STSMs are research stays in a different country than the country of the primary affiliation of the applicant. The grants support the individual mobility of participants in the [**COST Action** **CA23116**](https://www.cost.eu/actions/CA23116/) to go to an institution, organisation or research centre in **another** participating COST Country or accepted International Partner Country (IPC) / Near Neighbour Country (NNC), to foster collaboration and to perform research activities related to the COST Action.  
+
+Participation of "Early Career Investigators" (ECI) in STSMs is particularly encouraged. ECI is considered any researcher or innovator under 40 years of age. PhD students are also eligible to partake in STSMs.  
+
+::: {.callout-important}
+Due to the grant period ending in October, **STSMs must end before 15 september 2025** to allow time for reporting and reimbursement. However, please bear in mind that due to budget limitations few STSMs can be granted this year and more will be available throughout the 4 year duration of the COST Action.  
+:::
+
+## Eligibility   
+
+Individuals affiliated to a legal entity in a COST Full/Cooperating Member country, in a European RTD, or in a COST Near Neighbour Country (NNC) institution can apply for a STSM grant.  
+Possible scenarios for eligible STSM applicants include:  
+   
+**Applicant's Home institution**:
+
+* Located in a Participating COST Full Member country  
+* Located in a COST Cooperating Member country  
+* Located in a Near Neighbour Country  
+* Located in a recognised European RTD Organisation 
+   
+**STSM Host Institution**:
+
+* Located in another Participating COST Full Member country / COST Cooperating Member country / Partner Member  
+* Located in an IPC / Third State  
+* Located in a Near Neighbour Country  
+* Specific Organisations: only if the rule applies to the territory where it is vested
+
+## Financial Support  
+
+The financial support on offer is a contribution to the overall expenses incurred during the STSM and may not necessarily cover all of the associated outgoings.  
+
+The following funding conditions apply and must be respected:
+* up to a maximum of EUR 2000 can be awarded to each applicant. In exceptional cases the panel will consider applications to a maximum of EUR 4000 - please contact the Grant Awarding Coordinators to discuss your plans if you are considering applying for more than 2000 EUR
+* STSM activities must occur in their entirety within the dates specified in this call
+* No minimum number of days required
+   
+Financial support is limited to cover travel, accommodation and meal expenses and is paid in the form of a Grant **after** the STSM has taken place and the report of the grantee is approved. It is possible to request up to 50% of the grant in advance upon approval. Please state such a request in the application.  
+
+The amounts granted for each individual STSM will be determined during the evaluation process by the formally appointed STSM Committee. The selection of applicants is based on the scientific scope of the STSM application, which must clearly contribute to the achievement of one (or several) objectives of the Action (see the Memorandum of Understanding ([MoU](https://e-services.cost.eu/files/domain_files/CA/Action_CA23116/mou/CA23116-e.pdf))).  
+   
+## How to apply for an STSM 
+
+Interested researchers can **apply until 28th of February 2025** by following the directions provided below and submitting their electronic application and supporting documents via the e-COST platform.  
+
+For more information, please contact the Grant Awarding Coordinators: [Walter Finsinger](/coregroup.qmd#dr-walter-finsinger) (walter.finsinger(at)umontpellier) and [Sandra Olivia Camara-Brugger](/coregroup.qmd#dr-sandra-olivia-camara-brugger) (sandra.bruegger(at)unibas.ch).  
+   
+**Application Process**
+
+1. All applicants must carefully read the funding rules of the *COST Annotated Rules*. This document is available [HERE](https://www.cost.eu/uploads/2024/11/COST-094-21-V2.0-Annotated-Rules-for-COST-Actions-Level-C.pdf) (ANNEX 2).  
+2. All applicants must register for an e-COST profile at [https://e-services.cost.eu/](https://e-services.cost.eu/) - adding their CV and bank account details to their profile.  
+3. Applicants are encouraged to contact the respective Working Group(s) leader(s) prior to submitting their application to ensure that the expected outcome of their STSM agrees with the objectives of this action.  
+4. All applicants must complete, submit and upload their STSM applications online within their e-COST profile at: [https://e-services.cost.eu/activity/grants](https://e-services.cost.eu/activity/grants).  
+5. All applicants must upload a set of documents through the e-COST platform. The list of supporting documents to be submitted for the evaluation are:  
+   * The *Grant application* form (template is available when the online form for the application is saved - see point 4 above) to describe the:   
+     1. Goals of the STSM  
+     2. Work Plan
+     3. Expected outcomes 
+     4. Contribution to the Action MoU objectives (applicants are kindly asked to clearly state which workgroup(s) their STSM will contribute to, in order to facilitate the evaluation process)  
+   * *Confirmation letter by the host* on the agreement from the host institution in receiving the applicant;  
+   * A *Full C.V.* (including a list of academic publications - if applicable).  
+6. The assessment of the application will be coordinated by the Grant Awarding Coordinators against the perceived contribution that the proposed research activity will make against the scientific objectives outlined in the Action's Memorandum of Understanding (MoU) of PalaeOpen.  
+7. The applicant will be formally notified of the outcome of their STSM application by the Grant Holder Manager after 10 working days after the application deadline.  
+8. Within 30 days from the end date of the STSM, the grantee must complete, upload, and submit a scientific report to the Grant Awarding Coordinators through e-COST. The report shall include:  
+   * the completed report [template](https://www.cost.eu/STSM_Report) describing the work developed, the main achievements of the STSM and planned future follow up activities, and  
+   * an official acceptance letter / Email confirmation of acceptance from a senior Researcher affiliated to the Host institution formally accepting the scientific report.   
+   * STSM grantees are also expected to share the outcome of their research stay with the PalaeOpen Action community. All grantees are therefore also required to upload a file (accepted formats include: docx, doc, pdf) including a written blogpost with a photograph taken during the research stay at the host institution or a short video talking about the experience, which will be then uploaded on the Action website. **Please upload the blog post together with the grant report in e-COST (separate files)**
+
+Failure to submit the scientific report within 30 days from the end date of the STSM will effectively cancel the Grant.  
+   
+*(Please note that the COST Association can request additional information to substantiate the information contained within the documents submitted by STSM applicants)*  
+   
+::: {.callout-note}
+### STSM evaluation criteria for PalaeOpen 
+Each STSM proposal will be evaluated according to the following five criteria:
+
+* Scientific quality  
+* Connection to the objectives of PalaeOpen (see MoU)  
+* Expected output / chance for publication  
+* Involvement of inclusiveness target countries (ITCs)  
+* Gender balance
+
+It is further aimed to support STSMs of different WG objectives and topics.
+:::
+
