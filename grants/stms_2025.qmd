@@ -18,7 +18,7 @@ STSMs are research stays in a different country than the country of the primary 
 Participation of "Early Career Investigators" (ECI) in STSMs is particularly encouraged. ECI is considered any researcher or innovator under 40 years of age. PhD students are also eligible to partake in STSMs.  
 
 ::: {.callout-important}
-Due to the grant period ending in October, **STSMs must end before 15 september 2025** to allow time for reporting and reimbursement. However, please bear in mind that due to budget limitations few STSMs can be granted this year and more will be available throughout the 4 year duration of the COST Action.  
+Due to the grant period ending in October, **STSMs must end before 15 september 2025** to allow time for reporting and reimbursement. Please bear in mind that due to budget limitations few STSMs can be granted this year and more will be available throughout the 4 year duration of the COST Action.  
 :::
 
 ## Eligibility   
@@ -45,6 +45,7 @@ Possible scenarios for eligible STSM applicants include:
 The financial support on offer is a contribution to the overall expenses incurred during the STSM and may not necessarily cover all of the associated outgoings.  
 
 The following funding conditions apply and must be respected:
+
 * up to a maximum of EUR 2000 can be awarded to each applicant. In exceptional cases the panel will consider applications to a maximum of EUR 4000 - please contact the Grant Awarding Coordinators to discuss your plans if you are considering applying for more than 2000 EUR
 * STSM activities must occur in their entirety within the dates specified in this call
 * No minimum number of days required
