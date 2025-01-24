@@ -28,6 +28,11 @@ website:
           - text: Press Release 2025
             href: outreach/press_release_2025.qmd
 
+      - text: Grants
+        menu:
+          - text: Open Call for STSM Grants 2025
+            href: grants/stms_2025.qmd
+
       - text: Join us!
         href: https://e-services.cost.eu/action/CA23116/working-groups/applications
 
