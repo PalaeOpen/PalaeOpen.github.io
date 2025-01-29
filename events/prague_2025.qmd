@@ -1,0 +1,23 @@
+---
+date: 2025/01/29
+date-format: long
+date-modified: last-modified
+sidebar: false
+---
+
+# PalaeOpen 2025: Effective conservation starts with open scientific data
+
+::: {.callout-important}
+## Gerenal Information for PalaeOpen 2025
+
+📅*Date:* **02.07.2025 - 04.07.2025** (Wednesday to Friday)
+
+🗺️*Location:* **Prague, Czech Republic**
+
+🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
+:::
+
+[Download the PDF version of the flyer](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/flyers/Flyer_PaleOpen_2025.pdf){.btn}
+
+<img src="/Materials/flyers/Flyer_PaleOpen_2025.png" align="right" width="750"/>
+

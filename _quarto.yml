@@ -22,6 +22,11 @@ website:
 
       - text: Core Group
         href: coregroup.qmd
+
+      - text: Events
+        menu:
+          - text: Prague 2025
+            href: events/prague_2025.qmd
         
       - text: Outreach
         menu:
