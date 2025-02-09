@@ -7,8 +7,8 @@ website:
   title: "PalaeOpen"
 
   page-footer:
-    left: "&copy; Copyright 2024, Ondřej Mottl"
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2025, PalaeOpen"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/) by Ondřej Mottl."
 
   navbar:
     left:
@@ -25,6 +25,24 @@ website:
 
       - href: coregroup.qmd
         text: Core Group
+
+      - text: Events
+        menu:
+          - text: Prague 2025
+            href: events/prague_2025.qmd
+        
+      - text: Outreach
+        menu:
+          - text: Press Release 2025
+            href: outreach/press_release_2025.qmd
+
+      - text: Grants
+        menu:
+          - text: Open Call for STSM Grants 2025
+            href: grants/stms_2025.qmd
+
+      - text: Join us!
+        href: https://e-services.cost.eu/action/CA23116/working-groups/applications
 
 format:
   html:

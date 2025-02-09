@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "COST Action Steering Committee"
 ---
 
 ### Dr Thomas Giesecke <img src="https://www.uu.nl/medewerkers/RestApi/Public/GetImage?Employee=48498&amp;t=" align="right" width="120"/>
@@ -30,7 +30,7 @@ title: "People"
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0003--0792--2625-brightgreen.svg)](https://orcid.org/0000-0003-0792-2625)
 -   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://xbenitogranell.github.io)
 
-### Prof Richard Bradshaw
+### Prof Richard Bradshaw <img src="Materials//Faces/RB.png" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-Senior--Advisor-CD7F32)
 -   🏦 University of Liverpool, UK
@@ -42,7 +42,7 @@ title: "People"
 
 -   ![](https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-CD7F32)
 
-### Prof Elisabeth Dietze
+### Prof Elisabeth Dietze <img src="https://www.uni-goettingen.de/storage/pictures/6d8dddf8e82d9ca5fa5b9401bb766439.jpg" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-WG1--Co--Leader-silver)\
 -   🏦 University of Göttingen, Germany
@@ -54,7 +54,7 @@ title: "People"
 
 -   ![](https://img.shields.io/badge/Leadership-WG3--Leader-silver)
 
-### Dr Stefan Engels 
+### Dr Stefan Engels  <img src="https://dist.bbk.ac.uk/staff-profiles/images/9150710.lrg.Nzt4K618Yn.jpeg" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-WG2--Leader-silver)\
 -   🏦Birkbeck University of London, UK
@@ -74,7 +74,7 @@ title: "People"
 
 -   ![](https://img.shields.io/badge/Staff-Administrative--Officer-purple)
 
-### Dr Graciela Gil-Romera
+### Dr Graciela Gil-Romera <img src="https://i0.wp.com/gilromera.com/wp-content/uploads/2016/02/2015-10-13-12-09-02.jpg?w=1000&h=&crop=1&ssl=1" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-WG4--Leader-silver)
 -   ![](https://img.shields.io/badge/Leadership-Science--Communication--Coordinator-CD7F32)\
@@ -83,10 +83,11 @@ title: "People"
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0001--5726--2536-brightgreen.svg)](https://orcid.org/0000-0001-5726-2536)
 -   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.gilromera.com)
 
-### Dr Petr Kuneš
+### Dr Petr Kuneš <img src="https://natur.cuni.cz/cache/images/ef/data-users-user-101-petr-guyana-resize-w150-h200.jpg" align="right" width="120"/>
 
 -   ![](https://img.shields.io/badge/Leadership-WG1--Leader-silver)\
 -   🏦 Charles University, CZ
+-   📞phone: +420 221 961 667
 -   📬email: petr.kunes(at)natur.cuni.cz
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0001--9605--8204-brightgreen.svg)](https://orcid.org/0000-0001-9605-8204)
 -   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://natur.cuni.cz/en/person?poid=1494806729387701)

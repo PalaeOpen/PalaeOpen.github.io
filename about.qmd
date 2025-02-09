@@ -9,3 +9,28 @@ This Action aims to meet the challenge of bringing much of these data into the p
 Scientific workshops in different parts of Europe will provide formats to interact with local nature conservation practitioners. The research agenda will address the knowledge gaps in nature conservation as well as the need to understand continental scale interactions of ecosystem components, including lagged or threshold responses. A dedicated outreach working group will ensure that the new knowledge is also accessible to the public. Moreover, the group will develop educational material for schools and universities based on the collected data.
 
 [COST - Action CA23116](https://www.cost.eu/actions/CA23116/){.btn} [Join the network](https://e-services.cost.eu/action/CA23116/working-groups/applications){.btn}
+
+----------
+
+<br>
+
+COST (European Cooperation in Science and Technology) is a funding agency for research and innovation networks. Our Actions help connect research initiatives across Europe and enable scientists to grow their ideas by sharing them with their peers. This boosts their research, career and innovation. [www.cost.eu](www.cost.eu)
+
+:::: {.columns}
+
+::: {.column width=20%}
+:::
+
+::: {.column width=30%}
+![](/Materials/Logos/COST/COST_LOGO_rgb_lowresolution.jpg)
+:::
+
+::: {.column width=20%}
+![](/Materials/Logos/Horizon%20Europe/EN%20V%20Funded%20by%20the%20EU_BLACK%20OUTLINE.png)
+:::
+
+::: {.column width=30%}
+:::
+
+::::
+
