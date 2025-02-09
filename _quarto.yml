@@ -18,9 +18,9 @@ website:
       - text: About
         menu:
           - text: General information
-            href: about.qmd
+            href: About/about.qmd
           - text: Working groups
-            href: working_groups.qmd
+            href: About/working_groups.qmd
 
 
       - href: coregroup.qmd
