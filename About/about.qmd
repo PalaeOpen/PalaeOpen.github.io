@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "General information"
 date: 2024/11/05
 date-format: long
 date-modified: last-modified

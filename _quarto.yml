@@ -23,7 +23,7 @@ website:
     left:
       - text: About
         menu:
-          - text: General Information
+          - text: General information
             href: about.qmd
           - text: Working groups
             href: working_groups.qmd
