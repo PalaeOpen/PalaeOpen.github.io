@@ -17,7 +17,7 @@ website:
 
       - text: About
         menu:
-          - text: About
+          - text: General information
             href: about.qmd
           - text: Working groups
             href: working_groups.qmd
