@@ -22,7 +22,7 @@ The Aquatic proxies working group aims at synthesizing palaeoecological proxy da
 
 The focus of the activities is mainly shared with the Terrestrial Proxies working group.
 
-## WORKING GROUP 3: Infraestructure and Databases
+## WORKING GROUP 3: Infrastructure and Databases
 
 ## WORKING GROUP 4: Outreach and Education
 
