@@ -12,9 +12,8 @@ website:
 
   navbar:
     left:
-      - text: Home
-        href: index.qmd
-        
+      - href: index.qmd
+        text: Home
 
       - text: About
         menu:
@@ -23,8 +22,9 @@ website:
           - text: Working groups
             href: working_groups.qmd
 
-      - text: Core Group
-        href: coregroup.qmd
+
+      - href: coregroup.qmd
+        text: Core Group
 
       - text: Events
         menu:
