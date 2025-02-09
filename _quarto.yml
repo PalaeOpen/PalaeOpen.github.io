@@ -17,8 +17,11 @@ website:
         
 
       - text: About
-        href: about.qmd
-        
+        menu:
+          - text: About
+            href: about.qmd
+          - text: Working groups
+            href: working_groups.qmd
 
       - text: Core Group
         href: coregroup.qmd
