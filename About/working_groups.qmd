@@ -1,8 +1,12 @@
 ---
-title: "Working groups"
+title: "Working Groups (WGs)"
 ---
 
-## WORKING GROUP 1: Terrestrial proxies
+## WG1: Terrestrial proxies
+
+- **Leader**: [Dr. Petr Kuneš](/coregroup.qmd#dr-petr-kuneš) 
+- **Co-leader**: [Prof Elisabeth Dietze](/coregroup.qmd#prof-elisabeth-dietze)
+
 This working group is dedicated to paleoecological proxy data that enables the characterization of terrestrial ecosystem dynamics in the past. The group aims to contribute to unlocking so far less available terrestrial paleoecological and paleoenvironmental datasets, harmonizing and integrating with the existing data from European Quaternary palaeoecological and palaeoenvironmental reconstructions. We will contribute to developing a new research agenda that will make use of multiproxy multi-site analyses and focus on the response of ecosystems to climate and land-use change, for example, on interactions between vegetation, herbivores, and fire regimes in response to environmental change.
 In contrast to aquatic proxy data, terrestrial (upland) ecosystem components have no clear boundaries and data from different sites may be spatially interpolated or averaged. WG1 will focus on terrestrial proxy data such as those deriving from pollen and NPP (e.g., fungi), charcoal, plant macrofossils, sedaDNA, vertebrates, insects, molluscs, phytoliths and biomarkers. 
 
@@ -10,44 +14,65 @@ In contrast to aquatic proxy data, terrestrial (upland) ecosystem components hav
 
 Specific tasks include data mobilisation, data upload / or making the data available in an open-access database or repository, taxonomic harmonisation, identifying and engaging in collaborative cross-datatype research. We plan to facilitate these tasks by:
 
-- Biannual meetings to discuss progress, plan the next steps in data upload and research collaborations. 
-- Joint upload sessions ("uploadthons") can be scheduled on demand. 
-- Taxa harmonisation workshops will be held mainly during the second and third year of the Action. 
-- Winter schools will be organised to train scientists mainly (YRIs) in building workflows using R or PYTHON scripts. 
-- Short-term scientific missions (STSMs) will be mainly used during the second half of the Action to work on interdisciplinary data analysis. Check out Call for STSMs (tba).
+1. Biannual meetings to discuss progress, plan the next steps in data upload and research collaborations. 
+2. Joint upload sessions ("uploadthons") can be scheduled on demand. 
+3. Taxa harmonisation workshops will be held mainly during the second and third year of the Action. 
+4. Winter schools will be organised to train scientists mainly (YRIs) in building workflows using R or PYTHON scripts. 
+5. Short-term scientific missions (STSMs) will be mainly used during the second half of the Action to work on interdisciplinary data analysis. Check out Call for STSMs (tba).
 
+## WG2: Aquatic proxies
 
-## WORKING GROUP 2: Aquatic proxies
-The Aquatic proxies working group aims at synthesizing palaeoecological proxy data with a strong focus on freshwater ecosystems and their biota. Freshwater habitats have undergone the largest declines in both biodiversity and habitat extent (by 85% since 1970). As aquatic biota may respond to both local (i.e., lake internal nutrient cycling) and regional climate and landscape changes, this group will mobilize datasets from a range of different organism groups (e.g., chironomids, diatoms, cladocera, ostracods, aquatic vertebrates) that are sensitive to different environmental variables (nutrients, temperature, lake-level variations, ionic content)  . Aquatic paleoecological proxy datasets are generally less available and/or scattered across openly available databases, so the **first task** of WG2 is to establish harmonized taxonomies and agreed-upon systematic nomenclature enabling data uploading. The **second major task** of WG2 will then be to mobilise the community and to collectively and collaboratively make aquatic proxy-datasets available upholding OPEN and FAIR data-principles. **Third**, we will co-create scientific questions with the terrestrial proxies working group (WG1) exploring ecosystem-wide temporal dynamics, including but not limited to, aquatic-terrestrial interactions, time lagged effects following climate change, and trajectories of changes of different groups of proxies.
+- **Leader**: [Dr Stefan Engels](/coregroup.qmd#dr-stefan-engels)
+- **Co-leader**: [Dr Xavier Benito](/coregroup.qmd#dr-xavier-benito)
+
+The Aquatic proxies working group aims at synthesizing palaeoecological proxy data with a strong focus on freshwater ecosystems and their biota. Freshwater habitats have undergone the largest declines in both biodiversity and habitat extent (by 85% since 1970). As aquatic biota may respond to both local (i.e., lake internal nutrient cycling) and regional climate and landscape changes, this group will mobilize datasets from a range of different organism groups (e.g., chironomids, diatoms, cladocera, ostracods, aquatic vertebrates) that are sensitive to different environmental variables (nutrients, temperature, lake-level variations, ionic content). Aquatic paleoecological proxy datasets are generally less available and/or scattered across openly available databases.
+
+### **Objectives and key activities**
+
+1. to establish harmonized taxonomies and agreed-upon systematic nomenclature enabling data uploading.
+2. to mobilise the community and to collectively and collaboratively make aquatic proxy-datasets available upholding OPEN and FAIR data-principles.
+3.  co-create scientific questions with the terrestrial proxies working group (WG1) exploring ecosystem-wide temporal dynamics, including but not limited to, aquatic-terrestrial interactions, time lagged effects following climate change, and trajectories of changes of different groups of proxies.
 
 The focus of the activities is mainly shared with the Terrestrial Proxies working group.
 
-## WORKING GROUP 3: Infrastructure and Databases
+## WG3: Infrastructure and Databases
 
-## WORKING GROUP 4: Outreach and Education
+- **Leader**: [Dr Kirsten Elger](/coregroup.qmd#dr-kirsten-elger)
+- **Co-leader**: [Dr Ondřej Mottl](/coregroup.qmd#dr-ondřej-mottl)
+
+## WG4: Outreach and Education
+
+- **Leader**: [Dr Graciela Gil-Romera](/coregroup.qmd#dr-graciela-gil-romera)
+- **Co-leader**: [Dr Celia Martin Puerta](/coregroup.qmd#dr-celia-martin-puerta)
 
 This working group is dedicated to enhancing public understanding and appreciation of palaeosciences, with a specific focus on palaeoecology, by making scientific data accessible and relevant to a wide array of audiences. The group aims to bridge the gap between complex scientific findings and practical applications, fostering dialogue and collaboration among scientists, policymakers, educators, practitioners, and the broader public.
 
 ### **Objectives and key activities**
 
-1. Improving accessibility and usability of data
-- Integrate palaeoecological data with recent datasets to make them more accessible to practitioners, educators, and scientists.
-- Develop tools for data visualisation tailored to varying levels of expertise and use, from researchers to educators and conservation practitioners.
-2. Education and outreach
-  + Design educational resources and exercises to engage diverse audiences.
-  + Curate and disseminate outreach activities across COST communities, ensuring multi-language accessibility to maximise reach and impact.
-3. Facilitating science-policy interfaces
-  + Train members in effective science communication to improve the translation of palaeoecological findings into actionable policies.
-  + Produce outputs such as policy briefings and white papers that use clear language, infographics, and case studies to highlight the role of palaeoecology in addressing climate and biodiversity crises.
-  + Organise workshops involving scientists, policymakers, and practitioners to co-design research agendas and promote evidence-based policymaking.
-4. Strengthening networks and collaboration
-  + Engage key stakeholder groups, including data repository managers, scientific modellers, and practitioners in conservation and restoration.
-  + Leverage existing networks to involve local and regional authorities in discussions and extend outreach to European-level organisations like the European Environment Agency.
-5. Public engagement and awareness
-  + Launch a website linked to social media platforms to showcase palaeoecological knowledge and activities, reaching diverse audiences.
-  + Create educational content that underscores the relevance of long-term ecological data in addressing global environmental challenges, fostering public appreciation of biodiversity and climate change issues.
-
 This working group aspires to create a culture where palaeoecology becomes an essential component of public discourse, educational curricula, and policy development, ensuring that long-term ecological perspectives inform decision-making at all levels.
+
+1. Improving accessibility and usability of data
+   + Integrate palaeoecological data with recent datasets to make them more accessible to practitioners, educators, and scientists.
+   + Develop tools for data visualisation tailored to varying levels of expertise and use, from researchers to educators and conservation practitioners.
+
+2. Education and outreach
+   + Design educational resources and exercises to engage diverse audiences.
+   + Curate and disseminate outreach activities across COST communities, ensuring multi-language accessibility to maximise reach and impact.
+
+3. Facilitating science-policy interfaces
+   + Train members in effective science communication to improve the translation of palaeoecological findings into actionable policies.
+   + Produce outputs such as policy briefings and white papers that use clear language, infographics, and case studies to highlight the role of palaeoecology in addressing climate and biodiversity crises.
+   + Organise workshops involving scientists, policymakers, and practitioners to co-design research agendas and promote evidence-based policymaking.
+
+4. Strengthening networks and collaboration
+   + Engage key stakeholder groups, including data repository managers, scientific modellers, and practitioners in conservation and restoration.
+   + Leverage existing networks to involve local and regional authorities in discussions and extend outreach to European-level organisations like the European Environment Agency.
+
+5. Public engagement and awareness
+   + Launch a website linked to social media platforms to showcase palaeoecological knowledge and activities, reaching diverse audiences.
+   + Create educational content that underscores the relevance of long-term ecological data in addressing global environmental challenges, fostering public appreciation of biodiversity and climate change issues.
+
+
 
 
 
