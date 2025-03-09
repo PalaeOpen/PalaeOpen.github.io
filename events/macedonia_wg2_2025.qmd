@@ -5,7 +5,8 @@ date-modified: last-modified
 sidebar: false
 ---
 
-# [Working Group 2 Aquatic proxies workshop](/working_groups.qmd) 
+# Working Group 2 Aquatic proxies workshop 
+
 ## Aquatic paleoecological proxy data sharing: challenges and opportunities
 
 ::: {.callout-important}
