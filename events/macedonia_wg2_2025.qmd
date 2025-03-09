@@ -1,0 +1,46 @@
+---
+date: 2025/03/07
+date-format: long
+date-modified: last-modified
+sidebar: false
+---
+
+# Working Group 2 Aquatic proxies workshop 
+
+## Aquatic paleoecological proxy data sharing: challenges and opportunities
+
+::: {.callout-important}
+## Gerenal Information
+
+📅*Date:* **19.05.2025 - 21.05.2025** (Monday to Wednesday)
+
+🗺️*Location*: **Skopje, North Macedonia**
+
+🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
+:::
+
+Working Group 2 aims to bring together researchers who are interested in the study of past freshwater ecosystem dynamics through community-built databases following FAIR and OPEN practices. This WG2 workshop will specifically focus on proxy records of chironomids and diatoms. 
+
+## Objectives
+
+* Sharing and discussing best practices on taxonomic harmonization of palaeodata across multi-species aquatic communities, including non-identified taxa (e.g., aff, cf, spp etc) and taxa that have changed name or designation in the past decades. 
+* Exploring availability of aquatic proxy datasets (either published or unpublished, curated by participants or not).
+* Introducing the participants with a general overview of Neotoma and its constituent databases for data uploading, curation, and stewardship.
+* Organizing the group to ensure future community mobilization, dataset generation and exploration in joint research.
+
+The workshop will provide a platform to reflect upon the experiences related to aquatic palaeodata community mobilization and sharing. The participants will address practicalities on taxonomic nomenclatures and harmonization on day 1, and will explore data regions available and organize future group’s actions on day 2. An optional field trip on day 3 to Lake Ohrid will be organized. 
+
+Workshop participants willing to share datasets and with previous experience in managing large and diverse chironomids and/or diatom compilations using open data sharing practices are particularly encouraged to apply. 
+
+## Financial support
+
+Funding is available through the COST Action budget. If you are selected as a participant, the COST Action will cover your travel costs, and, depending on total available funds, provide a daily allowance that you can use to (partially) cover accommodation and meal costs. 
+
+::: {.callout-important}
+Please bear in mind that only registered participants to the Action are eligible for financial support. You will need to apply and become a member of the [**COST Action** **CA23116**](https://www.cost.eu/actions/CA23116/#tabs+Name:Working%20Groups%20and%20Membership) and WG2 if you want to be eligible for funding. **Travel reimbursement** will be claimed afterwards through the e-COST.
+:::
+
+## Registration
+
+Please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSeWs0G3QxPu8TmN6_dRaW6prjM9mSydJFvgGOpbMYfZ8VZHCA/viewform?usp=sharing) before **March 21th, 2025**. You’ll be prompted to (a) specify how you can contribute to achieve the workshop goals, (b) detail previous experience in open palaeo-data sharing, and (c) provide a statement on whether you need financial support. 
+
