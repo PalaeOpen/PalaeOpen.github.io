@@ -15,6 +15,8 @@ sidebar: false
 🗺️*Location:* **Prague, Czech Republic**
 
 🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
+
+📑*Registration* Please fill in this [form](https://forms.gle/FJQSqJubtZnzMS1x9) before **April 11th, 2025**. You’ll be prompted to (a) specify how you can contribute to achieve the workshop goals, (b) detail previous experience in open palaeo-data sharing, and (c) provide a statement on whether you need financial support. We anticipate notifying participants by **April 25th 2025**.
 :::
 
 [Download the PDF version of the flyer](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/flyers/Flyer_PaleOpen_2025.pdf){.btn}
