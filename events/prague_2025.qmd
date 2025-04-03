@@ -19,6 +19,18 @@ sidebar: false
 🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
 :::
 
+## Registration
+
+Please fill in this [form](https://forms.gle/FJQSqJubtZnzMS1x9) before **April 11th, 2025**. You'll be prompted to: 
+
+- specify how you can contribute to achieve the workshop goals
+- detail previous experience in open palaeo-data sharing
+- provide a statement on whether you need financial support. 
+
+We anticipate notifying participants by **April 25th 2025**.
+
+## Flyer
+
 [Download the PDF version of the flyer](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/flyers/Flyer_PaleOpen_2025.pdf){.btn}
 
 <img src="/Materials/flyers/Flyer_PaleOpen_2025.png" align="right" width="750"/>

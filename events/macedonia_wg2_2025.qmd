@@ -6,7 +6,6 @@ sidebar: false
 ---
 
 # Working Group 2 Aquatic proxies workshop 
-
 ## Aquatic paleoecological proxy data sharing: challenges and opportunities
 
 ::: {.callout-important}
@@ -41,6 +40,4 @@ Please bear in mind that only registered participants to the Action are eligible
 :::
 
 ## Registration
-
-Please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSeWs0G3QxPu8TmN6_dRaW6prjM9mSydJFvgGOpbMYfZ8VZHCA/viewform?usp=sharing) before **March 21th, 2025**. You’ll be prompted to (a) specify how you can contribute to achieve the workshop goals, (b) detail previous experience in open palaeo-data sharing, and (c) provide a statement on whether you need financial support. 
-
+**Registration is now closed**. Please email the workshop organizers (s.engels(at)bbk.ac.uk and xavier.benito(at)irta.cat) to discuss alternative options to participate
