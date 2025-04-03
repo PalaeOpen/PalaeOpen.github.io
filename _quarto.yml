@@ -27,7 +27,7 @@ website:
         menu:
           - text: Prague 2025
             href: events/prague_2025.qmd
-          - text: N Macedonia Working group 2 workshop 2025
+          - text: WG2 workshop - Macedonia 2025
             href: events/macedonia_wg2_2025.qmd
 
       - text: Outreach

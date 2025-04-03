@@ -5,7 +5,7 @@ date-modified: last-modified
 sidebar: false
 ---
 
-# [Working Group 2 Aquatic proxies workshop](/working_groups.qmd) 
+# Working Group 2 Aquatic proxies workshop 
 ## Aquatic paleoecological proxy data sharing: challenges and opportunities
 
 ::: {.callout-important}
@@ -41,6 +41,3 @@ Please bear in mind that only registered participants to the Action are eligible
 
 ## Registration
 **Registration is now closed**. Please email the workshop organizers (s.engels(at)bbk.ac.uk and xavier.benito(at)irta.cat) to discuss alternative options to participate
-
-
-
