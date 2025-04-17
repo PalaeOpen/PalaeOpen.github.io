@@ -58,7 +58,7 @@ title: "COST Action Steering Committee"
 
 -   ![](https://img.shields.io/badge/Leadership-WG2--Leader-silver)\
 -   🏦Birkbeck University of London, UK
--   📬email: sengels(at)bbk.ac.uk
+-   📬email: s.engels(at)bbk.ac.uk
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0002--2078--0361-brightgreen.svg)](https://orcid.org/0000-0002-2078-0361)
 -   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.bbk.ac.uk/our-staff/profile/9150710/stefan-engels)
 
