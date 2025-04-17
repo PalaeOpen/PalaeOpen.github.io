@@ -31,21 +31,21 @@ We anticipate notifying participants by **April 25th 2025**.
 
 ## Keynote speakers
 
-We are pleased to confirm the participation of the keynote speakers:
+Curently, we are pleased to confirm the participation of the following keynote speakers (alphabetical order):
 
-| Namme | Presentation title | affiliation | 
-|:------|:-------|:------|
+| Name | Presentation title | Affiliation | 
+|:----|:---------|:-----|
 | **Luke Andrews** | *Tiny shells, big stories: Testate amoeba as indicators of environmental change, past and present* | University of York, UK |
-| **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
-| **Nathalie Dubois** | *Lipid biomarker signatures for reconstructing ecosystems* | Eawag & ETHZ |
-| **Gavin Simpson** | TBA | Aahrus University, Denmark |
-| **Sara Varela** | TBA | University of Vigo, Spain |
-| **Lyudmila S. Shumilovskikh** | TBA | University of Göttingen, Germany |
 | **Xavier Benito** | *Reconstructing past environments from diatoms: opportunities and challenges for combined paleoecological databases* | Institute for Agrifood Research and Technology (IRTA), Spain |
-| **Přemysl Bobek** | TBA | Czech Academy of Science, Czechia |
-| **Jack Williams** | TBA | University of Wisconsin-Madison, USA |
 | **John Boyle** | TBA | University of Liverpool, UK |
+| **Přemysl Bobek** | TBA | Czech Academy of Science, Czechia |
+| **Nathalie Dubois** | *Lipid biomarker signatures for reconstructing ecosystems* | Eawag & ETHZ |
+| **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
+| **Gavin Simpson** | TBA | Aahrus University, Denmark |
 | **Danielle Schreve** | TBA | University of Bristol, UK |
+| **Lyudmila S. Shumilovskikh** | TBA | University of Göttingen, Germany |
+| **Sara Varela** | TBA | University of Vigo, Spain |
+| **Jack Williams** | TBA | University of Wisconsin-Madison, USA |
 
 ## Flyer
 
