@@ -1,0 +1,66 @@
+---
+date: 2025/05/02
+date-format: long
+date-modified: last-modified
+image: "../../../Materials/blogposts/Kara_Utrecht/Kara_Utrecht_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience in Utrecht {text-align="center"}  
+
+::: {#heading}
+:::
+
+In the spring of 2025, I had the opportunity to spend a Short-Term Scientific Mission (STSM) at Utrecht University as part of the PalaeOpen COST Action. My mission focused on data mobilisation and acquisition.
+
+:::{.callout-note  text-align="left"}
+### 👩‍🔬Who? 
+
+**Eliise Kara** (Early Career Researcher)
+
+Department of Geology, Tallinn University of Technology, Estonia
+:::
+
+:::{.callout-note}
+### 🌍Where?
+
+Utrecht University, Netherlands
+:::
+
+:::{.callout-note}
+### 📅When? 
+
+Spring of 2025
+:::
+
+
+One of the central goals of my STSM was to receive training in data stewardship. This was carried out under the guidance of Iris Kuipers, Iris de Wolf, and Dr. Thomas Giesecke. The training gave me practical insight into how to prepare and share palaeoecological datasets. The process was challenging at times, but working directly with the Estonian pollen datasets that my colleagues had entrusted to me provided essential hands-on experience. I’m grateful to my colleagues at Utrecht University who patiently supported me throughout this process. I quickly learned that data mobilisation is both a technical and human process - it takes a lot of collaboration, patience and to attention to detail. 
+
+While I still have more to learn before I can act independently as a data steward, this STSM gave me a solid foundation and the motivation to continue developing in that direction. I’m particularly motivated by the prospect of helping to make Estonian palaeoecological data more accessible to the wider scientific community.
+
+I also had the chance to advance my PhD research, thanks to access to fluorescence microscopy facilities (@fig-1) and the guidance of Prof. Dr. Friederike Wagner-Cremer. Together, we obtained a new microphenological dataset that holds great potential for reconstructing growing season dynamics during the Estonian Late Glacial period with high precision. Once this relatively new type of data is made openly available, it will hopefully contribute to a better understanding of biodiversity and climate change interactions.
+
+:::: {#fig-1}
+
+![](/Materials/blogposts/Kara_Utrecht/Kara_Utrecht_1.jpg)
+
+Analysing subfossil leaf cuticles with the fluorescent microscope in the microscopy room of Earth Simulation Laboratory (Utrecht University, the Netherlands). Photo credit: Eliise Kara.
+::::
+
+Of course, the STSM was also about people—this experience deepened my connection to the European palaeoecology community, strengthened collaboration between Estonia and the Netherlands, and opened doors for future joint research efforts. I returned home with new skills, ideas, data, and a renewed sense of enthusiasm for continuing this work. Experiencing the Netherlands in full bloom and under exceptionally sunny skies (@fig-2) also added to the motivation.
+
+:::: {#fig-2}
+
+![](/Materials/blogposts/Kara_Utrecht/Kara_Utrecht_2.jpg)
+
+A Sunday afternoon with tulips in Keukenhof. Photo credit: Eliise Kara.
+::::
+
+I’m grateful to my hosts at Utrecht University and to the PalaeOpen Action for supporting this journey.
