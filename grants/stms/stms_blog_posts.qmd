@@ -1,0 +1,27 @@
+---
+date: 2025/05/02
+date-format: long
+date-modified: last-modified
+format:
+  html:
+    embed-resources: true
+listing:
+  - id: "2025"
+    max-description-length: 1000
+    fields: [image, date, title, description]
+    contents: "blogs"
+    sort: "true" 
+    type: grid
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
+---
+
+# Short-Term Scientific Mission (STSM) blog posts 
+
+STSMs are research stays in a different country than the country of the primary affiliation of the applicant. The grants support the individual mobility of participants in the COST Action to go to an institution, organisation or research centre in **another** participating COST Country or accepted International Partner Country (IPC) / Near Neighbour Country (NNC), to foster collaboration and to perform research activities related to the COST Action.
+
+## Completed STSM
+
+::: {#2025}
+:::
