@@ -21,13 +21,7 @@ sidebar: false
 
 ## Registration
 
-Please fill in this [form](https://forms.gle/FJQSqJubtZnzMS1x9) before **April 11th, 2025**. You'll be prompted to: 
-
-- specify how you can contribute to achieve the workshop goals
-- detail previous experience in open palaeo-data sharing
-- provide a statement on whether you need financial support. 
-
-We anticipate notifying participants by **April 25th 2025**.
+**Registration is now closed**. Please email the organizers to discuss alternative options to participate
 
 ## Keynote speakers
 
@@ -37,15 +31,37 @@ Currently, we are pleased to confirm the participation of the following keynote 
 |:----|:---------|:-----|
 | **Luke Andrews** | *Tiny shells, big stories: Testate amoeba as indicators of environmental change, past and present* | University of York, UK |
 | **Xavier Benito** | *Reconstructing past environments from diatoms: opportunities and challenges for combined paleoecological databases* | Institute for Agrifood Research and Technology (IRTA), Spain |
-| **John Boyle** | TBA | University of Liverpool, UK |
+| **John Boyle** | Geochemical proxies in palaeoenvironmental analysis | University of Liverpool, UK |
 | **Přemysl Bobek** | TBA | Czech Academy of Science, Czechia |
 | **Nathalie Dubois** | *Lipid biomarker signatures for reconstructing ecosystems* | Eawag & ETHZ |
 | **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
 | **Gavin Simpson** | TBA | Aahrus University, Denmark |
 | **Danielle Schreve** | TBA | University of Bristol, UK |
 | **Lyudmila S. Shumilovskikh** | TBA | University of Göttingen, Germany |
-| **Sara Varela** | TBA | University of Vigo, Spain |
+| **Sara Varela** | Open access databases for working in macroecology, uses and common problematics | University of Vigo, Spain |
 | **Jack Williams** | TBA | University of Wisconsin-Madison, USA |
+
+## Schedule
+
+| Time | 2 July 2025 | 3 July 2025 | 4 July 2025 | 
+|:---- |:---------------|:---------------|:---------------|
+| **09:00**  | Welcome | Keynote 9: John Boyle | WG meetings 1 |
+| **09:30**  | Keynote 1: Jack Williams | Keynote 10: Danielle Schreve | WG meetings 1 |
+| **10:00**  | Keynote 2: Xavier Benito | Keynote 11: Sara Varela | WG meetings 1 |
+| **10:30**  | Coffee | Coffee | Coffee |
+| **11:00**  | Keynote 3: Lyudmila S. Shumilovskikh | Breakout discussions 1 | WG meetings 2 - proxy specific |
+| **11:30**  | Keynote 4: Luke Andrews | Breakout discussions 1 | WG meetings 2 - proxy specific |
+| **12:00**  | Keynote 5: Sandra Garcés-Pastor | Plenary 1 - Summarizing Breakout Disc. | WG meetings 2 - proxy specific |
+| **12:30-13:30**  | Lunch | Lunch | Lunch |
+| **13:30**  | Poster | Breakout discussions 2 | WG meetings 3 |
+| **14:30**  | Poster | Breakout discussions 2 | WG meetings 3 |
+| **15:00**  | Coffee | Plenary 2 - Summarizing Breakout Disc.  | WG meetings 3 |
+| **15:30**  | Keynote 6: Přemysl Bobek | Coffee | Coffee |
+| **16:00**  | Keynote 7: Gavin Simpson | Plenary 3 - Planning the Action | WG meetings 4 - next steps |
+| **16:30**  | Keynote 8: Nathalie Dubois | Plenary 3 - Planning the Action  | WG meetings 4 - next steps |
+| **17:00**  | Keynote 9: John Boyle | Plenary 3 - Planning the Action  | Plenary 4 - Concluding the conference |
+| **18:00**  | Ice-breaker | Dinner (joint or individual)  |  |
+
 
 ## Flyer
 
