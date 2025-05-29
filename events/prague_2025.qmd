@@ -21,13 +21,7 @@ sidebar: false
 
 ## Registration
 
-Please fill in this [form](https://forms.gle/FJQSqJubtZnzMS1x9) before **April 11th, 2025**. You'll be prompted to: 
-
-- specify how you can contribute to achieve the workshop goals
-- detail previous experience in open palaeo-data sharing
-- provide a statement on whether you need financial support. 
-
-We anticipate notifying participants by **April 25th 2025**.
+**Registration is now closed**. Please email the organizers to discuss alternative options to participate
 
 ## Keynote speakers
 
@@ -37,15 +31,40 @@ Currently, we are pleased to confirm the participation of the following keynote 
 |:----|:---------|:-----|
 | **Luke Andrews** | *Tiny shells, big stories: Testate amoeba as indicators of environmental change, past and present* | University of York, UK |
 | **Xavier Benito** | *Reconstructing past environments from diatoms: opportunities and challenges for combined paleoecological databases* | Institute for Agrifood Research and Technology (IRTA), Spain |
-| **John Boyle** | TBA | University of Liverpool, UK |
+| **John Boyle** | Geochemical proxies in palaeoenvironmental analysis | University of Liverpool, UK |
 | **Přemysl Bobek** | TBA | Czech Academy of Science, Czechia |
 | **Nathalie Dubois** | *Lipid biomarker signatures for reconstructing ecosystems* | Eawag & ETHZ |
 | **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
 | **Gavin Simpson** | TBA | Aahrus University, Denmark |
 | **Danielle Schreve** | TBA | University of Bristol, UK |
 | **Lyudmila S. Shumilovskikh** | TBA | University of Göttingen, Germany |
-| **Sara Varela** | TBA | University of Vigo, Spain |
+| **Sara Varela** | Open access databases for working in macroecology, uses and common problematics | University of Vigo, Spain |
 | **Jack Williams** | TBA | University of Wisconsin-Madison, USA |
+
+## Schedule
+
+
+| Time | 2 July 2025 | 3 July 2025 | 4 July 2025 | 
+|:---- |:---------------|:---------------|:---------------|
+| **09:00**  | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Welcome-blue?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/👤keynote-John%20Boyle-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meeting-gold?style=flat-square" height="25"/> |
+| **09:30**  | <img src="https://img.shields.io/badge/👤keynote-Jack%20Williams-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/👤keynote-Danielle%20Schreve-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meeting-gold?style=flat-square" height="25"/> |
+| **10:00**  | <img src="https://img.shields.io/badge/👤keynote-Xavier%20Benito-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/👤keynote-Sara%20Varela-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meeting-gold?style=flat-square" height="25"/> |
+| **10:30**  | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Coffee%20Break-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Coffee%20Break-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Coffee%20Break-orange?style=flat-square" height="25"/> |
+| **11:00**  | <img src="https://img.shields.io/badge/👤keynote-Lyudmila%20S.%20Shumilovskikh-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%97%A8%EF%B8%8F-Breakout%20Sessions-pink?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meetings--proxy%20specific-gold?style=flat-square" height="25"/> |
+| **11:30**  | <img src="https://img.shields.io/badge/👤keynote-Luke%20Andrews-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%97%A8%EF%B8%8F-Breakout%20Sessions-pink?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meetings--proxy%20specific-gold?style=flat-square" height="25"/> |
+| **12:00**  | <img src="https://img.shields.io/badge/👤keynote-Sandra%20Garcés--Pastor-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Summarizing%20Breakout%20Ses.-blue?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meetings--proxy%20specific-gold?style=flat-square" height="25"/> |
+| **12:30**  | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Lunch-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Lunch-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Lunch-orange?style=flat-square" height="25"/> |
+| **13:30**  | <img src="https://img.shields.io/badge/%F0%9F%96%BC%EF%B8%8F-Poster%20Session-purple?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%97%A8%EF%B8%8F-Breakout%20Sessions-pink?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meeting-gold?style=flat-square" height="25"/> |
+| **14:30**  | <img src="https://img.shields.io/badge/%F0%9F%96%BC%EF%B8%8F-Poster%20Session-purple?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%97%A8%EF%B8%8F-Breakout%20Sessions-pink?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meeting-gold?style=flat-square" height="25"/> |
+| **15:00**  | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Coffee%20Break-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Summarizing%20Breakout%20Ses.-blue?style=flat-square" height="25"/>  | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meeting-gold?style=flat-square" height="25"/> |
+| **15:30**  | <img src="https://img.shields.io/badge/👤keynote-Přemysl%20Bobek-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Coffee%20Break-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Coffee%20Break-orange?style=flat-square" height="25"/> |
+| **16:00**  | <img src="https://img.shields.io/badge/👤keynote-Gavin%20Simpson-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Planning%20the%20Action-blue?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meetings--next%20steps-gold?style=flat-square" height="25"/> |
+| **16:30**  | <img src="https://img.shields.io/badge/👤keynote-Nathalie%20Dubois-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Planning%20the%20Action-blue?style=flat-square" height="25"/>  | <img src="https://img.shields.io/badge/%E2%9A%9C%EF%B8%8FWG-meetings--next%20steps-gold?style=flat-square" height="25"/> |
+| **17:00**  | <img src="https://img.shields.io/badge/👤keynote-John%20Boyle-green?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Planning%20the%20Action-blue?style=flat-square" height="25"/>  | <img src="https://img.shields.io/badge/%F0%9F%93%A2plenary-Concluding%20the%20conference-blue?style=flat-square" height="25"/> |
+| **18:00**  | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Ice--breaker-orange?style=flat-square" height="25"/> | <img src="https://img.shields.io/badge/%F0%9F%A5%82social-Dinner%20(joint%20or%20individual)-orange?style=flat-square" height="25"/> |  |
+
+
+
 
 ## Flyer
 
