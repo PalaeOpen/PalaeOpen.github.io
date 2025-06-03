@@ -29,7 +29,7 @@ Currently, we are pleased to confirm the participation of the following keynote 
 
 | Name | Presentation title | Affiliation | 
 |:----|:---------|:-----|
-| **Luke Andrews** | *Tiny shells, big stories: Testate amoeba as indicators of environmental change, past and present* | University of York, UK |
+| **Luke Andrews** | *Tiny shells, big stories: Testate amoeba as indicators of environmental change, past and present* | Liverpool John Moores University, UK |
 | **Xavier Benito** | *Reconstructing past environments from diatoms: opportunities and challenges for combined paleoecological databases* | Institute for Agrifood Research and Technology (IRTA), Spain |
 | **John Boyle** | Geochemical proxies in palaeoenvironmental analysis | University of Liverpool, UK |
 | **Přemysl Bobek** | TBA | Czech Academy of Science, Czechia |
