@@ -31,15 +31,15 @@ Currently, we are pleased to confirm the participation of the following keynote 
 |:----|:---------|:-----|
 | **Luke Andrews** | *Tiny shells, big stories: Testate amoeba as indicators of environmental change, past and present* | Liverpool John Moores University, UK |
 | **Xavier Benito** | *Reconstructing past environments from diatoms: opportunities and challenges for combined paleoecological databases* | Institute for Agrifood Research and Technology (IRTA), Spain |
-| **John Boyle** | Geochemical proxies in palaeoenvironmental analysis | University of Liverpool, UK |
-| **Přemysl Bobek** | Reviving Historical Fire Use: Using Paleorecords to Guide Prescribed Burning in the Subalpine Zone | Czech Academy of Science, Czechia |
+| **John Boyle** | *Geochemical proxies in palaeoenvironmental analysis* | University of Liverpool, UK |
+| **Přemysl Bobek** | *Reviving Historical Fire Use: Using Paleorecords to Guide Prescribed Burning in the Subalpine Zone* | Czech Academy of Science, Czechia |
 | **Nathalie Dubois** | *Lipid biomarker signatures for reconstructing ecosystems* | Eawag & ETHZ |
 | **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
 | **Gavin Simpson** | TBA | Aahrus University, Denmark |
 | **Danielle Schreve** | TBA | University of Bristol, UK |
 | **Lyudmila S. Shumilovskikh** | TBA | University of Göttingen, Germany |
-| **Sara Varela** | Open access databases for working in macroecology, uses and common problematics | University of Vigo, Spain |
-| **Jack Williams** | Neotoma Paleoecology Database:  Recent Updates and Current Directions | University of Wisconsin-Madison, USA |
+| **Sara Varela** | *Open access databases for working in macroecology, uses and common problematics* | University of Vigo, Spain |
+| **Jack Williams** | *Neotoma Paleoecology Database:  Recent Updates and Current Directions* | University of Wisconsin-Madison, USA |
 
 ## Schedule
 
