@@ -25,10 +25,9 @@ sidebar: false
 
 ## Practical information
 
-Venue, reimbursement rules, accomodation, transporation, field trip and more!
+Venue, reimbursement rules, accommodation, transportation, field trip and more! Click the button below to access the most updated practical information document.
 
-[Download the PDF version of the practical information document](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/Prague_OSM/COST OSM Prague - Practical Information.pdf){.btn}
-
+[Practical information document](https://docs.google.com/document/d/1XaLfqhKAEMXq1U4O1288lYpe07Cf6SkObmYtDQ1P318/edit?usp=sharing){.btn}
 
 ## Keynote speakers
 
