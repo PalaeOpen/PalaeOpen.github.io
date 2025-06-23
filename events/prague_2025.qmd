@@ -23,6 +23,13 @@ sidebar: false
 
 **Registration is now closed**. Please email the organizers to discuss alternative options to participate
 
+## Practical information
+
+Venue, reimbursement rules, accomodation, transporation, field trip and more!
+
+[Download the PDF version of the practical information document](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/Prague_OSM/COST OSM Prague - Practical Information.pdf){.btn}
+
+
 ## Keynote speakers
 
 Currently, we are pleased to confirm the participation of the following keynote speakers (alphabetical order):
