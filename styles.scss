@@ -9,70 +9,64 @@ $largeMargin: 20px;
 
 // Colors
 
-$white: #FCFCFA !default;
-$black: #393947 !default;
-$blue: #5755A5 !default;
-$purple: #9D9BF9 !default;
-$red: #C3503E !default;
-$pink: #ED8B7C !default;
-$brown: #A5643C !default;
-$yellow: #F6C269 !default;
-
+// Colors are now loaded from _colors.scss, which is auto-generated from colors.json.
+// Do not define color variables here. Edit colors.json and regenerate _colors.scss if needed.
+@import "_colors";
 
 .text-background-white {
   background-color: $white;
   color: $black;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
  
 .text-background-black {
   background-color: $black;
   color: $white;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-background-blue {
   background-color: $blue;
   color: $white;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-background-purple {
   background-color: $purple;
   color: $white;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-background-red {
   background-color: $red;
   color: $white;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-background-pink {
   background-color: $pink;
   color: $white;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-background-brown {
   background-color: $brown;
   color: $white;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-background-yellow {
   background-color: $yellow;
   color: $black;
   padding: $smallMargin;
-  border-radius: 5px;
+  border-radius: $smallMargin;
 }
 
 .text-color-white {
@@ -178,6 +172,7 @@ h1 {
   letter-spacing: $headingLetterSpacing;
   font-weight: $headingFontWeight;
   margin-top: $largeMargin;
+  color: $blue;
 }
 
 h2 {
@@ -187,6 +182,7 @@ h2 {
   letter-spacing: $headingLetterSpacing;
   font-weight: $headingFontWeight;
   margin-top: $largeMargin;
+  color: $blue;
 }
 
 h3 {
