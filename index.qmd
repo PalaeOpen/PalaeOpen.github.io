@@ -12,6 +12,10 @@ about:
     - icon: github
       text: Github
       href: https://github.com/PalaeOpen
+date: 2024/11/05
+date-format: long
+date-modified: last-modified
+sidebar: false
 ---
 
 ::: {#hero-heading}
