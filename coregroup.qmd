@@ -1,109 +1,150 @@
 ---
-title: "COST Action Steering Committee"
+date: 2024/11/05
+date-format: long
+date-modified: last-modified
+sidebar: false
 ---
+
+# COST Action Steering Committee
+
+```{r}
+#| label: setup
+#| include: false
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.align = "center",
+  out.width = "100%",
+  dpi = 300,
+  fig.align = "center"
+)
+
+if (!require("here")) install.packages("here")
+library(here)
+
+here::i_am("coregroup.qmd")
+
+# Load colors from JSON
+if (!require("jsonlite")) install.packages("jsonlite")
+library(jsonlite)
+
+colors <-
+  jsonlite::fromJSON(
+    here::here("colors.json")
+  )
+
+writeLines(
+  text = c(
+    "// This file is auto-generated from colors.json. Do not edit directly.",
+    paste0("$", names(colors), ": ", unname(colors), ";")
+  ),
+  con = here::here("_colors.scss")
+)
+```
+
+## Chairs
 
 ### Dr Thomas Giesecke <img src="https://www.uu.nl/medewerkers/RestApi/Public/GetImage?Employee=48498&amp;t=" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-Action--Chair-gold)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Action--Chair-', gsub('#', '%23', colors$blue))`"/>
 -   🏦Utrecht University, NL
 -   📞phone: +31302531034
 -   📬email: t.giesecke(at)uu.nl
--   [![orcid](https://img.shields.io/badge/orcid-0000--0002--5132--1061-brightgreen.svg)](https://orcid.org/0000-0002-5132-1061)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.uu.nl/staff/TGiesecke)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--5132--1061-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-5132-1061)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.uu.nl/staff/TGiesecke)
 
 ### Dr Sandra Nogué Bosch <img src="Materials/Faces/sandra_2024_crop.jpg" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-Action--Vice--Chair-gold)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Action--Vice--Chair-', gsub('#', '%23', colors$blue))`"/>
 -   🏦UAB Barcelona, ES
 -   📞phone: 935814669
 -   📬email: sandra.nogue(at)uab.cat
--   [![orcid](https://img.shields.io/badge/orcid-0000--0003--0093--4252-brightgreen.svg)](https://orcid.org/0000-0003-0093-4252)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://portalrecerca.uab.cat/en/persons/sandra-nogue-bosch)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--0093--4252-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-0093-4252)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://portalrecerca.uab.cat/en/persons/sandra-nogue-bosch)
 
 ## Leadership & Staff (Alphabetical order)
 
 ### Dr Xavier Benito <img src="Materials//Faces/XBenito_crop.JPG" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-WG2--Co--Leader-silver)\
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Co--Leader-', gsub('#', '%23', colors$purple))`"/>
 -   🏦Institute of Agrifood Research and Technology (IRTA), Spain
 -   📬email: xavier.benito(at)irta.cat
--   [![orcid](https://img.shields.io/badge/orcid-0000--0003--0792--2625-brightgreen.svg)](https://orcid.org/0000-0003-0792-2625)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://xbenitogranell.github.io)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--0792--2625-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-0792-2625)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://xbenitogranell.github.io)
 
 ### Prof Richard Bradshaw <img src="Materials//Faces/RB.png" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-Senior--Advisor-CD7F32)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Senior--Advisor-', gsub('#', '%23', colors$brown))`"/>
 -   🏦 University of Liverpool, UK
 -   📬email: Richard.Bradshaw(at)liv.ac.uk
--   [![orcid](https://img.shields.io/badge/orcid-0000--0002--7331--2246-brightgreen.svg)](https://orcid.org/0000-0002-7331-2246)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.liverpool.ac.uk/environmental-sciences/staff/richard-bradshaw/)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--7331--2246-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-7331-2246)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.liverpool.ac.uk/environmental-sciences/staff/richard-bradshaw/)
 
 ### Dr Sandra Olivia Camara-Brugger
 
--   ![](https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-CD7F32)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-', gsub('#', '%23', colors$brown))`"/>
 
 ### Prof Elisabeth Dietze <img src="https://www.uni-goettingen.de/storage/pictures/6d8dddf8e82d9ca5fa5b9401bb766439.jpg" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-WG1--Co--Leader-silver)\
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG1--Co--Leader-', gsub('#', '%23', colors$purple))`"/>\
 -   🏦 University of Göttingen, Germany
 -   📬email: edietze(at)uni-goettingen.de
--   [![orcid](https://img.shields.io/badge/orcid-0000--0003--4817--8441-brightgreen.svg)](https://orcid.org/0000-0003-4817-8441)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.uni-goettingen.de/de/662289.html)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--4817--8441-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-4817-8441)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.uni-goettingen.de/de/662289.html)
 
 ### Dr Kirsten Elger
 
--   ![](https://img.shields.io/badge/Leadership-WG3--Leader-silver)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG3--Leader-', gsub('#', '%23', colors$purple))`"/>
 
 ### Dr Stefan Engels  <img src="https://dist.bbk.ac.uk/staff-profiles/images/9150710.lrg.Nzt4K618Yn.jpeg" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-WG2--Leader-silver)\
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Leader-', gsub('#', '%23', colors$purple))`"/>\
 -   🏦Royal Holloway University of London, UK
 -   📬email: Stefan.engels(at)rhul.ac.uk
--   [![orcid](https://img.shields.io/badge/orcid-0000--0002--2078--0361-brightgreen.svg)](https://orcid.org/0000-0002-2078-0361)
--   ![](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--2078--0361-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-2078-0361)
+-   <img src="`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`"/>
 
 ### Dr Walter Finsinger <img src="https://isem-evolution.fr/wp-content/uploads/elementor/thumbs/Finsinger_Walter_ID2-p2ev2hh6rro0hdtoj8fvkr4kz8gbkfjqsn1btr2fa0.jpg" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator-CD7F32)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator-', gsub('#', '%23', colors$brown))`"/>
 -   🏦 Institut des Sciences de l'Evolution de Montpellier (ISEM), CNRS, France
 -   📬email: walter.finsinger(at)umontpellier.fr
--   [![orcid](https://img.shields.io/badge/orcid-0000--0002--8297--0574-brightgreen.svg)](https://orcid.org/0000-0002-8297-0574)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://isem-evolution.fr/membre/finsinger/)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--8297--0574-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-8297-0574)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://isem-evolution.fr/membre/finsinger/)
 
 ### Ms Aldona Gembalik
 
--   ![](https://img.shields.io/badge/Staff-Administrative--Officer-purple)
+-   <img src="`r paste0('https://img.shields.io/badge/Staff-Administrative--Officer-', gsub('#', '%23', colors$pink))`"/>
 
 ### Dr Graciela Gil-Romera <img src="https://i0.wp.com/gilromera.com/wp-content/uploads/2016/02/2015-10-13-12-09-02.jpg?w=1000&h=&crop=1&ssl=1" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-WG4--Leader-silver)
--   ![](https://img.shields.io/badge/Leadership-Science--Communication--Coordinator-CD7F32)\
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG4--Leader-', gsub('#', '%23', colors$purple))`"/>
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Science--Communication--Coordinator-', gsub('#', '%23', colors$brown))`"/>\
 -   🏦 Pyrenean Institute of Ecology (Spanish Research Council), Zaragoza, Spain
 -   📬email: graciela.gil(at)ipe.csic.es
--   [![orcid](https://img.shields.io/badge/orcid-0000--0001--5726--2536-brightgreen.svg)](https://orcid.org/0000-0001-5726-2536)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.gilromera.com)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0001--5726--2536-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0001-5726-2536)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.gilromera.com)
 
 ### Dr Petr Kuneš <img src="https://natur.cuni.cz/cache/images/ef/data-users-user-101-petr-guyana-resize-w150-h200.jpg" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-WG1--Leader-silver)\
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG1--Leader-', gsub('#', '%23', colors$purple))`"/>\
 -   🏦 Charles University, CZ
 -   📞phone: +420 221 961 667
 -   📬email: petr.kunes(at)natur.cuni.cz
--   [![orcid](https://img.shields.io/badge/orcid-0000--0001--9605--8204-brightgreen.svg)](https://orcid.org/0000-0001-9605-8204)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://natur.cuni.cz/en/person?poid=1494806729387701)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0001--9605--8204-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0001-9605-8204)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://natur.cuni.cz/en/person?poid=1494806729387701)
 
-### Dr Ondřej Mottl <img src="https://ondrejmottl.github.io/profile_mottl_zoom.jpg" align="right" width="120"/>
+### Dr Ondřej Mottl <img src="Materials/Faces/Ondra_2025.jpg" align="right" width="120"/>
 
--   ![](https://img.shields.io/badge/Leadership-WG3--Co--Leader-silver)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG3--Co--Leader-', gsub('#', '%23', colors$purple))`"/>
 -   🏦Department of Botany, Faculty of Science, Charles University, Prague, Czech Republic
 -   📬email: ondrej.mottl(at)gmail.com
--   [![ORCID](https://img.shields.io/badge/orcid-0000--0002--9796--5081-brightgreen.svg)](https://orcid.org/0000-0002-9796-5081)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://ondrejmottl.github.io/)
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--9796--5081-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-9796-5081)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://ondrejmottl.github.io/)
 
 ### Dr Federica Ortelli
 
--   ![](https://img.shields.io/badge/Staff-Science--Officer-purple)
+-   <img src="`r paste0('https://img.shields.io/badge/Staff-Science--Officer-', gsub('#', '%23', colors$pink))`"/>
 
 ### Dr Celia Martin Puertas
 
--   ![](https://img.shields.io/badge/Leadership-WG4--Co--Leader-silver)
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-WG4--Co--Leader-', gsub('#', '%23', colors$purple))`"/>

@@ -1,6 +1,12 @@
 ---
 title: "About"
+date: 2024/11/05
+date-format: long
+date-modified: last-modified
+sidebar: false
 ---
+
+![](/Materials/Logos/PalaeOpen.png)
 
 Restoring and managing nature during times of rapid environmental change requires knowledge of ecosystem response to climate and land use change on timescales of decades to millennia. Different palaeoecological disciplines have collected relevant, site-specific data during the last decades. Much of the palaeoecological data are currently dispersed across different repositories, databases and largely not publicly available.
 
