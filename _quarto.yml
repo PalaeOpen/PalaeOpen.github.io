@@ -19,11 +19,8 @@ website:
   back-to-top-navigation: true
 
   navbar:
-    left:
-      - text: Home
-        href: index.qmd
-
-
+    logo: Materials/Logos/PalaeOpen_without_text.png
+    left:   
       - text: About
         href: about.qmd
 
