@@ -41,8 +41,8 @@ writeLines(
 )
 ```
 
-::: {.callout-important}
-## General Information for PalaeOpen 2025
+::: {.callout-red}
+## ‼️General Information for PalaeOpen 2025
 
 📅*Date:* **02.07.2025 - 04.07.2025** (Wednesday to Friday)
 

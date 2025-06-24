@@ -20,7 +20,7 @@ format:
 
 In the spring of 2025, I had the opportunity to spend a Short-Term Scientific Mission (STSM) at Utrecht University as part of the PalaeOpen COST Action. My mission focused on data mobilisation and acquisition.
 
-:::{.callout-note  text-align="left"}
+:::{.callout-red  text-align="left"}
 ### 👩‍🔬Who? 
 
 **Eliise Kara** (Early Career Researcher)
@@ -28,13 +28,13 @@ In the spring of 2025, I had the opportunity to spend a Short-Term Scientific Mi
 Department of Geology, Tallinn University of Technology, Estonia
 :::
 
-:::{.callout-note}
+:::{.callout-red}
 ### 🌍Where?
 
 Utrecht University, Netherlands
 :::
 
-:::{.callout-note}
+:::{.callout-red}
 ### 📅When? 
 
 Spring of 2025

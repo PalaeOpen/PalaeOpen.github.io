@@ -17,7 +17,8 @@ STSMs are research stays in a different country than the country of the primary 
 
 Participation of "Early Career Investigators" (ECI) in STSMs is particularly encouraged. ECI is considered any researcher or innovator under 40 years of age. PhD students are also eligible to partake in STSMs.  
 
-::: {.callout-important}
+::: {.callout-red}
+### Important Dates
 Due to the grant period ending in October, **STSMs must end before 15 september 2025** to allow time for reporting and reimbursement. Please bear in mind that due to budget limitations few STSMs can be granted this year and more will be available throughout the 4 year duration of the COST Action.  
 :::
 
@@ -85,7 +86,7 @@ Failure to submit the scientific report within 30 days from the end date of the 
    
 *(Please note that the COST Association can request additional information to substantiate the information contained within the documents submitted by STSM applicants)*  
    
-::: {.callout-note}
+::: {.callout-red}
 ### STSM evaluation criteria for PalaeOpen 
 Each STSM proposal will be evaluated according to the following five criteria:
 

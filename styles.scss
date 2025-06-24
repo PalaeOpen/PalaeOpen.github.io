@@ -314,3 +314,35 @@ ul ul {
   }
 }
 
+.callout-red {
+  margin: 1em 0;
+  border: 2px solid $black;
+  border-left: 10px solid $red; 
+  border-radius: 10px;
+  background-color: $white;
+  padding: 0; /* Ensure no unwanted padding */
+}
+
+/* Style the first child element (assumed to be the header) */
+.callout-red > *:first-child {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: $black;
+  background-color: $pink;
+  border-top-right-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+}
+
+/* Style the rest of the content */
+.callout-red > *:not(:first-child) {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: $black;
+  background-color: $white;
+  border-bottom-right-radius: 10px;
+}
