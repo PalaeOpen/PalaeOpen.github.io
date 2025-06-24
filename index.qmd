@@ -1,6 +1,6 @@
 ---
 title: "PalaeOpen"
-image: Materials/PalaeOpen.png
+image: Materials/Logos/PalaeOpen_without_text.png
 about:
   id: hero-heading
   template: solana

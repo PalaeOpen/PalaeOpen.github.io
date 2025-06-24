@@ -1,15 +1,320 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Tilt+Warp&display=swap');
+
+// Vertical spacing between blocks of text
+$smallMargin: 5px;
+$blockMargin: 10px;
+$largeMargin: 20px;
+
+// Colors
+
+$white: #FCFCFA !default;
+$black: #393947 !default;
+$blue: #5755A5 !default;
+$purple: #9D9BF9 !default;
+$red: #C3503E !default;
+$pink: #ED8B7C !default;
+$brown: #A5643C !default;
+$yellow: #F6C269 !default;
+
+
+.text-background-white {
+  background-color: $white;
+  color: $black;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+ 
+.text-background-black {
+  background-color: $black;
+  color: $white;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-background-blue {
+  background-color: $blue;
+  color: $white;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-background-purple {
+  background-color: $purple;
+  color: $white;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-background-red {
+  background-color: $red;
+  color: $white;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-background-pink {
+  background-color: $pink;
+  color: $white;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-background-brown {
+  background-color: $brown;
+  color: $white;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-background-yellow {
+  background-color: $yellow;
+  color: $black;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+.text-color-white {
+  color: $white;
+}
+
+.text-color-black {
+  color: $black;
+}
+
+.text-color-blue {
+  color: $blue;
+}
+
+.text-color-purple {
+  color: $purple;
+}
+
+.text-color-red {
+  color: $red;
+}
+
+.text-color-pink {
+  color: $pink;
+}
+
+.text-color-brown {
+  color: $brown;
+}
+
+.text-color-yellow {
+  color: $yellow;
+}
+
+$body-color: $black;
+$backgroundColor: $white;
+
+// Typography
+$mainFont: "Inter", sans-serif !default;
+$mainFontSize: 12pt;
+$body-line-height: 1.5;
+
+$headingMargin: 0;
+$headingFont: "Tilt Warp", sans-serif !default;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextShadow: none;
+$headingFontWeight: bold;
+
+$heading1Size: 30pt;
+$heading2Size: 24pt;
+$heading3Size: 20pt;
+$heading4Size: 18pt;
+$heading5Size: 16pt;
+$heading6Size: 14pt;
+
+.bold {
+  font-weight: bold;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+.underscore {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
 /*-- scss:rules --*/
+
+/* General text styling */
+body {
+  font-family: $mainFont;
+  font-size: $mainFontSize;
+  line-height: $body-line-height;
+  color: $body-color;
+  background-color: $backgroundColor;
+}
+
+a {
+  color: $red;
+  text-decoration: underline !important;
+
+  &:hover {
+    color: $white !important;
+    background-color: $pink !important;
+  }
+}
+
+/* Headings */
+h1 {
+  font-family: $headingFont;
+  font-size: $heading1Size;
+  line-height: $headingLineHeight;
+  letter-spacing: $headingLetterSpacing;
+  font-weight: $headingFontWeight;
+  margin-top: $largeMargin;
+}
+
+h2 {
+  font-family: $headingFont;
+  font-size: $heading2Size;
+  line-height: $headingLineHeight;
+  letter-spacing: $headingLetterSpacing;
+  font-weight: $headingFontWeight;
+  margin-top: $largeMargin;
+}
+
+h3 {
+  font-family: $headingFont;
+  font-size: $heading3Size;
+  line-height: $headingLineHeight;
+  letter-spacing: $headingLetterSpacing;
+  font-weight: $headingFontWeight;
+  margin-top: $largeMargin;
+}
+
+h4 {
+  font-family: $headingFont;
+  font-size: $heading4Size;
+  line-height: $headingLineHeight;
+  letter-spacing: $headingLetterSpacing;
+  font-weight: $headingFontWeight;
+  margin-top: $blockMargin;
+}
+
+h5 {
+  font-family: $headingFont;
+  font-size: $heading5Size;
+  line-height: $headingLineHeight;
+  letter-spacing: $headingLetterSpacing;
+  font-weight: $headingFontWeight;
+  margin-top: $smallMargin;
+}
+
+h6 {
+  font-family: $headingFont;
+  font-size: $heading6Size;
+  line-height: $headingLineHeight;
+  letter-spacing: $headingLetterSpacing;
+  font-weight: $headingFontWeight;
+  margin-top: $smallMargin;
+}
+
+/* Code block */
+pre,
+code {
+  background-color: $yellow !important;
+  color: $black;
+  padding: $smallMargin;
+  border-radius: 5px;
+}
+
+pre {
+  overflow: auto;
+  padding: $smallMargin;
+}
+
+code {
+  background-color: $yellow !important;
+  padding: 0;
+}
+
+pre code {
+  background-color: transparent !important;
+  padding: $smallMargin;
+}
+
+pre a,
+code a {
+  color: $black !important;
+  text-decoration: underline !important;
+
+  &:hover {
+    color: $yellow !important;
+    background-color: $black !important;
+  }
+}
+
+/* List styling */
+ul {
+  padding-left: $largeMargin;
+  margin-left: $largeMargin;
+}
+
+ul ul {
+  padding-left: $largeMargin;
+  margin-left: $largeMargin;
+}
+
+/* Navbar */
+.navbar {
+  background: $blue !important;
+  font-family: $headingFont !important;
+  font-size: 20px !important;
+  color: $white !important;
+  padding: 10px 0 !important;
+  a {
+    color: $white !important;
+    text-decoration: none !important;
+    padding: 10px !important;
+    &:hover {
+      text-decoration: underline !important;
+      background-color: $blue !important;
+    }
+  }
+}
+
+/* Language dropdown menu styling */
+.navbar .dropdown-menu {
+  background-color: $blue !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: $white !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
+  background-color: darken($blue, 10%) !important;
+  color: $white !important;
+}
+
 
 .btn {
   background-color: $white;
-  color: $primary;
-  border-color: $primary;
+  color: $red;
+  border-color: $red;
   font-variant-caps: all-petite-caps;
   border-radius: 10px;
   &:hover {
-    background-color: $white;
-    color: $link-color;
-    border-color: $link-color;
+    background-color: $pink;
+    color: $black;
+    border-color: $black;
   }
 }
 
