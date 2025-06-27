@@ -79,7 +79,7 @@ Currently, we are pleased to confirm the participation of the following keynote 
 | **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
 | **Gavin Simpson** | TBA | Aahrus University, Denmark |
 | **Danielle Schreve** | *Unlocking the potential of the Quaternary vertebrate palaeoecological record for nature restoration challenges* | University of Bristol, UK |
-| **Lyudmila S. Shumilovskikh** | TBA | University of Göttingen, Germany |
+| **Lyudmila S. Shumilovskikh** | *Non-pollen palynomorphs in palaeoecological databases: potential and challenges* | University of Göttingen, Germany |
 | **Sara Varela** | *Open access databases for working in macroecology, uses and common problematics* | University of Vigo, Spain |
 | **Jack Williams** | *Neotoma Paleoecology Database:  Recent Updates and Current Directions* | University of Wisconsin-Madison, USA |
 
@@ -110,10 +110,3 @@ Currently, we are pleased to confirm the participation of the following keynote 
 | 17:30 | <img src="`r paste0('https://img.shields.io/badge/🥂-Ice--breaker-', gsub('#', '%23', colors$yellow), '?style=flat-square')`" height="25"/> | | |
 
 <br>
-
-## Flyer
-
-[Download the PDF version of the flyer](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/flyers/Flyer_PaleOpen_2025.pdf){.btn}
-
-<img src="/Materials/flyers/Flyer_PaleOpen_2025.png" align="right" width="750"/>
-
