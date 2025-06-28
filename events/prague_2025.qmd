@@ -77,7 +77,7 @@ Currently, we are pleased to confirm the participation of the following keynote 
 | **Přemysl Bobek** | *Reviving Historical Fire Use: Using Paleorecords to Guide Prescribed Burning in the Subalpine Zone* | Czech Academy of Science, Czechia |
 | **Nathalie Dubois** | *Lipid biomarker signatures for reconstructing ecosystems* | Eawag & ETHZ |
 | **Sandra Garcès-Pastor** | *SedaDNA: Enhancing Ecological Research through Open Databases* | University of Barcelona |
-| **Gavin Simpson** | TBA | Aahrus University, Denmark |
+| **Gavin Simpson** | *How to make the most out of disparate palaeoecological data?* | Aahrus University, Denmark |
 | **Danielle Schreve** | *Unlocking the potential of the Quaternary vertebrate palaeoecological record for nature restoration challenges* | University of Bristol, UK |
 | **Lyudmila S. Shumilovskikh** | *Non-pollen palynomorphs in palaeoecological databases: potential and challenges* | University of Göttingen, Germany |
 | **Sara Varela** | *Open access databases for working in macroecology, uses and common problematics* | University of Vigo, Spain |
