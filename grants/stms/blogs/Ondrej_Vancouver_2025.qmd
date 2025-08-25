@@ -1,0 +1,60 @@
+---
+date: 2025/08/15
+date-format: long
+date-modified: last-modified
+image: "../../../Materials/blogposts/Mottl_Vancouver/mottl_vancouver_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience in Vancouver 🇨🇦 {text-align="center"}
+
+::: {#heading}
+:::
+
+In August 2025, I had the chance to spend a Short-Term Scientific Mission (STSM) in Vancouver, Canada, as part of the PalaeOpen COST Action. I worked closely with Dr. Simon Goring and Socorro Dominguez Vidaña on the Neotoma Paleoecology Database. But more than that—it was a week full of productive work, fresh ideas, and the kind of collaboration that happens best when you’re walking a dog or cooking together at home.
+
+:::{.callout-red text-align="left"}
+### 👨‍🔬Who?
+**Ondřej Mottl**
+
+Quantitative Ecology Lab, Department of Botany, Charles University, Prague, Czechia
+:::
+
+:::{.callout-red}
+### 🌍Where?
+Vancouver, Canada 
+:::
+
+:::{.callout-red}
+### 📅When?
+August 2025
+:::
+
+This wasn’t your usual desk-bound work visit. Since I was staying just a few houses down from Simon, we ended up working from my place most days. The setting was relaxed but focused—we dove into all things Neotoma: its architecture, data access protocols, and the challenges of keeping such a massive database running smoothly. With Bailey (Simon’s dog) often napping nearby, we mapped out ways I could help from Europe with data quality control and issue resolution.
+
+One of the goals was to get me fully onboarded as a contributor to Neotoma. That meant learning how the database works from the inside, gaining full access, and beginning to build tools that others can use. I also got to help improve the way we present Neotoma information to R users, including ideas for a new website interface and more intuitive documentation.
+
+:::{#fig-1}
+
+
+The whole team working together. Photo credit: Simon Goring.
+:::
+
+Of course, it wasn’t all code and data. We took breaks for long walks with Bailey through the neighborhood. We shared meals, visited a few local restaurants, and talked about science, careers, and how to make palaeoecological data more open and useful across the world. It was in these informal moments that some of the best ideas emerged.
+
+What I appreciated most about this STSM was how seamlessly the technical blended with the human. I returned to Prague not only with new skills and responsibilities but also with a sense of connection—to the Neotoma team, to the broader community, and to the idea that good science often starts with good conversations.
+
+:::{#fig-2}
+
+
+Simon and Bailey at Capilano Park. Photo credit: Ondřej Mottl.
+:::
+
+A heartfelt thanks to Simon for his generosity, and to the PalaeOpen Action for supporting this visit. I look forward to what comes next—both online and, hopefully, in future face-to-face collaborations.
