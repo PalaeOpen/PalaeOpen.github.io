@@ -10,7 +10,7 @@ listing:
     max-description-length: 1000
     fields: [image, date, title, description]
     contents: "blogs"
-    sort: "true" 
+    sort: date desc 
     type: grid
     grid-columns: 3
     grid-item-align: left
