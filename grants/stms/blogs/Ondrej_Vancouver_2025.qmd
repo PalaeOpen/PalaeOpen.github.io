@@ -2,7 +2,7 @@
 date: 2025/08/15
 date-format: long
 date-modified: last-modified
-image: "../../../Materials/blogposts/Mottl_Vancouver/mottl_vancouver_1.jpg"
+image: "../../../Materials/blogposts/Mottl_Vancouver/mottl_vancouver_0.jpg"
 about:
   id: heading
   template: jolla
@@ -13,7 +13,7 @@ format:
     embed-resources: true
 ---
 
-# My STSM Experience in Vancouver 🇨🇦 {text-align="center"}
+# My STSM Experience in Vancouver {text-align="center"}
 
 ::: {#heading}
 :::
@@ -43,8 +43,10 @@ One of the goals was to get me fully onboarded as a contributor to Neotoma. That
 
 :::{#fig-1}
 
+![](/Materials/blogposts/Mottl_Vancouver/mottl_vancouver_1.jpg)
 
 The whole team working together. Photo credit: Simon Goring.
+
 :::
 
 Of course, it wasn’t all code and data. We took breaks for long walks with Bailey through the neighborhood. We shared meals, visited a few local restaurants, and talked about science, careers, and how to make palaeoecological data more open and useful across the world. It was in these informal moments that some of the best ideas emerged.
@@ -53,8 +55,10 @@ What I appreciated most about this STSM was how seamlessly the technical blended
 
 :::{#fig-2}
 
+![](/Materials/blogposts/Mottl_Vancouver/mottl_vancouver_2.jpg)
 
-Simon and Bailey at Capilano Park. Photo credit: Ondřej Mottl.
+Simon, Socorro, and Bailey at Capilano Park. Photo credit: Ondřej Mottl
+
 :::
 
 A heartfelt thanks to Simon for his generosity, and to the PalaeOpen Action for supporting this visit. I look forward to what comes next—both online and, hopefully, in future face-to-face collaborations.
