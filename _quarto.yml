@@ -20,7 +20,7 @@ website:
 
   navbar:
     logo: Materials/Logos/PalaeOpen_without_text.png
-    left:   
+    left:
       - text: About
         href: about.qmd
 
@@ -41,13 +41,15 @@ website:
             href: outreach/press_release_2025.qmd
           - text: STMS blog posts
             href: grants/stms/stms_blog_posts.qmd
+          - text: Meeting reports
+            href: outreach/meetings/IALIPA_2025.qmd
 
       - text: Grants
         menu:
           - text: Open Call for STSM Grants 2025
             href: grants/stms/stms_2025.qmd
 
-    right: 
+    right:
       - text: Join us!
         href: https://e-services.cost.eu/action/CA23116/working-groups/applications
 
