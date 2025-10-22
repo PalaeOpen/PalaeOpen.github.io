@@ -1,0 +1,48 @@
+---
+date: 2025/10/08
+date-format: long
+date-modified: last-modified
+image: "../../../Materials/meeting_reports/IALIPA2025/workshop_2.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+---
+
+# IAL-IPA PalaeOpen workshop {text-align="center"}
+
+::: {#heading}
+:::
+
+As part of the IAL-IPA symposium held in Aix-les-Bains (France), a 1-day workshop was held at the Université Savoie Mont Blanc, in Le Bourget-du-Lac. The workshop brought together ca 30 attendees as well as 4 instructors, and participants included both people who had attended previous PalaeOpen activities such as the Chironomid & Diatom workshop in N Macedonia or the Open Science Meeting in the Czech Republic, as well as people completely new to the COST Action. Some people travelled from countries such as Mexico, the US or China, meaning the reach of this workshop extended beyond the typical COST countries.
+
+The program included an introductory lecture by the organisers, an overview of recent work on the sedaDNA constituent database (held by Trisha Spanbauer; University of Northern Kentucky, US) and hands-on training on data uploading through Tilia. The particular focus of the latter was on merging datasets (e.g. adding a diatom dataset to an existing pollen dataset) as well as on taxonomy. The full-day program ran from 10am to after 4pm, and the instructors received very positive feedback from some of the attendees. 
+
+:::{#fig-1}
+
+![](/Materials/meeting_reports/IALIPA2025/workshop_1.jpg)
+
+Participants learning Tilia (software to structure data and metadata for Neotoma uploads) at the workshop. Photo credit: Stefan Engels.
+
+:::
+
+We were able to financially support 13 people through our PalaeOpen budget, which meant our logo was shown on many talks and posters during the symposium as well. We also presented PalaeOpen-focussed work at the IAL-IPA in a poster (Stefan Engels) and a talk (Thomas Giesecke). A final highlight was the ECR-led PalaeOpen social on the Friday dinner; an ad hoc activity that attracted 23 colleagues and saw the establishment of a PalaeOpen whatsapp group.
+
+
+:::{#fig-2}
+
+![](/Materials/meeting_reports/IALIPA2025/workshop_2.jpg)
+
+Proud participants with the PalaeOpen flag
+
+:::
+
+### Poster
+[Download the poster here](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/meeting_reports/IALIPA2025/IPA_PalaeOpen25_poster.pdf){.btn}
+
+
+[Walter Finsinger](/coregroup.qmd#dr-walter-finsinger), [Xavier Benito](/coregroup.qmd#dr-xavier-benito) and [Stefan Engels](/coregroup.qmd#dr-stefan-engels)
