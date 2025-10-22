@@ -24,7 +24,6 @@ website:
       - text: About
         href: about.qmd
 
-
       - text: Core Group
         href: coregroup.qmd
 
@@ -63,6 +62,3 @@ format:
       - styles.scss
     toc: true
     toc-depth: 2
-
-
-
