@@ -2,6 +2,7 @@
 date: 2025/10/08
 date-format: long
 date-modified: last-modified
+image: "../../../Materials/meeting_reports/IALIPA2025/workshop_2.jpg"
 about:
   id: heading
   template: jolla
@@ -23,7 +24,7 @@ The program included an introductory lecture by the organisers, an overview of r
 
 :::{#fig-1}
 
-![](/Materials/IALIPA2025/workshop_1.jpg)
+![](/Materials/meeting_reports/IALIPA2025/workshop_1.jpg)
 
 Participants learning Tilia (software to structure data and metadata for Neotoma uploads) at the workshop. Photo credit: Stefan Engels.
 
@@ -34,14 +35,14 @@ We were able to financially support 13 people through our PalaeOpen budget, whic
 
 :::{#fig-2}
 
-![](/Materials/IALIPA2025/workshop_2.jpg)
+![](/Materials/meeting_reports/IALIPA2025/workshop_2.jpg)
 
 Proud participants with the PalaeOpen flag
 
 :::
 
 # Poster
-![](/Materials/IALIPA2025/IPA_PalaeOpen25_poster.pdf){.btn}
+![](/Materials/meeting_reports/IALIPA2025/IPA_PalaeOpen25_poster.pdf){.btn}
 
 
 [Walter Finsinger](/coregroup.qmd#dr-walter-finsinger), [Xavier Benito](/coregroup.qmd#dr-xavier-benito) and [Stefan Engels](/coregroup.qmd#dr-stefan-engels)

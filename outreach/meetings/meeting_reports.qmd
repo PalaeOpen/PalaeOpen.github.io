@@ -1,0 +1,27 @@
+---
+date: 2025/10/22
+date-format: long
+date-modified: last-modified
+format:
+  html:
+    embed-resources: true
+listing:
+  - id: "2025"
+    max-description-length: 1000
+    fields: [image, date, title, description]
+    contents: "individual_reports"
+    sort: date desc 
+    type: grid
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
+---
+
+# Meeting reports 
+
+Here you can find reports from meetings and workshops organised under the PalaeOpen COST Action.
+
+## Completed meetings
+
+::: {#2025}
+:::

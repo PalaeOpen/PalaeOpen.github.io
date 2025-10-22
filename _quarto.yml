@@ -41,7 +41,7 @@ website:
           - text: STMS blog posts
             href: grants/stms/stms_blog_posts.qmd
           - text: Meeting reports
-            href: outreach/meetings/IALIPA_2025.qmd
+            href: outreach/meetings/meeting_reports.qmd
 
       - text: Grants
         menu:
