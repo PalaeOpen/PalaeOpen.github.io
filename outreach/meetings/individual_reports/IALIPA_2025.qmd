@@ -41,8 +41,8 @@ Proud participants with the PalaeOpen flag
 
 :::
 
-# Poster
-![](/Materials/meeting_reports/IALIPA2025/IPA_PalaeOpen25_poster.pdf){.btn}
+### Poster
+[Download the poster here](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/meeting_reports/IALIPA2025/IPA_PalaeOpen25_poster.pdf){.btn}
 
 
 [Walter Finsinger](/coregroup.qmd#dr-walter-finsinger), [Xavier Benito](/coregroup.qmd#dr-xavier-benito) and [Stefan Engels](/coregroup.qmd#dr-stefan-engels)
