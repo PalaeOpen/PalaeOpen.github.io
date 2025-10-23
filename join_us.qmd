@@ -1,0 +1,52 @@
+---
+title: "Join Us"
+date: 2025/10/23
+date-format: long
+date-modified: last-modified
+sidebar: false
+---
+
+The COST Action **Open Palaeoecological Data** (PalaeOpen) welcomes researchers and practitioners interested in contributing to and benefiting from our collaborative efforts. By joining our network, members can, participate in workshops and events, and collaborate on research projects aimed at understanding ecosystem responses to climate and land-use changes over decades to millennia.
+
+## How to Join?
+
+To become a member of the PalaeOpen network, you can apply through the COST e-Services platform. Membership is open to individuals from COST member countries, as well as from approved partner countries.
+
+:::: {.columns}
+
+::: {.column width=25%}
+:::
+
+::: {.column width=50%}
+
+[Join the network on COST e-Services platform](https://e-services.cost.eu/action/CA23116/working-groups/applications){.btn}
+
+:::
+
+::: {.column width=25%}
+:::
+
+::::
+
+<br>
+
+### Zulip 
+
+:::: {.columns}
+
+::: {.column width=10%}
+![](/Materials/Logos/Zulip/zulip-icon-circle.svg)
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=85%}
+
+We currently use [Zulip](https://zulip.com/) as our main communication platform within PalaeOpen. After joining the network, you please send an email to your specific (co)leader of Working Group (contact details can be found on the [Core Group](coregroup.qmd) page) to request an invitation to our Zulip workspace.
+
+:::
+
+
+
+::::
