@@ -21,6 +21,10 @@ website:
   navbar:
     logo: Materials/Logos/PalaeOpen_without_text.png
     left:
+
+      - href: index.qmd
+        text: Home
+
       - text: About
         menu:
           - text: General information
@@ -28,8 +32,8 @@ website:
           - text: Working groups
             href: About/working_groups.qmd
 
-      - text: Core Group
-        href: coregroup.qmd
+      - href: coregroup.qmd
+        text: Core Group
 
       - text: Events
         menu:
