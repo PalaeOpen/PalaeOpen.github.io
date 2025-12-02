@@ -95,6 +95,8 @@ writeLines(
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0002--2078--0361-brightgreen.svg)](https://orcid.org/0000-0002-2078-0361)
 -   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.bbk.ac.uk/our-staff/profile/9150710/stefan-engels)
 
+<br>
+
 ### Dr Walter Finsinger <img src="https://isem-evolution.fr/wp-content/uploads/elementor/thumbs/Finsinger_Walter_ID2-p2ev2hh6rro0hdtoj8fvkr4kz8gbkfjqsn1btr2fa0.jpg" align="right" width="120"/>
 
 -   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator-', gsub('#', '%23', colors$brown))`"/>
@@ -136,6 +138,13 @@ writeLines(
 ### Dr Federica Ortelli
 
 -   <img src="`r paste0('https://img.shields.io/badge/Staff-Science--Officer-', gsub('#', '%23', colors$pink))`"/>
+
+### Dr Anneli Poska <img src="https://haldus.taltech.ee/sites/default/files/styles/medium/public/contact/2022-01/Anneli_Poska.jpg?itok=LzzuUD5I" align="right" width="120"/>
+
+-  [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG1--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg1-terrestrial-proxies)
+-  🏦TalTech, Estonia
+-  📬email: anneli.poska(at)taltech.ee
+-  [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--8778--1430-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-8778-1430)
 
 ### Dr Celia Martin Puertas
 
