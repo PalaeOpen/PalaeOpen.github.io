@@ -65,7 +65,7 @@ writeLines(
 
 ### Dr Xavier Benito <img src="Materials//Faces/XBenito_crop.JPG" align="right" width="120"/>
 
--   [![](https://img.shields.io/badge/Leadership-WG2--Co--Leader-silver)](/About/working_groups.qmd#working-group-2-aquatic-proxies)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg2-aquatic-proxies)
 -   🏦Institute of Agrifood Research and Technology (IRTA), Spain
 -   📬email: xavier.benito(at)irta.cat
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--0792--2625-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-0792-2625)
@@ -85,7 +85,7 @@ writeLines(
 
 ### Prof Elisabeth Dietze <img src="https://www.uni-goettingen.de/storage/pictures/6d8dddf8e82d9ca5fa5b9401bb766439.jpg" align="right" width="120"/>
 
--   [![](https://img.shields.io/badge/Leadership-WG1--Co--Leader-silver)](/About/working_groups.qmd#working-group-1-terrestrial-proxies)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG1--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg1-terrestrial-proxies)
 -   🏦 University of Göttingen, Germany
 -   📬email: edietze(at)uni-goettingen.de
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--4817--8441-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-4817-8441)
@@ -93,11 +93,11 @@ writeLines(
 
 ### Dr Kirsten Elger
 
--   [![](https://img.shields.io/badge/Leadership-WG3--Leader-silver)](/About/working_groups.qmd#working-group-3-infrastructure-and-databases)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG3--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg3-infrastructure-and-databases)
 
 ### Dr Stefan Engels  <img src="https://dist.bbk.ac.uk/staff-profiles/images/9150710.lrg.Nzt4K618Yn.jpeg" align="right" width="120"/>
 
--   [![](https://img.shields.io/badge/Leadership-WG2--Leader-silver)](/About/working_groups.qmd#working-group-2-aquatic-proxies)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg2-aquatic-proxies)
 -   🏦Birkbeck University of London, UK
 -   📬email: sengels(at)bbk.ac.uk
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0002--2078--0361-brightgreen.svg)](https://orcid.org/0000-0002-2078-0361)
@@ -117,7 +117,7 @@ writeLines(
 
 ### Dr Graciela Gil-Romera <img src="https://i0.wp.com/gilromera.com/wp-content/uploads/2016/02/2015-10-13-12-09-02.jpg?w=1000&h=&crop=1&ssl=1" align="right" width="120"/>
 
--   [![](https://img.shields.io/badge/Leadership-WG4--Leader-silver)](/About/working_groups.qmd#working-group-4-outreach-and-education)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG4--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg4-outreach-and-education)
 -   ![](https://img.shields.io/badge/Leadership-Science--Communication--Coordinator-CD7F32)\
 -   🏦 Pyrenean Institute of Ecology (Spanish Research Council), Zaragoza, Spain
 -   📬email: graciela.gil(at)ipe.csic.es
@@ -126,7 +126,7 @@ writeLines(
 
 ### Dr Petr Kuneš <img src="https://natur.cuni.cz/cache/images/ef/data-users-user-101-petr-guyana-resize-w150-h200.jpg" align="right" width="120"/>
 
--   [![](https://img.shields.io/badge/Leadership-WG1--Leader-silver)](/About/working_groups.qmd#working-group-1-terrestrial-proxies)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG1--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg1-terrestrial-proxies)
 -   🏦 Charles University, CZ
 -   📞phone: +420 221 961 667
 -   📬email: petr.kunes(at)natur.cuni.cz
@@ -135,7 +135,7 @@ writeLines(
 
 ### Dr Ondřej Mottl <img src="Materials/Faces/Ondra_2025.jpg" align="right" width="120"/>
 
--   [![](https://img.shields.io/badge/Leadership-WG3--Co--Leader-silver)](/About/working_groups.qmd#working-group-3-infrastructure-and-databases)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG3--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg3-infrastructure-and-databases)
 -   🏦Department of Botany, Faculty of Science, Charles University, Prague, Czech Republic
 -   📬email: ondrej.mottl(at)gmail.com
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--9796--5081-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-9796-5081)
@@ -147,4 +147,4 @@ writeLines(
 
 ### Dr Celia Martin Puertas
 
--   [![](https://img.shields.io/badge/Leadership-WG4--Co--Leader-silver)](/About/working_groups.qmd#working-group-4-outreach-and-education)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG4--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg4-outreach-and-education)
