@@ -14,7 +14,7 @@ This Action aims to meet the challenge of bringing much of these data into the p
 
 Scientific workshops in different parts of Europe will provide formats to interact with local nature conservation practitioners. The research agenda will address the knowledge gaps in nature conservation as well as the need to understand continental scale interactions of ecosystem components, including lagged or threshold responses. A dedicated outreach working group will ensure that the new knowledge is also accessible to the public. Moreover, the group will develop educational material for schools and universities based on the collected data.
 
-[COST - Action CA23116](https://www.cost.eu/actions/CA23116/){.btn} [Join the network](join_us.qmd){.btn}
+[COST - Action CA23116](https://www.cost.eu/actions/CA23116/){.btn} [Join the network](/join_us.qmd){.btn}
 
 ----------
 
