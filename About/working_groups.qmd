@@ -40,6 +40,30 @@ The focus of the activities is mainly shared with the Terrestrial Proxies workin
 - **Leader**: [Dr Kirsten Elger](/coregroup.qmd#dr-kirsten-elger)
 - **Co-leader**: [Dr Ondřej Mottl](/coregroup.qmd#dr-ondřej-mottl)
 
+This working group is dedicated to establishing and maintaining the technical infrastructure required to mobilize, harmonize, and integrate palaeoecological data from dispersed repositories and databases across Europe. The group aims to bridge the gap between domain-specific data collections and enable continent-wide synthesis by developing standardized workflows, metadata schemas, and interoperable database solutions that uphold OPEN and FAIR data principles.
+
+### **Objectives and key activities**
+
+The WG3 infrastructure will provide the technical backbone for all working groups, ensuring that terrestrial and aquatic proxy data can be efficiently uploaded, harmonized, and accessed for meta-analyses and integrated studies.
+
+1. **Database integration and harmonization**
+   + Identify and connect existing domain-specific repositories and databases
+   + Establish protocols for data quality control and validation
+
+2. **FAIR and OPEN data implementation**
+   + Ensure all infrastructure adheres to Findable, Accessible, Interoperable, and Reusable (FAIR) principles
+   + Facilitate open access to harmonized datasets for the scientific community
+
+3. **Training and support**
+   + Develop documentation and tutorials for data providers and users
+   + Organize training sessions on data standards, upload procedures, and database use
+   + Provide technical support for data mobilization activities across all working groups
+
+4. **Collaboration with data repositories**
+   + Engage with existing database managers and repository operators
+   + Coordinate with international data initiatives and standards organizations
+   + Foster partnerships ensuring long-term sustainability of data infrastructure
+
 ## WG4: Outreach and Education
 
 - **Leader**: [Dr Graciela Gil-Romera](/coregroup.qmd#dr-graciela-gil-romera)
