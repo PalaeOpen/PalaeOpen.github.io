@@ -83,14 +83,6 @@ writeLines(
 
 -   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-', gsub('#', '%23', colors$brown))`"/>
 
-### Prof Elisabeth Dietze <img src="https://www.uni-goettingen.de/storage/pictures/6d8dddf8e82d9ca5fa5b9401bb766439.jpg" align="right" width="120"/>
-
--   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG1--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg1-terrestrial-proxies)
--   🏦 University of Göttingen, Germany
--   📬email: edietze(at)uni-goettingen.de
--   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--4817--8441-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-4817-8441)
--   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.uni-goettingen.de/de/662289.html)
-
 ### Dr Kirsten Elger
 
 -   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG3--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg3-infrastructure-and-databases)
@@ -148,3 +140,13 @@ writeLines(
 ### Dr Celia Martin Puertas
 
 -   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG4--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg4-outreach-and-education)
+
+
+## Non active Members of the Core Group
+
+### Prof Elisabeth Dietze <img src="https://www.uni-goettingen.de/storage/pictures/6d8dddf8e82d9ca5fa5b9401bb766439.jpg" align="right" width="120"/>
+
+-   🏦 University of Göttingen, Germany
+-   📬email: edietze(at)uni-goettingen.de
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--4817--8441-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-4817-8441)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.uni-goettingen.de/de/662289.html)
