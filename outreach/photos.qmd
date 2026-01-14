@@ -1,0 +1,27 @@
+---
+title: "Photo Gallery"
+date: 2025/12/25
+date-format: long
+date-modified: last-modified
+sidebar: false
+lightbox: true
+---
+
+## OSM Prague 2025
+ 
+::: {.grid}
+
+::: {.g-col-1}
+![](/Materials/Prague_OSM/photos/PaleOpen2025Prgue_fotoJPrachDSCF7702.jpg){group="osm-prague-2025" alt="Photo by Jindra Prach"}
+:::
+
+::: {.g-col-1}
+![](/Materials/Prague_OSM/photos/PalaeOpen_OSM_excursion-PremyslBobek_01.jpeg){group="osm-prague-2025" alt="Photo by Premysl Bobek"}
+:::
+
+::: {.g-col-1}
+![](/Materials/Prague_OSM/photos/PalaeOpen_OSM_excursion-PremyslBobek_02.jpeg){group="osm-prague-2025" alt="Photo by Premysl Bobek"}
+:::
+
+
+:::
