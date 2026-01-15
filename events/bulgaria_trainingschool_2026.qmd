@@ -1,0 +1,64 @@
+---
+date: 2026/14/01
+date-format: long
+date-modified: last-modified
+sidebar: false
+---
+
+# Training School
+
+## Quantitative Numerical Analyses and Data Stewardship Training
+
+::: {.callout-red}
+## General Information
+
+📅*Date:* **15.06.2025 - 18.06.2025** (Monday to Thursday) **19.06.2025** (Friday Optional field trip)
+
+🗺️*Location*: **Sofia,Bulgaria**
+
+🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
+
+*Registration fees:* 70 EUR  
+:::
+
+Analyzing data from different proxy types is one of the central goals of the PalaeOpen Action. This training school will equip participants with the techniques needed to effectively analyse different datasets. Moreover, it will ensure participation of a large part of the community in this endeavour and will provide different analytical and training capacities using various softwares. Training will be provided in numerical techniques by Gavin Simpson, a leading scientist in analysing palaeoecological data and member of the Action. Additional training will be provided by Action members on the software Tilia with the Neotoma database.
+
+Outcome: Participants will have improved their ability to query Neotoma and use dedicated numerical analysis in R to analyse their and other datasets. The meeting will attract participants from different proxy groups and interactions will lead to a better understanding of the limitations and possibilities of the different proxy types. Ultimately, this training will enable the cross proxy analysis that this Action is aiming for.
+
+## Objectives
+
+The aims of the training school are to:
+* Equip participants with up-to-date quantitative methods to analyze complex and disparate paleoecological datasets
+* Train participants in data stewardship tools, methodologies, and best practices
+* Foster new interactions and collaborations among palaeo-communities
+
+## Model courses
+
+* Quantitative paleoecological analyses – by guest teacher Gavin Simpson (Aarhus University, Denmark)
+* Introduction to Neotoma – by Action's core group members Thomas Giesecke (Utrecht University, the Netherlands), Walter Finsinger (ISEM Montpellier, France) and Xavier Benito (IRTA, Spain)
+* Tilia sessions to train future data stewards and data formatting for different proxy types - by Walter Finsinger (ISEM Montpellier, France), Xavier Benito (IRTA, Spain) and Thomas Giesecke (Utrecht University, the Netherlands)
+
+## Important dates
+
+* 20 February 2026 Registration closes 
+* 15 March 2026 Notification of acceptance/rejection and circulation of the preliminary program
+* 1 April 2026 Deadline for payment of the registration fee; lunches and conference excursion are optional
+* 30 April 2026 Publication of the programme and field excursion details on the PalaeOpen website and distribution to participants
+* 15-19 June 2026 See you in Sofia, Bulgaria
+
+
+## Financial support
+
+Funding is available through the COST Action budget. If you are selected as a participant, the COST Action will cover your travel costs, and, depending on total available funds, provide a daily allowance that you can use to (partially) cover accommodation and meal costs. 
+
+::: {.callout-red}
+## Funding eligibility
+Please bear in mind that only registered participants to the Action are eligible for financial support. You will need to apply and become a member of the [**COST Action** **CA23116**](https://www.cost.eu/actions/CA23116/#tabs+Name:Working%20Groups%20and%20Membership) if you want to be eligible for funding. **Travel reimbursement** will be claimed afterwards through the e-COST.
+:::
+
+## Registration
+
+If you are interested to participate in the training school, complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSdQeOr0HI8iSOv0eC3qQ4-dqXBuaycPeDdD-fsDND0p5OEbkw/viewform?usp=header) by **20 February 2026**
+
+
+Please email the workshop organizers at workshop(at)sofia2026.org and/or the core group members for any questions you might have.
