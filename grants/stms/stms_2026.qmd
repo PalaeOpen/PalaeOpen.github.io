@@ -1,5 +1,5 @@
 ---
-date: 2025/11/03
+date: 2026/01/15
 date-format: long
 date-modified: last-modified
 format:
@@ -7,7 +7,7 @@ format:
     embed-resources: true
 ---
 
-# 1st Open Call for Short-Term Scientific Missions (STSMs) 2026
+# 2nd Open Call for Short-Term Scientific Missions (STSMs) 2026
    
 We are pleased to announce the first of two calls for STSM grant applications for the PalaeOpen COST Action for the year 2026.  
    
@@ -21,8 +21,8 @@ Priority will be given to proposals meeting the goals of grant period 2 "getting
 
 ::: {.callout-red}
 ### Timeline
-* **December 5th 2025**: application period ends
-* **End of December 2025**: Notification of results
+* **March 13th 2026**: application period ends
+* **April 3rd 2026**: Notification of results
 * **STSMs must end before September 15th 2026** to allow time for reporting and reimbursement.
 :::
 
@@ -69,10 +69,9 @@ For more information, please contact the Grant Awarding Coordinators: [Walter Fi
 
 1. All applicants must carefully read the funding rules of the *COST Annotated Rules*. This document is available [HERE](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf) (ANNEX 2).  
 2. All applicants must register for an e-COST profile at [https://e-services.cost.eu/](https://e-services.cost.eu/) - adding their CV and bank account details to their profile.  
-3. Applicants are strongly encouraged to contact the respective Working Group(s) leader(s) prior to submitting their application to ensure that the expected outcome of their STSM agrees wit
-4. h the objectives of this action.  
-5. All applicants must complete, submit and upload their STSM applications online within their e-COST profile at: [https://e-services.cost.eu/activity/grants](https://e-services.cost.eu/activity/grants).  
-6. All applicants must upload a set of documents through the e-COST platform. The list of supporting documents to be submitted for the evaluation are:  
+3. Applicants are strongly encouraged to contact the respective Working Group(s) leader(s) prior to submitting their application to ensure that the expected outcome of their STSM agrees with the objectives of this action.  
+4. All applicants must complete, submit and upload their STSM applications online within their e-COST profile at: [https://e-services.cost.eu/activity/grants](https://e-services.cost.eu/activity/grants).  
+5. All applicants must upload a set of documents through the e-COST platform. The list of supporting documents to be submitted for the evaluation are:  
    * The *Grant application* form (template is available when the online form for the application is saved - see point 4 above) to describe the:   
      1. Goals of the STSM  
      2. Work Plan
@@ -80,9 +79,9 @@ For more information, please contact the Grant Awarding Coordinators: [Walter Fi
      4. Contribution to the Action MoU objectives (applicants are kindly asked to clearly state which workgroup(s) their STSM will contribute to, in order to facilitate the evaluation process)  
    * *Confirmation letter by the host* on the agreement from the host institution in receiving the applicant;  
    * A *Full C.V.* (including a list of academic publications - if applicable).  
-7. The assessment of the application will be coordinated by the Grant Awarding Coordinators against the perceived contribution that the proposed research activity will make against the scientific objectives outlined in the Action's Memorandum of Understanding (MoU) of PalaeOpen.  
-8. The applicant will be formally notified of the outcome of their STSM application by the Grant Holder Manager after 10 working days after the application deadline.  
-9. Within 30 days from the end date of the STSM, the grantee must complete, upload, and submit a scientific report to the Grant Awarding Coordinators through e-COST. The report shall include:  
+6. The assessment of the application will be coordinated by the Grant Awarding Coordinators against the perceived contribution that the proposed research activity will make against the scientific objectives outlined in the Action's Memorandum of Understanding (MoU) of PalaeOpen.  
+7. The applicant will be formally notified of the outcome of their STSM application by the Grant Holder Manager after 10 working days after the application deadline.  
+8. Within 30 days from the end date of the STSM, the grantee must complete, upload, and submit a scientific report to the Grant Awarding Coordinators through e-COST. The report shall include:  
    * the completed report template describing the work developed, the main achievements of the STSM and planned future follow up activities, and  
    * an official acceptance letter / Email confirmation of acceptance from a senior Researcher affiliated to the Host institution formally accepting the scientific report.   
    * STSM grantees are also expected to share the outcome of their research stay with the PalaeOpen Action community. All grantees are therefore also required to upload a file (accepted formats include: docx, doc, pdf) including a written blogpost with a photograph taken during the research stay at the host institution or a short video talking about the experience, which will be then uploaded on the Action website. ***Please upload the blog post together with the grant report in e-COST (separate files)***
