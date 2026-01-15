@@ -43,7 +43,7 @@ To become a member of the PalaeOpen network, you can apply through the COST e-Se
 
 ::: {.column width=85%}
 
-We currently use [Zulip](https://zulip.com/) as our main communication platform within PalaeOpen. After joining the network, you please send an email to your specific (co)leader of Working Group (contact details can be found on the [Core Group](coregroup.qmd) page) to request an invitation to our Zulip workspace.
+We currently use [Zulip](https://zulip.com/) as our main communication platform within PalaeOpen. New members of the PalaeOpen network will receive an email invitation to our Zulip workspace within 1-2 weeks. Contact your specific (co)leader of Working Group (details can be found on the [Core Group](coregroup.qmd) page) for any questions regarding the workspace functioning and dynamics (e.g., joining channels, creating new ones, etc.)
 
 :::
 
