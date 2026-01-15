@@ -6,18 +6,18 @@ sidebar: false
 ---
 
 # Training School
-## Numerical Analyses and Data Stewardship Training
+## Quantitative Numerical Analyses and Data Stewardship Training
 
 ::: {.callout-red}
 ## General Information
 
-📅*Date:* **15.06.2025 - 18.06.2025** (Monday to Thursday) **19.06.2025** (Optional field)
+📅*Date:* **15.06.2025 - 18.06.2025** (Monday to Thursday) **19.06.2025** (Friday Optional field trip)
 
 🗺️*Location*: **Sofia,Bulgaria**
 
 🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
 
-*Registration fees:* 80 EUR (regular), 60 EUR for Young Research Innovators (YRI) as for COST definition those under 40 years old 
+*Registration fees:* 70 EUR  
 :::
 
 Analyzing data from different proxy types is one of the central goals of the PalaeOpen Action. This training school will equip participants with the techniques needed to effectively analyse different datasets. Moreover, it will ensure participation of a large part of the community in this endeavour and will provide different analytical and training capacities using various softwares. Training will be provided in numerical techniques by Gavin Simpson, a leading scientist in analysing palaeoecological data and member of the Action. Additional training will be provided by Action members on the software Tilia with the Neotoma database.
@@ -33,15 +33,15 @@ The aims of the training school are to:
 
 ## Model courses
 
-* Quantitative paleoecological analyses – by Gavin Simpson (Aarhus University, Denmark)
-* Introduction to Neotoma – by Thomas Giesecke (Utrecht University, the Netherlands), Walter Finsinger (ISEM Montpellier, France) and Xavier Benito (IRTA, Spain)
+* Quantitative paleoecological analyses – by guest teacher Gavin Simpson (Aarhus University, Denmark)
+* Introduction to Neotoma – by Action's core group members Thomas Giesecke (Utrecht University, the Netherlands), Walter Finsinger (ISEM Montpellier, France) and Xavier Benito (IRTA, Spain)
 * Tilia sessions to train future data stewards and data formatting for different proxy types - by Walter Finsinger (ISEM Montpellier, France), Xavier Benito (IRTA, Spain) and Thomas Giesecke (Utrecht University, the Netherlands)
 
 ## Important dates
 
 * 20 February 2026 Registration closes 
-* 10 March 2026 Notification of acceptance/rejection and circulation of the preliminary program
-* 15 March 2026 Deadline for payment of the registration fee; lunches and conference excursion are optional
+* 15 March 2026 Notification of acceptance/rejection and circulation of the preliminary program
+* 1 April 2026 Deadline for payment of the registration fee; lunches and conference excursion are optional
 * 30 April 2026 Publication of the programme and field excursion details on the PalaeOpen website and distribution to participants
 * 15-19 June 2026 See you in Sofia, Bulgaria
 
@@ -56,6 +56,8 @@ Please bear in mind that only registered participants to the Action are eligible
 :::
 
 ## Registration
-**Registration will open soon**. 
 
-Please email the workshop organizers at workshop(at)sofia2026.org for any questions you might have.
+If you are interested to participate in the training school, complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSdQeOr0HI8iSOv0eC3qQ4-dqXBuaycPeDdD-fsDND0p5OEbkw/viewform?usp=header) by **20 February 2026**
+
+
+Please email the workshop organizers at workshop(at)sofia2026.org and/or the core group members for any questions you might have.
