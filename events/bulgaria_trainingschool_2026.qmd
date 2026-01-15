@@ -6,6 +6,7 @@ sidebar: false
 ---
 
 # Training School
+
 ## Quantitative Numerical Analyses and Data Stewardship Training
 
 ::: {.callout-red}
