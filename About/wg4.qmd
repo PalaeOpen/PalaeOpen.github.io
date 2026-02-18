@@ -1,0 +1,11 @@
+---
+title: "WG4 – Science communication"
+date: 2026/01/12
+---
+
+## 1st Online PalaeOpen WG4 meeting: setting the stage for a new era of palaeoscience outreach
+
+On 12th of January 2026, Working Group 4 (WG4: Outreach, Education, and Engagement) held its first large online meeting of the year. Building on the momentum of last year’s Prague gathering, more than 30 participants from across Europe and beyond came together to refine priorities, align strategies, and co-design the Action’s outreach pathway for 2026.
+WG4 plays a central role in PalaeOpen’s mission to bridge palaeoscience with society, empowering educators, policymakers, practitioners, and the wider public with accessible, meaningful, and engaging science. This first meeting of 2026 focused on shaping a coordinated plan for the coming months, identifying tangible outputs, and organising teams around four strategic thematic axes.
+
+[Download the meeting report here](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/working_groups/wg4/wg4_post_20260112.pdf){.btn}
