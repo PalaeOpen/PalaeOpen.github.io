@@ -26,9 +26,7 @@ website:
     logo: Materials/Logos/PalaeOpen_without_text.png
     left:
       - text: About
-        menu:
-          - text: General information
-            href: About/about.qmd
+        href: About/about.qmd
 
       - href: coregroup.qmd
         text: Core Group
