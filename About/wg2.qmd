@@ -1,0 +1,23 @@
+---
+title: "WG2 - Aquatic proxies"
+date: 2026/01/19
+date-format: long
+date-modified: last-modified
+format:
+  html:
+    embed-resources: true
+---
+
+The Aquatic proxies working group aims at synthesizing palaeoecological proxy data with a strong focus on freshwater ecosystems and their biota. Freshwater habitats have undergone the largest declines in both biodiversity and habitat extent (by 85% since 1970). As aquatic biota may respond to both local (i.e., lake internal nutrient cycling) and regional climate and landscape changes, this group will mobilize datasets from a range of different organism groups (e.g., chironomids, diatoms, cladocera, ostracods, aquatic vertebrates) that are sensitive to different environmental variables (nutrients, temperature, lake-level variations, ionic content). Aquatic paleoecological proxy datasets are generally less available and/or scattered across openly available databases.
+
+- **Leader**: [Dr Stefan Engels](/coregroup.qmd#dr-stefan-engels)
+- **Co-leader**: [Dr Xavier Benito](/coregroup.qmd#dr-xavier-benito)
+
+
+### **Objectives and key activities**
+
+1. to establish harmonized taxonomies and agreed-upon systematic nomenclature enabling data uploading.
+2. to mobilise the community and to collectively and collaboratively make aquatic proxy-datasets available upholding OPEN and FAIR data-principles.
+3.  co-create scientific questions with the terrestrial proxies working group (WG1) exploring ecosystem-wide temporal dynamics, including but not limited to, aquatic-terrestrial interactions, time lagged effects following climate change, and trajectories of changes of different groups of proxies.
+
+The focus of the activities is mainly shared with the Terrestrial Proxies working group.

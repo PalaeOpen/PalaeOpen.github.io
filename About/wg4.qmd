@@ -1,11 +1,56 @@
 ---
 title: "WG4 – Science communication"
 date: 2026/01/12
+date-format: long
+date-modified: last-modified
+format:
+  html:
+    embed-resources: true
+listing:
+  - id: "reports"
+    max-description-length: 1000
+    fields: [date, title, description]
+    contents: "WG4"
+    sort: date desc 
+    type: grid
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
 ---
 
-## 1st Online PalaeOpen WG4 meeting: setting the stage for a new era of palaeoscience outreach
+This working group is dedicated to enhancing public understanding and appreciation of palaeosciences, with a specific focus on palaeoecology, by making scientific data accessible and relevant to a wide array of audiences. The group aims to bridge the gap between complex scientific findings and practical applications, fostering dialogue and collaboration among scientists, policymakers, educators, practitioners, and the broader public.
 
-On 12th of January 2026, Working Group 4 (WG4: Outreach, Education, and Engagement) held its first large online meeting of the year. Building on the momentum of last year’s Prague gathering, more than 30 participants from across Europe and beyond came together to refine priorities, align strategies, and co-design the Action’s outreach pathway for 2026.
-WG4 plays a central role in PalaeOpen’s mission to bridge palaeoscience with society, empowering educators, policymakers, practitioners, and the wider public with accessible, meaningful, and engaging science. This first meeting of 2026 focused on shaping a coordinated plan for the coming months, identifying tangible outputs, and organising teams around four strategic thematic axes.
+- **Leader**: [Dr Graciela Gil-Romera](/coregroup.qmd#dr-graciela-gil-romera)
+- **Co-leader**: [Dr Celia Martin Puerta](/coregroup.qmd#dr-celia-martin-puerta)
 
-[Download the meeting report here](https://github.com/PalaeOpen/PalaeOpen.github.io/tree/main/Materials/working_groups/wg4/wg4_post_20260112.pdf){.btn}
+### **Objectives and key activities**
+
+This working group aspires to create a culture where palaeoecology becomes an essential component of public discourse, educational curricula, and policy development, ensuring that long-term ecological perspectives inform decision-making at all levels.
+
+1. Improving accessibility and usability of data
+   + Integrate palaeoecological data with recent datasets to make them more accessible to practitioners, educators, and scientists.
+   + Develop tools for data visualisation tailored to varying levels of expertise and use, from researchers to educators and conservation practitioners.
+
+2. Education and outreach
+   + Design educational resources and exercises to engage diverse audiences.
+   + Curate and disseminate outreach activities across COST communities, ensuring multi-language accessibility to maximise reach and impact.
+
+3. Facilitating science-policy interfaces
+   + Train members in effective science communication to improve the translation of palaeoecological findings into actionable policies.
+   + Produce outputs such as policy briefings and white papers that use clear language, infographics, and case studies to highlight the role of palaeoecology in addressing climate and biodiversity crises.
+   + Organise workshops involving scientists, policymakers, and practitioners to co-design research agendas and promote evidence-based policymaking.
+
+4. Strengthening networks and collaboration
+   + Engage key stakeholder groups, including data repository managers, scientific modellers, and practitioners in conservation and restoration.
+   + Leverage existing networks to involve local and regional authorities in discussions and extend outreach to European-level organisations like the European Environment Agency.
+
+5. Public engagement and awareness
+   + Launch a website linked to social media platforms to showcase palaeoecological knowledge and activities, reaching diverse audiences.
+   + Create educational content that underscores the relevance of long-term ecological data in addressing global environmental challenges, fostering public appreciation of biodiversity and climate change issues.
+
+## reports
+
+::: {#reports}
+:::
+
+

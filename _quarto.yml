@@ -25,7 +25,6 @@ website:
     search: true
     logo: Materials/Logos/PalaeOpen_without_text.png
     left:
-
       - text: About
         menu:
           - text: General information
@@ -36,16 +35,14 @@ website:
 
       - text: Working groups
         menu:
-         - text: Overview
-           href: About/working_groups.qmd
-         - text: WG1 - Terrestrial proxies
-           href: About/wg1.qmd
-         - text: WG2 - Aquatic proxies
-           href: About/wg2.qmd
-         - text: WG3 - Infrastructure and Databases
-           href: About/wg3.qmd
-         - text: WG4 – Science communication
-           href: About/wg4.qmd
+          - text: WG1 - Terrestrial proxies
+            href: About/wg1.qmd
+          - text: WG2 - Aquatic proxies
+            href: About/wg2.qmd
+          - text: WG3 - Infrastructure and Databases
+            href: About/wg3.qmd
+          - text: WG4 - Science communication
+            href: About/wg4.qmd
 
       - text: Events
         menu:
