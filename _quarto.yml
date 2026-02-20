@@ -7,11 +7,11 @@ website:
 
   page-navigation: true
   back-to-top-navigation: true
-  
+
   page-footer:
     left: "&copy; Copyright 2025, PalaeOpen"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/) by Ondřej Mottl."
-  
+
   site-url: https://palaeopen.github.io/
   repo-url: https://github.com/PalaeOpen/PalaeOpen.github.io/
   issue-url: https://github.com/PalaeOpen/PalaeOpen.github.io/issues
@@ -19,22 +19,28 @@ website:
 
   image: Materials/Logos/PalaeOpen_without_text.png
   favicon: Materials/Logos/PalaeOpen_without_text.png
-  
+
   navbar:
     title: PalaeOpen
     search: true
     logo: Materials/Logos/PalaeOpen_without_text.png
     left:
-
       - text: About
-        menu:
-          - text: General information
-            href: About/about.qmd
-          - text: Working groups
-            href: About/working_groups.qmd
+        href: About/about.qmd
 
       - href: coregroup.qmd
         text: Core Group
+
+      - text: Working groups
+        menu:
+          - text: WG1 - Terrestrial proxies
+            href: About/wg1.qmd
+          - text: WG2 - Aquatic proxies
+            href: About/wg2.qmd
+          - text: WG3 - Infrastructure and Databases
+            href: About/wg3.qmd
+          - text: WG4 - Science communication
+            href: About/wg4.qmd
 
       - text: Events
         menu:

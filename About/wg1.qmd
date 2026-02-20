@@ -1,0 +1,25 @@
+---
+title: "WG1 - Terrestrial proxies"
+date: 2026/01/19
+date-format: long
+date-modified: last-modified
+format:
+  html:
+    embed-resources: true
+---
+
+This working group is dedicated to paleoecological proxy data that enables the characterization of terrestrial ecosystem dynamics in the past. The group aims to contribute to unlocking so far less available terrestrial paleoecological and paleoenvironmental datasets, harmonizing and integrating with the existing data from European Quaternary palaeoecological and palaeoenvironmental reconstructions. We will contribute to developing a new research agenda that will make use of multiproxy multi-site analyses and focus on the response of ecosystems to climate and land-use change, for example, on interactions between vegetation, herbivores, and fire regimes in response to environmental change.
+In contrast to aquatic proxy data, terrestrial (upland) ecosystem components have no clear boundaries and data from different sites may be spatially interpolated or averaged. WG1 will focus on terrestrial proxy data such as those deriving from pollen and NPP (e.g., fungi), charcoal, plant macrofossils, sedaDNA, vertebrates, insects, molluscs, phytoliths and biomarkers. 
+
+- **Leader**: [Dr. Petr Kuneš](/coregroup.qmd#dr-petr-kuneš) 
+- **Co-leader**: [Dr. Anneli Poska](/coregroup.qmd#anneli-poska)
+
+### **Objectives and key activities**
+
+Specific tasks include data mobilisation, data upload / or making the data available in an open-access database or repository, taxonomic harmonisation, identifying and engaging in collaborative cross-datatype research. We plan to facilitate these tasks by:
+
+1. Biannual meetings to discuss progress, plan the next steps in data upload and research collaborations. 
+2. Joint upload sessions ("uploadthons") can be scheduled on demand. 
+3. Taxa harmonisation workshops will be held mainly during the second and third year of the Action. 
+4. Winter schools will be organised to train scientists mainly (YRIs) in building workflows using R or PYTHON scripts. 
+5. Short-term scientific missions (STSMs) will be mainly used during the second half of the Action to work on interdisciplinary data analysis. Check out Call for STSMs (tba).
