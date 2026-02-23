@@ -59,6 +59,8 @@ website:
             href: grants/stms/stms_blog_posts.qmd
           - text: Meeting reports
             href: outreach/meetings/meeting_reports.qmd
+          - text: Photo Gallery
+            href: outreach/photos.qmd
 
       - text: Grants
         menu:
