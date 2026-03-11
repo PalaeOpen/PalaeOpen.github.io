@@ -64,14 +64,13 @@ writeLines(
 ## Leadership & Staff (Alphabetical order)
 
 ### Dr Xavier Benito <img src="Materials//Faces/XBenito_crop.JPG" align="right" width="120"/>
-
--   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg2-aquatic-proxies)
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg2-aquatic-proxies)
 -   🏦Institute of Agrifood Research and Technology (IRTA), Spain
 -   📬email: xavier.benito(at)irta.cat
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--0792--2625-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-0792-2625)
 -   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://xbenitogranell.github.io)
 
-### Prof Richard Bradshaw <img src="Materials//Faces/RB.png" align="right" width="120"/>
+### Prof Richard Bradshaw <img src="Materials//Faces/.png" align="right" width="120"/>
 
 -   <img src="`r paste0('https://img.shields.io/badge/Leadership-Senior--Advisor-', gsub('#', '%23', colors$brown))`"/>
 -   🏦 University of Liverpool, UK
@@ -79,9 +78,15 @@ writeLines(
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--7331--2246-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-7331-2246)
 -   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.liverpool.ac.uk/environmental-sciences/staff/richard-bradshaw/)
 
-### Dr Sandra Olivia Camara-Brugger
+### Dr Sandra Olivia Camara-Brugger <img src="Materials//Faces/Sandra_Brugger.png" align="right" width="120"/>
 
--   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-', gsub('#', '%23', colors$brown))`"/>
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator-', gsub('#', '%23', colors$brown))`"/>
+-   🏦 University of Basel, Environmental Sciences
+-   📬email: Sandra.bruegger(at)unibas.ch
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--8297--0574-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-4188-2276)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://universe.unibas.ch/people/21725/47862/overview)
+
+
 
 ### Dr Kirsten Elger
 
@@ -89,17 +94,16 @@ writeLines(
 
 ### Dr Stefan Engels  <img src="https://dist.bbk.ac.uk/staff-profiles/images/9150710.lrg.Nzt4K618Yn.jpeg" align="right" width="120"/>
 
--   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg2-aquatic-proxies)
--   🏦Birkbeck University of London, UK
--   📬email: sengels(at)bbk.ac.uk
+-   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG2--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg2-aquatic-proxies)
+-   🏦 Royal Holloway University of London, UK
+-   📬email: Stefan.Engels(at)rhul.ac.uk
 -   [![orcid](https://img.shields.io/badge/orcid-0000--0002--2078--0361-brightgreen.svg)](https://orcid.org/0000-0002-2078-0361)
--   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://www.bbk.ac.uk/our-staff/profile/9150710/stefan-engels)
+-   [![personal website](https://img.shields.io/badge/🔗-personal--website-93C54B.svg)](https://pure.royalholloway.ac.uk/en/persons/stefan-engels/)
 
 <br>
 
 ### Dr Walter Finsinger <img src="https://isem-evolution.fr/wp-content/uploads/elementor/thumbs/Finsinger_Walter_ID2-p2ev2hh6rro0hdtoj8fvkr4kz8gbkfjqsn1btr2fa0.jpg" align="right" width="120"/>
-
--   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator-', gsub('#', '%23', colors$brown))`"/>
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-Grant--Awarding--Coordinator--Co--Leader-', gsub('#', '%23', colors$brown))`"/>
 -   🏦 Institut des Sciences de l'Evolution de Montpellier (ISEM), CNRS, France
 -   📬email: walter.finsinger(at)umontpellier.fr
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0002--8297--0574-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0002-8297-0574)
