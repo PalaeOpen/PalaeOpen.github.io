@@ -1,0 +1,54 @@
+---
+title: "Events"
+date: 2025/01/29
+date-format: long
+date-modified: last-modified
+sidebar: false
+format:
+  html:
+    embed-resources: true
+listing:
+  - id: "future"
+    max-description-length: 1000
+    fields: [event-date, title, description]
+    contents:
+      - "2026/basel_workshop_2026.qmd"
+      - "2026/bulgaria_trainingschool_2026.qmd"
+      - "2026/zaragoza_paleofire_2026.qmd"
+    sort: "event-date asc"
+    type: grid
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
+    categories: false
+    filter-ui: false
+    
+  - id: "past"
+    max-description-length: 1000
+    fields: [event-date, title, description]
+    contents:
+      - "2025/macedonia_wg2_2025.qmd"
+      - "2025/prague_2025.qmd"
+    sort: "event-date desc"
+    type: grid
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
+    categories: false
+    filter-ui: false
+---
+
+# Upcoming Events
+
+These are our scheduled future events. Join us to collaborate, learn, and contribute to open paleoecological data!
+
+::: {#future}
+:::
+
+# Past Events
+
+Explore our previous workshops, training schools, and meetings.
+
+::: {#past}
+:::
+

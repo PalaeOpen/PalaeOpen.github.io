@@ -2,7 +2,12 @@
 date: 2026/12/03
 date-format: long
 date-modified: last-modified
-sidebar: false
+event-date: 2026/05/20
+event-end-date: 2026/05/21
+description: Workshop to archive and amalgamate chironomid surface sediment datasets
+  for public data repositories.
+sidebar: no
+categories: Future
 ---
 
 ## Archiving and amalgamating chironomid surface sediment datasets
@@ -36,4 +41,5 @@ We encourage applications from early-career researchers and experienced contribu
 If you would like to attend the workshop, please fill in the online **before March 15th 2026** form that you can find [here](https://forms.office.com/pages/responsepage.aspx?id=mmn9LiIZaU62ARCACNKKLkwT_AgBOLtAoSg4uMdRbf1UOEw0Q0ZaQkFJRjJaUFZHVFpENkdNMDgwVC4u&route=shorturl) We expect to notify accepted participants by **March 30th**
 
 ## Contact
+
 If you have any questions regarding the workshop, please contact Oliver Heiri (oliver.heiri(at)unibas.ch) and Stefan Engels (stefan.engels(at)rhul.ac.uk)

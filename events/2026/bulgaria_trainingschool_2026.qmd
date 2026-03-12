@@ -1,8 +1,13 @@
 ---
-date: 2026/14/01
+date: 2026/01/14
 date-format: long
 date-modified: last-modified
-sidebar: false
+event-date: 2026/06/15
+event-end-date: 2026/06/18
+description: Training school on quantitative numerical analyses and data stewardship
+  for paleoecological datasets.
+sidebar: no
+categories: Future
 ---
 
 # Training School

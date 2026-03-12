@@ -2,7 +2,12 @@
 date: 2025/03/07
 date-format: long
 date-modified: last-modified
-sidebar: false
+event-date: 2025/05/19
+event-end-date: 2025/05/21
+description: Working Group 2 workshop on aquatic paleoecological proxy data sharing,
+  focusing on chironomids and diatoms.
+sidebar: no
+categories: Past
 ---
 
 # Working Group 2 Aquatic proxies workshop 
