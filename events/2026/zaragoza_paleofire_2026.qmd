@@ -1,0 +1,70 @@
+---
+date: 2027/12/03
+date-format: long
+date-modified: last-modified
+event-date: 2026/04/27
+event-end-date: 2026/04/29
+description: Three-day workshop connecting long-term palaeofire science with stakeholders,
+  land managers, and policy actors.
+sidebar: no
+categories: Future
+---
+
+# Paleofire workshop
+
+## Connecting long-term palaeofire science with stakeholders, land managers, and policy actors
+
+::: {.callout-red}
+## General Information
+
+📅*Date:* **27.04.2026 - 29.04.2026** 
+
+🗺️*Location*: **Zaragoza,Spain** *Spanish National research Council in Aragon, Plaza Emilio Alfaro 2, Zaragoza, Spain*
+
+🚗*Travel funds:* Limited funding for travel and accommodation costs is available for **COST Action members**.
+ 
+:::
+
+We invite you to a three‑day PalaeOpen workshop in Zaragoza dedicated to connecting long‑term palaeofire science with stakeholders, land managers, and policy actors. This meeting will emphasise co-production, shared understanding of fire risk under global change, and advancing open palaeoecological data resources relevant to fire management across Europe.
+
+Aligning with the goals of PalaeOpen, this workshop aims to translate palaeofire knowledge into decision‑ready formats and build sustained dialogue between researchers and practitioners involved in fire mitigation, landscape management, and policy development.
+
+## Objectives
+
+* Facilitate science transfer: Distill key palaeofire insights into usable outputs (baselines, thresholds, maps).
+* Advance open data efforts: Coordinate contributions to shared palaeofire repositories (charcoal, pollen, fire scars, etc.) following FAIR principles and to make them useful for stakeholders.
+* Co‑produce tools: Work jointly on practitioner‑driven questions, identifying actionable pathways for fire prevention, preparedness, mitigation, and adaptive landscape design.
+* Strengthen networks: Expand the European community working at the science–policy–practice interface of wildfire risk.
+* Produce translational documents: Draft a shared policy briefing and practical toolkit linking palaeofire science with decision‑making contexts.
+
+
+## Program overview
+
+* Day 1 — Science transfer & shared baselines (09:30–17:30)
+* Day 2 — Co‑production & pilot toolkits (09:30–17:30)
+* Day 3 — Field excursion (07:45–17:30)
+
+
+## Applications
+
+Financial support is available for COST PalaeOpen members to cover travel and/or daily allowances (food, accommodation, incidentals). Colleagues with experience in palaeofire evidence and policy making, early‑career and colleagues from ITC countries are particularly encouraged to apply and will be prioritized.
+Participation is limited to 30 people due to the co‑production format. Selection will target a diversity of experiences and perspectives among participants.
+Funding is available through the COST Action budget. If you are selected as a participant, the COST Action will cover your travel costs, and, depending on total available funds, provide a daily allowance that you can use to (partially) cover accommodation and meal costs. 
+
+## Registration
+
+If you would like to attend the workshop, please fill in the online form **before March 15th 2026** that you can find [here](https://forms.office.com/pages/responsepage.aspx?id=mmn9LiIZaU62ARCACNKKLkwT_AgBOLtAoSg4uMdRbf1UOEw0Q0ZaQkFJRjJaUFZHVFpENkdNMDgwVC4u&route=shorturl) We expect to notify accepted participants by **March 30th**
+
+## Contact
+
+Graciela Gil‑Romera - graciela.gil(at)ipe.csic.es
+
+Elisabeth Dietze - edietz(at)uni-goettingen.de
+
+Ramesh Glückler - ramesh.glueckle(at)awi.de
+
+Berangère Leys - berangere.ley(at)cnrs.fr
+
+Richard Bradshaw - rhwb(at)liverpool.ac.uk 
+
+Premysl Bobek - remysl.Bobek(at)ibot.cas.cz

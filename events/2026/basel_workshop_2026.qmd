@@ -1,0 +1,45 @@
+---
+date: 2026/12/03
+date-format: long
+date-modified: last-modified
+event-date: 2026/05/20
+event-end-date: 2026/05/21
+description: Workshop to archive and amalgamate chironomid surface sediment datasets
+  for public data repositories.
+sidebar: no
+categories: Future
+---
+
+## Archiving and amalgamating chironomid surface sediment datasets
+
+::: {.callout-red}
+## General Information
+
+📅*Date:* **20.05.2026 - 21.05.2026** (with travel back possible on the 21st)
+
+🗺️*Location*: **Basel, Switzerland**
+
+🚗*Travel funds:* Financial support will be available for **COST members** through the Action budget to cover either long-distance travel expenses, or food, accommodation, and other incidental expenses, or both types of expenses. Food and accommodation expenses will be reimbursed through a Daily Allowance
+:::
+
+## Rationale
+
+Lake surface sediment datasets play an important role in describing the distribution of chironomid morphotypes across different environmental gradients and constraining the ecology of individual chironomid taxa. They have also been widely used to develop numerical models that attempt to quantify the relationship between chironomid assemblage composition and environmental variables, forming the basis for quantitative environmental reconstructions based on fossil chironomid records. Very few of these surface sediment datasets are publicly available and archived.
+
+For this workshop we aim to gather a small team of 6-8 participants to plan, initiate and coordinate the work of assembling available chironomid surface sediment datasets, describing them taxonomically and archiving them in public data repositories. Expected outputs of the workshop are to plan assembling available surface sediment datasets, preparing them for online archiving, and working towards a first data product making these compiled data available to the wider research community.
+
+Participants are expected to continue to contribute to this effort after the workshop, to remain involved in gathering, processing and archiving the respective data and to participate and contribute to future online meetings necessary to complete these tasks.
+
+## Applications
+
+Financial support will be available for COST members through the Action budget to cover either long-distance travel expenses, or food, accommodation, and other incidental expenses, or both types of expenses. Food and accommodation expenses will be reimbursed through a Daily Allowance.
+
+We encourage applications from early-career researchers and experienced contributors alike, particularly those interested in the future development and governance of shared paleoecological data resources. Participation is limited to ca. 8 participants.
+
+## Registration
+
+If you would like to attend the workshop, please fill in the online **before March 15th 2026** form that you can find [here](https://forms.office.com/pages/responsepage.aspx?id=mmn9LiIZaU62ARCACNKKLkwT_AgBOLtAoSg4uMdRbf1UOEw0Q0ZaQkFJRjJaUFZHVFpENkdNMDgwVC4u&route=shorturl) We expect to notify accepted participants by **March 30th**
+
+## Contact
+
+If you have any questions regarding the workshop, please contact Oliver Heiri (oliver.heiri(at)unibas.ch) and Stefan Engels (stefan.engels(at)rhul.ac.uk)
