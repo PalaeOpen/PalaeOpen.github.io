@@ -58,7 +58,7 @@ website:
       - text: Grants
         menu:
           - text: Open Call for STSM Grants
-            href: grants/stms/stms_2026.qmd
+            href: grants/stms/stms_2026_3ndcall.qmd
 
       - text: Join Us
         href: join_us.qmd
