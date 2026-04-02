@@ -1,0 +1,77 @@
+name: "Update existing content"
+description: "Request edits to an existing page"
+title: "[Update content]: "
+labels:
+  - "🛠️ type:update-content"
+  - "❓ status:needs-info"
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL to update
+      placeholder: https://palaeopen.github.io/...
+    validations:
+      required: true
+  - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: For example, outreach/press_release_2025.qmd
+      placeholder: path/to/file.qmd
+    validations:
+      required: false
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Type of update
+      options:
+        - Text correction
+        - Add a section
+        - Remove a section
+        - Replace links
+        - Update dates
+        - Update contacts
+        - Structural redesign
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: change-request
+    attributes:
+      label: Exact change request
+      description: Use "replace X with Y" style whenever possible.
+      placeholder: |
+        Current:
+        New:
+        Location in page:
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this change is needed
+      placeholder: Reason, background, and urgency.
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      placeholder: YYYY-MM-DD or none
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact for review
+      placeholder: "@username, name@example.org"
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I provided enough detail for implementation without guessing.
+          required: true

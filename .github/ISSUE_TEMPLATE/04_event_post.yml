@@ -1,0 +1,85 @@
+name: "Event page or event update"
+description: "Create or update event announcements, workshops, schools, and meetings"
+title: "[Event]: "
+labels:
+  - "📅 area:events"
+  - "✍️ type:new-content"
+  - "❓ status:needs-info"
+body:
+  - type: dropdown
+    id: request-kind
+    attributes:
+      label: Event request type
+      options:
+        - New event page
+        - Update existing event page
+        - Cancel/postpone event notice
+    validations:
+      required: true
+  - type: input
+    id: event-name
+    attributes:
+      label: Event name
+      placeholder: Basel Workshop 2026
+    validations:
+      required: true
+  - type: input
+    id: event-dates
+    attributes:
+      label: Event date(s)
+      placeholder: 2026-05-10 to 2026-05-12
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      placeholder: City, Country or Online
+    validations:
+      required: true
+  - type: input
+    id: target-path
+    attributes:
+      label: Proposed file path
+      placeholder: events/2026/event_name_2026.qmd
+    validations:
+      required: true
+  - type: textarea
+    id: body-text
+    attributes:
+      label: Full event text
+      description: Include registration details, deadlines, and agenda links.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: cta
+    attributes:
+      label: Calls to action
+      description: Registration links, application links, contact links.
+      placeholder: |
+        - Register: https://...
+        - More info: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: visuals
+    attributes:
+      label: Event visuals
+      description: Poster/logo/image files with source URLs.
+    validations:
+      required: false
+  - type: input
+    id: publication-deadline
+    attributes:
+      label: Publication deadline
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Event contact
+      placeholder: "@username, name@example.org"
+    validations:
+      required: true
