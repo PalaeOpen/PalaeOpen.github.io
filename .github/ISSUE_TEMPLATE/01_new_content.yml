@@ -35,7 +35,7 @@ body:
       description: If unknown, write unknown.
       value: unknown
     validations:
-      required: true
+      required: false
   - type: input
     id: target-path
     attributes:

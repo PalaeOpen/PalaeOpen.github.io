@@ -3,6 +3,3 @@ contact_links:
   - name: General discussion (Zulip)
     url: https://palaeopen.zulipchat.com/
     about: Use Zulip for discussion and brainstorming, then open an issue for actionable website work.
-  - name: Repository README
-    url: https://github.com/PalaeOpen/PalaeOpen.github.io/blob/main/README.md
-    about: Check repository context and contribution notes.
