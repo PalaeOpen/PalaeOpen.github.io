@@ -1,9 +1,12 @@
-name: "Archive or remove content"
+﻿name: "Archive or remove content"
 description: "Request archiving, unlisting, or removal of existing content"
 title: "[Archive/Remove]: "
 labels:
   - "🗃️ type:archive-remove"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: input
     id: target-url
@@ -12,6 +15,14 @@ body:
       placeholder: https://palaeopen.github.io/...
     validations:
       required: true
+  - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: false
   - type: dropdown
     id: action
     attributes:
@@ -35,13 +46,10 @@ body:
     attributes:
       label: Reason for archive/removal
       render: markdown
-    validations:
-      required: true
-  - type: input
-    id: effective-date
-    attributes:
-      label: Effective date
-      placeholder: YYYY-MM-DD
+      value: |
+        Explain why this content should be archived or removed.
+
+        Include decision context or governance reference.
     validations:
       required: true
   - type: input

@@ -1,10 +1,13 @@
-name: "Event page or event update"
+﻿name: "Event page or event update"
 description: "Create or update event announcements, workshops, schools, and meetings"
 title: "[Event]: "
 labels:
   - "📅 area:events"
   - "✍️ type:new-content"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: dropdown
     id: request-kind
@@ -13,9 +16,17 @@ body:
       options:
         - New event page
         - Update existing event page
-        - Cancel/postpone event notice
+        - Cancel or postpone event notice
     validations:
       required: true
+  - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: false
   - type: input
     id: event-name
     attributes:
@@ -50,16 +61,29 @@ body:
       label: Full event text
       description: Include registration details, deadlines, and agenda links.
       render: markdown
+      value: |
+        ## Event overview
+
+        Add event summary.
+
+        ## Program or agenda
+
+        - Item 1
+        - Item 2
+
+        ## Registration details
+
+        Add registration and eligibility details.
     validations:
       required: true
   - type: textarea
     id: cta
     attributes:
       label: Calls to action
-      description: Registration links, application links, contact links.
-      placeholder: |
+      value: |
         - Register: https://...
         - More info: https://...
+        - Contact: name@example.org
     validations:
       required: true
   - type: textarea
@@ -67,19 +91,9 @@ body:
     attributes:
       label: Event visuals
       description: Poster/logo/image files with source URLs.
+      value: |
+        - Poster: filename or URL
+        - Logo: filename or URL
+        - Hero image: filename or URL
     validations:
       required: false
-  - type: input
-    id: publication-deadline
-    attributes:
-      label: Publication deadline
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true
-  - type: input
-    id: contact
-    attributes:
-      label: Event contact
-      placeholder: "@username, name@example.org"
-    validations:
-      required: true

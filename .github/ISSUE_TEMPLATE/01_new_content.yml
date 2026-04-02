@@ -1,9 +1,12 @@
-name: "New content request"
+﻿name: "New content request"
 description: "Request a brand-new page, post, report, call, or section"
 title: "[New content]: "
 labels:
   - "✍️ type:new-content"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: markdown
     attributes:
@@ -26,13 +29,21 @@ body:
     validations:
       required: true
   - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: true
+  - type: input
     id: target-path
     attributes:
       label: Preferred page path or filename
-      description: Provide a suggested path (for example, events/2026/new_event_2026.qmd)
+      description: "Provide a suggested path (for example: events/2026/new_event_2026.qmd)"
       placeholder: section/subsection/filename.qmd
     validations:
-      required: true
+      required: false
   - type: input
     id: public-title
     attributes:
@@ -45,24 +56,37 @@ body:
     id: summary
     attributes:
       label: One-paragraph summary
-      description: This is used for teaser text and page intros.
-      placeholder: Provide a concise summary suitable for website visitors.
+      description: Used for teaser text and page intro.
+      value: |
+        Provide a concise summary suitable for website visitors.
     validations:
       required: true
   - type: textarea
     id: full-content
     attributes:
       label: Full content draft (Markdown preferred)
-      description: Paste the full text. Use headings, lists, links, and callouts as needed.
+      description: Paste full text with headings, lists, and links.
       render: markdown
+      value: |
+        ## Overview
+
+        Add the full draft content here.
+
+        ## Details
+
+        - Point 1
+        - Point 2
+
+        ## Links
+
+        - https://example.org
     validations:
       required: true
   - type: textarea
     id: links
     attributes:
       label: Source links and references
-      description: Add official source URLs, docs, or previous announcements.
-      placeholder: |
+      value: |
         - https://...
         - https://...
     validations:
@@ -71,28 +95,12 @@ body:
     id: assets
     attributes:
       label: Media assets to include
-      description: List file names or links to logos, images, PDFs, etc.
-      placeholder: |
+      description: List file names or links to logos, images, PDFs.
+      value: |
         - Hero image: filename or URL
         - Flyer PDF: filename or URL
     validations:
       required: false
-  - type: input
-    id: deadline
-    attributes:
-      label: Publishing deadline
-      description: Use YYYY-MM-DD, or write "none"
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true
-  - type: input
-    id: contact
-    attributes:
-      label: Requester contact
-      description: GitHub handle and/or email for clarification
-      placeholder: "@username, name@example.org"
-    validations:
-      required: true
   - type: checkboxes
     id: rights-check
     attributes:

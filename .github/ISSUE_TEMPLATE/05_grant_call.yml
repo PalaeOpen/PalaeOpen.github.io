@@ -1,10 +1,13 @@
-name: "Grant / STSM call content"
+﻿name: "Grant or STSM call content"
 description: "Create or update grant call pages and related announcements"
 title: "[Grant call]: "
 labels:
   - "💶 area:grants"
   - "✍️ type:new-content"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: dropdown
     id: request-kind
@@ -13,13 +16,21 @@ body:
       options:
         - New call page
         - Update existing call page
-        - Blog/report from funded activity
+        - Blog or report from funded activity
     validations:
       required: true
   - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: false
+  - type: input
     id: cycle
     attributes:
-      label: Call cycle / year
+      label: Call cycle or year
       placeholder: STSM 2026 - 3rd call
     validations:
       required: true
@@ -35,18 +46,26 @@ body:
     attributes:
       label: Eligibility and scope
       render: markdown
+      value: |
+        ## Eligibility
+
+        Describe who can apply.
+
+        ## Scope
+
+        Describe which activities are supported.
     validations:
       required: true
   - type: textarea
     id: deadlines
     attributes:
       label: Key dates
-      placeholder: |
+      render: markdown
+      value: |
         - Opens:
         - Submission deadline:
         - Decision date:
         - Activity window:
-      render: markdown
     validations:
       required: true
   - type: textarea
@@ -54,21 +73,22 @@ body:
     attributes:
       label: Application process and links
       render: markdown
+      value: |
+        1. Step one
+        2. Step two
+
+        Links:
+        - https://...
     validations:
       required: true
   - type: textarea
     id: contact-points
     attributes:
       label: Contact points
-      placeholder: Name, role, email
       render: markdown
-    validations:
-      required: true
-  - type: input
-    id: publication-deadline
-    attributes:
-      label: Publication deadline
-      placeholder: YYYY-MM-DD
+      value: |
+        - Name, role, email
+        - Name, role, email
     validations:
       required: true
   - type: checkboxes

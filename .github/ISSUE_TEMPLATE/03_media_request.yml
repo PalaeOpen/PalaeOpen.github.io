@@ -1,9 +1,12 @@
-name: "Media and asset request"
+﻿name: "Media and asset request"
 description: "Add or update images, logos, PDFs, posters, or downloadable files"
 title: "[Media]: "
 labels:
   - "🖼️ type:media"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: dropdown
     id: area
@@ -21,6 +24,14 @@ body:
     validations:
       required: true
   - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: false
+  - type: input
     id: target-page
     attributes:
       label: Target page URL
@@ -32,24 +43,23 @@ body:
     attributes:
       label: Asset list
       description: For each asset, include filename, source URL, and intended placement.
-      placeholder: |
-        - Asset: logo.png
-          Source: https://...
-          Placement: top right of page
-        - Asset: flyer.pdf
-          Source: https://...
-          Placement: downloads section
       render: markdown
+      value: |
+        - Asset:
+          Source:
+          Placement:
+        - Asset:
+          Source:
+          Placement:
     validations:
       required: true
   - type: textarea
     id: alt-text
     attributes:
-      label: Alt text / captions
-      description: Provide accessibility text for each visual asset.
-      placeholder: |
-        - logo.png: "PalaeOpen logo with ..."
-        - group-photo.jpg: "Participants at ..."
+      label: Alt text and captions
+      value: |
+        - filename.ext: "Accessible alt text or caption"
+        - filename.ext: "Accessible alt text or caption"
     validations:
       required: true
   - type: dropdown
@@ -60,13 +70,6 @@ body:
         - Add new asset
         - Replace existing asset
         - Remove existing asset
-    validations:
-      required: true
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline
-      placeholder: YYYY-MM-DD or none
     validations:
       required: true
   - type: checkboxes

@@ -1,9 +1,12 @@
-name: "Website bug report"
+﻿name: "Website bug report"
 description: "Report broken pages, links, rendering, or functional issues"
 title: "[Bug]: "
 labels:
   - "🐞 type:bug"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: dropdown
     id: bug-area
@@ -27,25 +30,35 @@ body:
       placeholder: https://palaeopen.github.io/...
     validations:
       required: true
+  - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: true
   - type: textarea
     id: current-behavior
     attributes:
       label: Current behavior
-      description: What happens now?
+      value: |
+        Describe exactly what happens now.
     validations:
       required: true
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
-      description: What should happen?
+      value: |
+        Describe what should happen.
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
       label: Steps to reproduce
-      placeholder: |
+      value: |
         1. Open ...
         2. Click ...
         3. Observe ...
@@ -64,5 +77,7 @@ body:
       label: Screenshots or console errors
       description: Paste screenshots, logs, or error output.
       render: shell
+      value: |
+        Paste any browser console errors or logs here.
     validations:
       required: false

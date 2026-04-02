@@ -1,9 +1,12 @@
-name: "Update existing content"
+﻿name: "Update existing content"
 description: "Request edits to an existing page"
 title: "[Update content]: "
 labels:
   - "🛠️ type:update-content"
   - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
 body:
   - type: input
     id: page-url
@@ -16,8 +19,8 @@ body:
     id: source-file
     attributes:
       label: Source file (if known)
-      description: For example, outreach/press_release_2025.qmd
-      placeholder: path/to/file.qmd
+      description: If unknown, write unknown.
+      value: unknown
     validations:
       required: false
   - type: dropdown
@@ -39,33 +42,25 @@ body:
     id: change-request
     attributes:
       label: Exact change request
-      description: Use "replace X with Y" style whenever possible.
-      placeholder: |
-        Current:
-        New:
-        Location in page:
+      description: Use replace X with Y style whenever possible.
       render: markdown
+      value: |
+        ### Current
+        Paste the exact current text/section.
+
+        ### New
+        Paste the exact replacement text/section.
+
+        ### Location in page
+        Explain where this change appears.
     validations:
       required: true
   - type: textarea
     id: rationale
     attributes:
       label: Why this change is needed
-      placeholder: Reason, background, and urgency.
-    validations:
-      required: true
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline
-      placeholder: YYYY-MM-DD or none
-    validations:
-      required: true
-  - type: input
-    id: contact
-    attributes:
-      label: Contact for review
-      placeholder: "@username, name@example.org"
+      value: |
+        Explain the reason, background, and urgency.
     validations:
       required: true
   - type: checkboxes
