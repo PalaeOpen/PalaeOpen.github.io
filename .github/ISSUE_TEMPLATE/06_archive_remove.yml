@@ -1,0 +1,54 @@
+name: "Archive or remove content"
+description: "Request archiving, unlisting, or removal of existing content"
+title: "[Archive/Remove]: "
+labels:
+  - "🗃️ type:archive-remove"
+  - "❓ status:needs-info"
+body:
+  - type: input
+    id: target-url
+    attributes:
+      label: Target page URL
+      placeholder: https://palaeopen.github.io/...
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Requested action
+      options:
+        - Archive (keep but de-emphasize)
+        - Remove from navigation only
+        - Remove page entirely
+        - Redirect to another page
+    validations:
+      required: true
+  - type: input
+    id: redirect-url
+    attributes:
+      label: Redirect URL (if applicable)
+      placeholder: https://palaeopen.github.io/...
+    validations:
+      required: false
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Reason for archive/removal
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: effective-date
+    attributes:
+      label: Effective date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: approved-by
+    attributes:
+      label: Approval reference
+      description: Who approved this action?
+      placeholder: Name, role, or meeting reference
+    validations:
+      required: true

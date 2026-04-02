@@ -1,0 +1,80 @@
+name: "Media and asset request"
+description: "Add or update images, logos, PDFs, posters, or downloadable files"
+title: "[Media]: "
+labels:
+  - "🖼️ type:media"
+  - "❓ status:needs-info"
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Website area
+      options:
+        - area:about
+        - area:core-group
+        - area:working-groups
+        - area:events
+        - area:outreach
+        - area:grants
+        - area:join-us
+        - area:site-wide
+    validations:
+      required: true
+  - type: input
+    id: target-page
+    attributes:
+      label: Target page URL
+      placeholder: https://palaeopen.github.io/...
+    validations:
+      required: true
+  - type: textarea
+    id: assets-list
+    attributes:
+      label: Asset list
+      description: For each asset, include filename, source URL, and intended placement.
+      placeholder: |
+        - Asset: logo.png
+          Source: https://...
+          Placement: top right of page
+        - Asset: flyer.pdf
+          Source: https://...
+          Placement: downloads section
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: alt-text
+    attributes:
+      label: Alt text / captions
+      description: Provide accessibility text for each visual asset.
+      placeholder: |
+        - logo.png: "PalaeOpen logo with ..."
+        - group-photo.jpg: "Participants at ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: replace-or-add
+    attributes:
+      label: Asset action
+      options:
+        - Add new asset
+        - Replace existing asset
+        - Remove existing asset
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      placeholder: YYYY-MM-DD or none
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights confirmation
+      options:
+        - label: I confirm publication rights for all submitted assets.
+          required: true
+        - label: I confirm no sensitive personal data is exposed in provided files.
+          required: true

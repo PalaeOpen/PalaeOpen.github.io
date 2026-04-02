@@ -1,0 +1,80 @@
+name: "Grant / STSM call content"
+description: "Create or update grant call pages and related announcements"
+title: "[Grant call]: "
+labels:
+  - "💶 area:grants"
+  - "✍️ type:new-content"
+  - "❓ status:needs-info"
+body:
+  - type: dropdown
+    id: request-kind
+    attributes:
+      label: Request type
+      options:
+        - New call page
+        - Update existing call page
+        - Blog/report from funded activity
+    validations:
+      required: true
+  - type: input
+    id: cycle
+    attributes:
+      label: Call cycle / year
+      placeholder: STSM 2026 - 3rd call
+    validations:
+      required: true
+  - type: input
+    id: target-path
+    attributes:
+      label: Proposed file path
+      placeholder: grants/stms/stms_2026_3rdcall.qmd
+    validations:
+      required: true
+  - type: textarea
+    id: eligibility
+    attributes:
+      label: Eligibility and scope
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: deadlines
+    attributes:
+      label: Key dates
+      placeholder: |
+        - Opens:
+        - Submission deadline:
+        - Decision date:
+        - Activity window:
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: application-process
+    attributes:
+      label: Application process and links
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: contact-points
+    attributes:
+      label: Contact points
+      placeholder: Name, role, email
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: publication-deadline
+    attributes:
+      label: Publication deadline
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm all dates and links are final and public.
+          required: true
