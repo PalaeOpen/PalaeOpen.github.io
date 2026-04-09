@@ -10,7 +10,11 @@ listing:
   - id: "reports"
     max-description-length: 1000
     fields: [date, title, description]
-    contents: "WG4"
+    contents:
+      - "WG4/*.qmd"
+      - "../outreach/meetings/individual_reports/*.qmd"
+    include:
+      categories: "WG4"
     sort: date desc 
     type: grid
     grid-columns: 3
