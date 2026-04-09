@@ -1,0 +1,55 @@
+---
+date: 2026/04/09
+date-format: long
+date-modified: last-modified
+image: "../../../Materials/blogposts/Schafstall_Umea/Schafstall_Umea_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience in Umeå {text-align="center"}
+
+::: {#heading}
+:::
+
+In March 2026, I had the opportunity to spend a Short-Term Scientific Mission (STSM) at Umeå University in Sweden as part of the PalaeOpen COST Action. The main goal of this visit was to map how Neotoma can be linked to the SEAD database—a task that turned out to be both technically challenging and deeply rewarding.
+
+:::{.callout-red text-align="left"}
+### 👨‍🔬Who?
+
+**Nick Schafstall** (Early Career Researcher)
+:::
+
+:::{.callout-red}
+### 🌍Where?
+
+Umeå University (Humlab), Sweden
+:::
+
+:::{.callout-red}
+### 📅When?
+
+2–13 March 2026
+:::
+
+SEAD is an international research database for environmental archaeology and Quaternary science and part of the Swedish National Infrastructure for Digital Archaeology (Swedigarch). It is hosted by the Environmental Archaeology Lab (MAL) and Humlab at Umeå University, Sweden. Most important for me and other palaeoentomologists, SEAD contains all the fossil insect data that were and are still entered in the original database BugsCEP. Some of the functionalities from BugsCEP are included as well, such as the visualization of ecological properties of species and their modern distributions.
+
+In the first week, I got acquainted with Humlab and met with the backend and frontend developers of SEAD. Having direct access to the SEAD database, and not just through the web interface, allowed me to properly explore the database and do some end-user testing on using the data as well as the web interface. After the first week, I was included in the GitHub group of the SEAD team to be able to report errors and suggest possible improvements to the development team. A number of improvements have been reported already, including the implementation of the Mutual Climatic Range method based on the climatic envelopes of species in fossil samples.
+
+In the second week, we focused on the mapping between SEAD and Neotoma. We managed to conceptually link most of the SEAD tables with Neotoma tables, and record where there might be issues. The mapping in a spreadsheet will soon be finalized and shared with the team of Neotoma. From there onward, we do expect more work is needed as simply linking tables likely does not support the full functionality of SEAD and Neotoma, each system having complementary functions. Having experience with both SEAD and Neotoma, perhaps I could assist in this as well.
+
+:::{#fig-1}
+
+![](/Materials/blogposts/Schafstall_Umea/Schafstall_Umea_1.jpg)
+
+Phil Buckland, Mattias Sjölander, and Nick Schafstall in the Humlab, mapping the data tables between SEAD and Neotoma. Photo credit: Phil Buckland.
+
+:::
+
+For me, this STSM was a big success. Without this funding, it would not have been possible for me to stay in Umeå for two full weeks and become more involved in the support of SEAD on behalf of the community of palaeoentomologists. I am grateful to the Humlab team and to the PalaeOpen Action for making this visit possible.
