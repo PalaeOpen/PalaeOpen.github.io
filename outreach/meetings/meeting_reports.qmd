@@ -6,7 +6,7 @@ format:
   html:
     embed-resources: true
 listing:
-  - id: "2025"
+  - id: "reports"
     max-description-length: 1000
     fields: [image, date, title, description]
     contents: "individual_reports"
@@ -23,5 +23,4 @@ Here you can find reports from meetings and workshops organised under the PalaeO
 
 ## Completed meetings
 
-::: {#2025}
-:::
+::: {#reports}

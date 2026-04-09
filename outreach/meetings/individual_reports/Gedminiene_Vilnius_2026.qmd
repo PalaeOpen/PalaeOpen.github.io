@@ -1,0 +1,112 @@
+---
+date: 2026/02/18
+date-format: long
+date-modified: last-modified
+categories: [WG4]
+image: "../../../Materials/meeting_reports/Vilnius2026/vilnius_presentation_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+---
+
+# Teacher Training Course and PalaeOpen Workshop – Vilnius, February 2026 {text-align="center"}
+
+::: {#heading}
+:::
+
+On 18–19 February 2026, a two-day teacher training course "Geology and Science Education" was held at Vilnius University, co-organised with Dr. Laura Gedminienė (Nature Research Centre, Lithuania). A dedicated workshop introduced PalaeOpen (CA23116) to secondary school teachers, covering open palaeoecological databases, hands-on microscopy of pollen and diatoms, and practical ways to integrate open scientific data into school curricula.
+
+:::{.callout-red text-align="left"}
+### 🌍 Where?
+
+Vilnius University, Lithuania
+:::
+
+:::{.callout-red}
+### 📅 When?
+
+18–19 February 2026
+:::
+
+## Overview
+
+The training course was organised by the Departments of Geology and Mineralogy, Hydrogeology and Engineering Geology, and the Vilnius University Geological Museum. As part of the seminar, a dedicated workshop was conducted introducing the PalaeOpen COST Action (CA23116)—an international initiative aiming to open and harmonise palaeoecological data across Europe and make them accessible for education, research, and public engagement.
+
+:::{#fig-1}
+
+![](/Materials/meeting_reports/Vilnius2026/vilnius_classroom.jpg)
+
+Secondary school teachers attending the PalaeOpen workshop at Vilnius University. Photo credit: Laura Gedminienė.
+
+:::
+
+## Workshop Content and Teacher Engagement
+
+During the workshop, teachers were introduced to:
+
+- Open palaeoecological databases and practical ways to access open scientific data that can be used in school education—especially for student research projects, final papers, and inquiry-based learning.
+- Platforms such as the Neotoma Paleoecology Database Explorer, demonstrating how pupils can explore long-term environmental change through real scientific datasets.
+- The broader applications of palaeoecological and geological data, including ecosystem change, climate history, landscape development, sedimentary environments, and biodiversity dynamics.
+
+We also presented the main goals and activities of the PalaeOpen project, including data unification, interdisciplinary collaboration, and the creation of educational materials for schools and universities. Teachers were invited to join as participants, observers, or co-developers of teaching resources.
+
+:::{#fig-2}
+
+![](/Materials/meeting_reports/Vilnius2026/vilnius_presentation_1.jpg)
+
+Dr. Laura Gedminienė presenting the PalaeOpen COST Action to the course participants. Photo credit: Laura Gedminienė.
+
+:::
+
+:::{#fig-3}
+
+![](/Materials/meeting_reports/Vilnius2026/vilnius_presentation_2.jpg)
+
+Presenting the three main working areas of the PalaeOpen project: data, research, and education. Photo credit: Laura Gedminienė.
+
+:::
+
+## Hands-On Activities
+
+The workshop included several practical demonstrations:
+
+- Microscopic examination of pollen and diatoms, allowing teachers to experience first-hand how palaeoenvironmental information is extracted from sediment samples.
+- Short group exercises linked to the session "Palaeobotanical Methods in Geology", delivered by Dr. G. Vaikutienė and Dr. L. Gedminienė.
+- Discussions on how these microfossils and datasets can be integrated into classroom practice and student projects.
+
+:::{#fig-4}
+
+![](/Materials/meeting_reports/Vilnius2026/vilnius_microscopy_1.jpg)
+
+Hands-on microscopy: a teacher examining pollen and diatom samples while Dr. Gedminienė provides guidance. Photo credit: Laura Gedminienė.
+
+:::
+
+:::{#fig-5}
+
+![](/Materials/meeting_reports/Vilnius2026/vilnius_microscopy_2.jpg)
+
+Teachers exploring microfossil samples under the microscope during the practical session. Photo credit: Laura Gedminienė.
+
+:::
+
+:::{#fig-6}
+
+![](/Materials/meeting_reports/Vilnius2026/vilnius_board.jpg)
+
+Group activity: teachers examining classification charts as part of the geology session. Photo credit: Laura Gedminienė.
+
+:::
+
+## Value for Teachers and Students
+
+The activities highlighted how open scientific data can support cross-disciplinary teaching (geography, biology, environmental science, history), the importance of inquiry-based learning enabling students to analyse real data and develop critical scientific skills, and opportunities for schools to collaborate with researchers and contribute to testing educational materials created within the PalaeOpen project.
+
+This workshop demonstrated the strong potential for outreach to the education community in Lithuania and beyond, and we look forward to building on these connections in the coming years.
+
+[Dr. Laura Gedminienė](mailto:laura.gedminiene@gamtc.lt), Nature Research Centre, Lithuania

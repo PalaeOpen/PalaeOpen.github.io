@@ -3,6 +3,7 @@ title: "1st Online PalaeOpen WG4 meeting"
 date: 2026/01/12
 date-format: long
 date-modified: last-modified
+categories: [WG4]
 format:
   html:
     embed-resources: true
