@@ -1,0 +1,85 @@
+---
+title: PalaeoNoma 2026 — Nomenclature & Neotoma Workshop
+date: 2026/04/27
+date-format: long
+date-modified: last-modified
+event-date: 2026/08/22
+event-end-date: 2026/08/27
+description: Two-part workshop on nomenclature (ICNafp) and the Neotoma Paleoecology
+  Database (Tilia), tailored for fossil workers. Hosted at the University of Bonn,
+  Germany.
+sidebar: no
+categories: Future
+---
+
+# PalaeoNoma 2026
+
+## Nomenclature & Neotoma Workshop — Bonn, Germany
+
+![](https://github.com/user-attachments/assets/e04fe311-6688-4966-bbbd-998bded2dc60){fig-alt="PalaeoNoma 2026 hero image" width="100%"}
+
+::: {.callout-red}
+## General Information
+
+📅 *Date:* **22.08.2026 – 27.08.2026**
+
+🗺️ *Location:* **University of Bonn, Germany**
+
+🚗 *Travel funds:* COST Action PalaeOpen supports the workshop by offering travel support to a limited number of participants (travel costs above 100 km, up to 300 €, plus a daily allowance for accommodation, local travel, and food).
+:::
+
+## Event Overview
+
+The workshop consists of two parts that can be attended separately or together.
+
+**Part I — Nomenclature (3 days, 23–25 August)**\
+We will introduce you to the basics of nomenclature using the International Code of Nomenclature for algae, fungi, and plants (ICNafp); tailored to fossil workers.
+
+**Part II — Neotoma (2 days, 26–27 August)**\
+We will introduce you to the structure of Tilia software and its embedded taxonomy for managing and graphing your own data and using it as an interface to Neotoma Paleoecology Database.
+
+## Additional Programme
+
+- **Ice-Breaker (22 Aug 2026):** Spend the golden hour on the garden terrace of Poppelsdorf Palace, overlooking the Botanical Garden, and get to know the group.
+- **Conference Dinner (25 Aug 2026):** Enjoy a lively evening just five minutes from the venue, with good food, cocktails, and an easygoing atmosphere. The dinner serves as both a farewell for Part I and a welcome for Part II, bringing everyone together to connect and exchange, generously hosted by the Collegium Palynologicum Scandinavicum (CPS).
+- **Conference Dinner (27 Aug 2026):** For those staying until the very end, we will gather at leisure at the Botanical Garden's Restaurant (Nees), to enjoy a final sunset view together.
+- **Activities:** Not finalised yet — stay tuned for some guided tours around the Botanical Gardens with our curator.
+
+## Registration Details
+
+**Early Bird Registration** — open until 30.05.2026
+
+| | Bachelor/Master Student | Researcher |
+|---|---|---|
+| Part I | 15 € | 60 € |
+| Part II | 10 € | 40 € |
+| Part I & II | 20 € | 80 € |
+
+**Regular Registration** — 01.06.2026 – 09.08.2026
+
+| | Bachelor/Master Student | Researcher |
+|---|---|---|
+| Part I | 20 € | 70 € |
+| Part II | 15 € | 50 € |
+| Part I & II | 25 € | 100 € |
+
+## Travel Support
+
+COST Action PalaeOpen supports the workshop by offering travel support to a limited number of participants. Funding supports:
+
+- Travel costs (above 100 km, up to 300 €)
+- A daily allowance (for accommodation, local travel, and food)
+
+To apply for financial support, please send by **20.05.2026** via email to [palaeonoma2026\@gmail.com](mailto:palaeonoma2026@gmail.com):
+
+1. A motivation letter (max. 300 words)
+2. An estimate of your travel costs
+3. The name of the COST working group you are registered for
+
+## Register
+
+If you would like to attend the workshop (Part I, II, or both), please fill in the [online registration form](https://docs.google.com/forms/d/e/1FAIpQLSeOX0etdjnRYcAsm_ATwu4UmSqsuuancphGYZ5HxcJHq5wIuQ/viewform?usp=dialog).
+
+## Contact
+
+For any questions, send us an email at [palaeonoma2026\@gmail.com](mailto:palaeonoma2026@gmail.com).
