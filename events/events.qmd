@@ -14,6 +14,7 @@ listing:
     contents:
       - "2026/basel_workshop_2026.qmd"
       - "2026/bulgaria_trainingschool_2026.qmd"
+      - "2026/event_Palaeonoma_2026.qmd"
       - "2026/zaragoza_paleofire_2026.qmd"
     sort: "event-date asc"
     type: grid
