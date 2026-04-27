@@ -49,6 +49,18 @@ Each item must be reported as **PASS** or **FLAG** with a short explanation.
 - [ ] No obvious grammatical errors that would embarrass the organisation.
 - [ ] Scientific terms and proper nouns are capitalised correctly (e.g., *PalaeOpen*, *COST Action*, *CA23116*, *Quarto*).
 
+## 6. Rendered HTML Validation
+
+After `quarto render`, inspect the generated HTML files in `docs/` for the changed pages.
+
+- [ ] The expected HTML file exists at the correct path under `docs/` (e.g., `docs/events/2026/basel_workshop_2026.html`).
+- [ ] The HTML file is non-empty and contains readable content (not a blank page or Quarto error output).
+- [ ] All `<img>` tags in the rendered HTML have `src` paths that resolve to files that exist under `docs/` or are absolute URLs. Flag any `src` that contains `../` traversal errors or points to a non-existent path.
+- [ ] All internal `<a href>` links that point to other pages on `palaeopen.github.io` resolve to HTML files that exist under `docs/`. Flag any `href` that results in a 404.
+- [ ] No Quarto error banners appear in the rendered page (e.g., `Error: path not found`, `object not found`).
+- [ ] Event pages: the page contains the event date, location, and description visible in the rendered output (not just in frontmatter).
+- [ ] The `docs/events/events.html` listing page includes the newly added or updated event.
+
 ---
 
 ## Reporting Format
