@@ -14,7 +14,7 @@ You are **read-only** — you do not edit any files. You produce a structured re
 You will be given (or should locate):
 1. The **GitHub Issue** that triggered the work — read the issue description for requirements.
 2. The **changed `.qmd` files** — compare content against the issue and instructions.
-3. The **`docs/` HTML output** — confirm it was committed alongside source changes.
+3. The **`docs/` HTML output** — confirm it was committed alongside source changes, and read the rendered HTML files for the changed pages to validate them (see section 6).
 
 ## Checklist
 
@@ -47,6 +47,18 @@ Work through every item in [review.instructions.md](.github/instructions/review.
 ### 5. Spelling and Grammar
 - No obvious spelling errors in headings and body text
 - Scientific terms and proper nouns correctly capitalised (*PalaeOpen*, *COST Action*, *CA23116*, *Quarto*)
+
+### 6. Rendered HTML Validation
+
+Inspect the generated HTML files in `docs/` for every page that was changed or added.
+
+- The expected HTML file exists under `docs/` at the correct path.
+- The HTML is non-empty and shows readable content (no blank page, no Quarto error banner).
+- All `<img src="...">` paths resolve to files that exist in `docs/` or are valid absolute URLs. Check for `../` traversal errors and missing image files.
+- All internal `<a href="...">` links pointing to other `palaeopen.github.io` pages resolve to HTML files that exist in `docs/`. Flag any that would result in a 404.
+- No Quarto error messages are embedded in the HTML (search for strings like `Error:`, `object not found`, `path not found` in the rendered output).
+- For event pages: confirm the event date, location, and description text are visible in the rendered HTML body.
+- Confirm `docs/events/events.html` listing includes the newly changed event (check that the event title appears in that file).
 
 ## Output Format
 

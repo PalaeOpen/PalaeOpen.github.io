@@ -1,0 +1,61 @@
+name: Re-render site after merge
+
+# Runs whenever a PR is merged into main.
+# Purpose: guarantees the published docs/ is always based on the final state
+# of main, regardless of the order in which PRs were merged.
+# The commit produced by this workflow is tagged [skip-rerender] so it does
+# not trigger another run of this workflow.
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  rerender:
+    # Skip the commit that this workflow itself produces to avoid infinite loops.
+    if: "!contains(github.event.head_commit.message, '[skip-rerender]')"
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Quarto
+        run: |
+          wget -q https://quarto.org/download/latest/quarto-linux-amd64.deb
+          sudo dpkg -i quarto-linux-amd64.deb
+          quarto --version
+
+      - name: Install rig and R 4.5.1
+        run: |
+          curl -Ls https://github.com/r-lib/rig/releases/latest/download/rig-linux-amd64.tar.gz \
+            | sudo tar xz -C /usr/local
+          rig install 4.5.1
+          rig default 4.5.1
+          R --version
+
+      - name: Restore R packages via renv
+        run: Rscript -e "install.packages('renv', repos = 'https://cloud.r-project.org'); renv::restore(prompt = FALSE)"
+
+      - name: Render site
+        run: quarto render
+
+      - name: Commit updated docs/
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          # Only commit if docs/ actually changed after re-render
+          if git diff --cached --quiet; then
+            echo "No changes in docs/ — nothing to commit."
+          else
+            git commit -m "chore: re-render site after merge [skip-rerender]"
+            git push origin main
+          fi
