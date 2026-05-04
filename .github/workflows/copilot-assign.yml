@@ -1,11 +1,29 @@
 name: Auto-assign issues to Copilot
 
+# This workflow assigns copilot-swe-agent[bot] when a new issue is opened,
+# triggering the GitHub Copilot coding agent (if enabled for the org).
+#
+# It requires a Personal Access Token (PAT) stored as COPILOT_TRIGGER_PAT.
+# The built-in GITHUB_TOKEN cannot assign copilot-swe-agent[bot]; a real user
+# token from someone with a Copilot seat is required.
+#
+# How to create the PAT (fine-grained):
+#   1. Sign in as @OndrejMottl (must have an active Copilot seat)
+#   2. Go to Settings → Developer settings → Personal access tokens → Fine-grained tokens
+#   3. Click "Generate new token"
+#   4. Set resource owner to the PalaeOpen org, repo access = PalaeOpen.github.io only
+#   5. Under Permissions → Repository permissions, set ALL of the following:
+#      - Actions: Read and write
+#      - Contents: Read and write
+#      - Issues: Read and write
+#      - Metadata: Read-only
+#      - Pull requests: Read and write
+#   6. Copy the token and add it as a repository secret named COPILOT_TRIGGER_PAT
+#      (Repository Settings → Secrets and variables → Actions → New repository secret)
+
 on:
   issues:
     types: [opened]
-
-permissions:
-  issues: write
 
 jobs:
   assign-to-copilot:
@@ -14,11 +32,21 @@ jobs:
       - name: Assign issue to Copilot Coding Agent
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.COPILOT_TRIGGER_PAT }}
           script: |
-            await github.rest.issues.addAssignees({
+            await github.request('POST /repos/{owner}/{repo}/issues/{issue_number}/assignees', {
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
-              assignees: ['copilot'],
+              issue_number: context.payload.issue.number,
+              assignees: ['copilot-swe-agent[bot]'],
+              agent_assignment: {
+                target_repo: `${context.repo.owner}/${context.repo.repo}`,
+                base_branch: 'main',
+                custom_agent: 'website-maintainer',
+                custom_instructions: 'Read all instructions in .github/ first (especially .github/agents/website-maintainer.agent.md), then follow the full issue → PR workflow defined there.',
+                model: ''
+              },
+              headers: {
+                'X-GitHub-Api-Version': '2022-11-28'
+              }
             });
