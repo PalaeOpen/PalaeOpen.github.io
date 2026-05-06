@@ -7,7 +7,7 @@ event-end-date: 2026/04/29
 description: Three-day workshop connecting long-term palaeofire science with stakeholders,
   land managers, and policy actors.
 sidebar: no
-categories: Future
+categories: Past
 ---
 
 # Paleofire workshop
