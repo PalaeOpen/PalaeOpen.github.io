@@ -52,3 +52,7 @@ rsconnect/
 
 # Temporary files
 Temp/
+
+# Installer files
+*.deb
+*.tar.gz
