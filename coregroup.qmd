@@ -70,7 +70,7 @@ writeLines(
 -   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--0792--2625-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-0792-2625)
 -   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://xbenitogranell.github.io)
 
-### Prof Richard Bradshaw <img src="Materials//Faces/.png" align="right" width="120"/>
+### Prof Richard Bradshaw <img src="https://news.liverpool.ac.uk/wp-content/uploads/2011/03/Bradshaw-Richarda.jpg" align="right" width="120"/>
 
 -   <img src="`r paste0('https://img.shields.io/badge/Leadership-Senior--Advisor-', gsub('#', '%23', colors$brown))`"/>
 -   🏦 University of Liverpool, UK
