@@ -1,0 +1,183 @@
+name: "STSM blog post"
+description: "Submit a post-STSM blog or report from a funded activity"
+title: "[STSM Blog]: "
+labels:
+  - "💶 area:grants"
+  - "✍️ type:new-content"
+  - "❓ status:needs-info"
+assignees:
+  - OndrejMottl
+  - xbenitogranell
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for post-STSM blog submissions.
+
+        Include enough detail so the page can be drafted without follow-up.
+        The final page should end with: *This STSM was funded by the COST Action CA23116 — PalaeOpen.*
+
+        If your report is in MS Word, paste it as-is in **Full blog content**. Markdown formatting is optional.
+  - type: input
+    id: source-file
+    attributes:
+      label: Source file (if known)
+      description: If unknown, write unknown.
+      value: unknown
+    validations:
+      required: false
+  - type: dropdown
+    id: submission-format
+    attributes:
+      label: Submission format
+      options:
+        - Written blog post
+        - Short video with written summary
+    validations:
+      required: true
+  - type: input
+    id: stsm-cycle
+    attributes:
+      label: STSM call cycle (if known)
+      placeholder: STSM 2026 - 3rd call
+    validations:
+      required: false
+  - type: input
+    id: author-name
+    attributes:
+      label: Author name
+      placeholder: First Last
+    validations:
+      required: true
+  - type: input
+    id: author-institution
+    attributes:
+      label: Home institution
+      placeholder: University, City, Country
+    validations:
+      required: true
+  - type: input
+    id: host-institution
+    attributes:
+      label: Host institution
+      placeholder: Host University, City, Country
+    validations:
+      required: true
+  - type: input
+    id: host-supervisor
+    attributes:
+      label: Host supervisor or contact
+      placeholder: First Last, role, email
+    validations:
+      required: false
+  - type: input
+    id: stsm-dates
+    attributes:
+      label: STSM dates
+      placeholder: 2026-03-01 to 2026-03-21
+    validations:
+      required: true
+  - type: input
+    id: target-path
+    attributes:
+      label: Proposed file path (optional)
+      description: Use snake_case naming.
+      placeholder: grants/stms/blogs/author_city_2026.qmd
+    validations:
+      required: false
+  - type: input
+    id: blog-title
+    attributes:
+      label: Blog post title
+      placeholder: My STSM experience at Host Institution
+    validations:
+      required: true
+  - type: textarea
+    id: blog-summary
+    attributes:
+      label: One-paragraph summary (optional)
+      description: If not provided, it will be drafted from the full text.
+      render: markdown
+      value: |
+        Provide a concise summary of your STSM and main outcomes.
+    validations:
+      required: false
+  - type: textarea
+    id: blog-content
+    attributes:
+      label: Full blog content (Word text is fine)
+      description: Paste the complete report text. Keep figure callouts such as "Figure 1" in the text.
+      render: markdown
+      value: |
+        ## Who?
+
+        State your role (for example, Early Career Researcher), your home institution, and your background.
+
+        ## Where?
+
+        State the host institution, city, and country.
+
+        ## When?
+
+        State your STSM dates.
+
+        ## Overview
+
+        Describe the goal of your STSM and your host institution.
+
+        ## What I worked on
+
+        Describe methods, data, tools, and collaboration.
+
+        ## Outcomes and next steps
+
+        Summarize key outcomes and follow-up plans.
+
+        ## Acknowledgements
+
+        Include collaborators and the required funding sentence.
+    validations:
+      required: true
+  - type: textarea
+    id: figure-captions-credits
+    attributes:
+      label: Figure captions and photo credits
+      description: Include each figure caption and photo credit exactly as it should appear.
+      render: markdown
+      value: |
+        - Figure 1. Caption text. Photo credit: Name.
+        - Figure 2. Caption text. Photo credit: Name.
+    validations:
+      required: false
+  - type: textarea
+    id: visuals
+    attributes:
+      label: Images or media
+      description: List file names or URLs and short captions. Include one preferred featured image.
+      value: |
+        - Featured image: filename or URL (caption)
+        - Image 2: filename or URL (caption)
+        - Optional video URL:
+        - Optional folder link (Google Drive/OneDrive):
+    validations:
+      required: false
+  - type: textarea
+    id: links
+    attributes:
+      label: Related links
+      value: |
+        - https://...
+        - https://...
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm I am the author or have permission to submit this content.
+          required: true
+        - label: I confirm all links and dates are correct.
+          required: true
+        - label: I confirm any images/media can be published by PalaeOpen.
+          required: true

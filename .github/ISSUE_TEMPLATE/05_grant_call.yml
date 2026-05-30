@@ -1,5 +1,5 @@
 ﻿name: "Grant or STSM call content"
-description: "Create or update grant call pages and related announcements"
+description: "Create or update grant or STSM call pages"
 title: "[Grant call]: "
 labels:
   - "💶 area:grants"
@@ -9,14 +9,18 @@ assignees:
   - OndrejMottl
   - xbenitogranell
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for **call pages only**.
+        For post-STSM narrative submissions, use **08_stsm_blogpost.yml**.
   - type: dropdown
     id: request-kind
     attributes:
-      label: Request type
+      label: Call request type
       options:
         - New call page
         - Update existing call page
-        - Blog or report from funded activity
     validations:
       required: true
   - type: input
