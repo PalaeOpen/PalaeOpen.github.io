@@ -71,6 +71,11 @@ All content requests come via one of these structured GitHub Issue templates:
 | `05_grant_call.yml` | Grant / STSM call pages |
 | `06_archive_remove.yml` | Archive or remove content |
 | `07_website_bug.yml` | Bug report |
+| `08_stsm_blogpost.yml` | STSM blog post submission from funded activity |
+
+Routing note:
+- Use `05_grant_call.yml` for grant/STSM call page creation and updates.
+- Use `08_stsm_blogpost.yml` for post-STSM blog submissions from funded activities.
 
 ## Agent Workflow (Issue → PR)
 

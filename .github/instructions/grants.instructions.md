@@ -130,3 +130,10 @@ When instructed to update (e.g., extend deadline, add results):
 - Keep the original content intact; add/replace only the changed fields.
 - Update `date-modified: last-modified` is handled automatically by Quarto.
 - If deadline changes, update both the callout dates and any inline text that references the date.
+
+## Issue Template Routing
+
+When processing GitHub issues:
+
+- Use `05_grant_call.yml` for STSM/grant call page creation and updates.
+- Use `08_stsm_blogpost.yml` for post-STSM blog submissions from funded activities.
