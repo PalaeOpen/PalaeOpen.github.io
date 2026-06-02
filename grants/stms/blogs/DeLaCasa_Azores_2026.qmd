@@ -3,7 +3,7 @@ date: 2026/04/27
 date-format: long
 date-modified: last-modified
 author: "Javier de la Casa"
-description: "In April 2026, Javier de la Casa visited the Universidade das Açores to harmonise freshwater proxy databases and produce science communication videos about multiproxy paleoecological research in the Azorean lakes."
+description: "In April 2026, Javier de la Casa visited the Universidade dos Açores to harmonise freshwater proxy databases and produce science communication videos about multiproxy paleoecological research in the Azorean lakes."
 image: "../../../Materials/blogposts/DeLaCasa_Azores/DeLaCasa_Azores_1.jpg"
 about:
   id: heading
@@ -21,7 +21,7 @@ sidebar: false
 ::: {#heading}
 :::
 
-In April 2026 I was honoured to travel to the Azores archipelago thanks to the PalaeOpen Short-Term Scientific Mission (STSM). Pedro M. Raposeiro, from the Universidade das Açores hosted me and assisted in the tasks I was funded for: harmonising their freshwater proxy databases and recording communication pills about the multiproxy work that is being carried out in the Azorean lakes.
+In April 2026 I was honoured to travel to the Azores archipelago thanks to the PalaeOpen Short-Term Scientific Mission (STSM). Pedro M. Raposeiro, from the Universidade dos Açores hosted me and assisted in the tasks I was funded for: harmonising their freshwater proxy databases and recording communication pills about the multiproxy work that is being carried out in the Azorean lakes.
 
 :::{.callout-red text-align="left"}
 ### 👨‍🔬 Who?
@@ -34,7 +34,7 @@ CREAF | Autonomous University of Barcelona
 :::{.callout-red}
 ### 🌍 Where?
 
-Universidade das Açores, Portugal
+Universidade dos Açores, Portugal
 :::
 
 :::{.callout-red}
