@@ -7,7 +7,7 @@ event-end-date: 2026/05/21
 description: Workshop to archive and amalgamate chironomid surface sediment datasets
   for public data repositories.
 sidebar: no
-categories: Future
+categories: Past
 ---
 
 ## Archiving and amalgamating chironomid surface sediment datasets
