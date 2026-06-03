@@ -21,7 +21,7 @@ sidebar: false
 ::: {#heading}
 :::
 
-In April 2026 I was honoured to travel to the Azores archipelago thanks to the PalaeOpen Short-Term Scientific Mission (STSM). Pedro M. Raposeiro, from the Universidade dos Açores hosted me and assisted in the tasks I was funded for: harmonising their freshwater proxy databases and recording communication pills about the multiproxy work that is being carried out in the Azorean lakes.
+In April 2026 I was honored to travel to the Azores archipelago thanks to the PalaeOpen Short-Term Scientific Mission (STSM). [Pedro M. Raposeiro](https://cibio.uac.pt/en/people/pedro-miguel-valente-raposeiro), from the Universidade dos Açores hosted me and assisted in the tasks I was funded for: harmonizing their freshwater proxy databases and recording communication pills about the multiproxy work that is being carried out in the Azorean lakes.
 
 :::{.callout-red text-align="left"}
 ### 👨‍🔬 Who?
