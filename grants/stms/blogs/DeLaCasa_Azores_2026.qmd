@@ -1,0 +1,75 @@
+---
+date: 2026/04/27
+date-format: long
+date-modified: last-modified
+author: "Javier de la Casa"
+description: "In April 2026, Javier de la Casa visited the Universidade dos Açores to harmonise freshwater proxy databases and produce science communication videos about multiproxy paleoecological research in the Azorean lakes."
+image: "../../../Materials/blogposts/DeLaCasa_Azores/DeLaCasa_Azores_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+sidebar: false
+---
+
+# STSM: A multiproxy tale of the Azores {text-align="center"}
+
+::: {#heading}
+:::
+
+In April 2026 I was honored to travel to the Azores archipelago thanks to the PalaeOpen Short-Term Scientific Mission (STSM). [Pedro M. Raposeiro](https://cibio.uac.pt/en/people/pedro-miguel-valente-raposeiro), from the Universidade dos Açores hosted me and assisted in the tasks I was funded for: harmonizing their freshwater proxy databases and recording communication pills about the multiproxy work that is being carried out in the Azorean lakes.
+
+:::{.callout-red text-align="left"}
+### 👨‍🔬 Who?
+
+**Javier de la Casa** (Early Career Researcher)
+
+CREAF | Autonomous University of Barcelona
+:::
+
+:::{.callout-red}
+### 🌍 Where?
+
+Universidade dos Açores, Portugal
+:::
+
+:::{.callout-red}
+### 📅 When?
+
+13–27 April 2026
+:::
+
+The University of Azores has carried out an exhaustive work reconstructing the past environments of the archipelago, coring several lakes and peats of its islands. However, academic and teaching duties make it difficult to keep up with taxonomical and methodological updates from the paleoecological community. With this STSM we wanted to carefully put attention to their magnificent paleoecological research. First, by harmonising their freshwater databases (i.e. chironomids and diatoms) with the reference databases facilitated by PalaeOpen Working Group 2 (WG2). But beyond that, we wanted to take the time to produce communication pills (i.e. short documentaries and reel-type videos) for the paleoecology community and beyond. In 2021, Pedro M. Raposeiro and his team published a paper which put paleoecology in the scientific and cultural spotlight (Raposeiro et al., 2021. PNAS). They produced a multiproxy study (i.e. pollen, charcoal, diatoms, chironomids, elemental composition and faecal-sterol biomarkers) of five lakes across four islands and found robust evidence of ecological change. The impacts found are like the expected for anthropogenic pressures and happened before the arrival of the Portuguese in the 15th Century, which to date is the accepted first human contact to the islands. Moreover, using faecal sterols, they found continued evidence of human presence 700 years before the official Portuguese arrival, likely from the Norse. With this STSM I proposed to produce a short documentary of the research paper, interviewing the authors in the place where they found one of the prior evidence of human presence, Lake Caldeirão in Corvo island.
+
+The first week (the good weather one), was dedicated to the short documentary. First, I interviewed Nora Richter (online), which was the one that led the faecal biomarker analyses. After, Pedro M. Raposeiro and I organised a trip to Corvo Island, where they have found robust evidence of the onset of anthropogenic impacts in the island, reconstructing two millennia of climate and human driven ecosystem shifts. For the documentary I recorded Pedro M. Raposeiro in the catchment of Lake Caldeirão explaining each of the proxies that were analysed. Later in the week, I produced explanatory blackboard animations to complement Pedro's words and facilitate the comprehension of the study to a broader audience.
+
+:::{#fig-2}
+
+![](/Materials/blogposts/DeLaCasa_Azores/DeLaCasa_Azores_2.jpg)
+
+Pedro and I walking on Lake Caldeirão. Photo credit: Javier de la Casa.
+
+:::
+
+The second week (the bad weather one), we sat in the office to get hands on the harmonisation of the Azores freshwater proxies. We started with chironomids. Pedro M. Raposeiro gave me a great explanation of their data and access to all their chironomid database. Stefan Engels provided a reference database for chironomids that we used to harmonise the taxa found in the Azores. 43 taxon names were harmonised, while 9 taxa were not present in the reference database, and will be processed by the WG2. Also, in relation with chironomids, I recorded reel-type videos of Pedro explaining in his mother tongue (Portuguese). This idea aims to start the production of a series of videos where experts within the PalaeOpen community explain (in their mother tongue or whatever they feel like) the workflow and importance of each of the palaeoecological proxies discussed within the COST Action. We also started reviewing the diatom and XRF databases, but we did not have time to finish within the duration of the STSM.
+
+:::{#fig-3}
+
+![](/Materials/blogposts/DeLaCasa_Azores/DeLaCasa_Azores_3.jpg)
+
+Pedro showing me the slides with chironomid taxon-types. Photo credit: Javier de la Casa.
+
+:::
+
+In the upcoming months, I will finish the production of the documentary and the chironomid communication pill. This will be in collaboration with PalaeOpen Working Group 4, particularly the Media Team. Also, I will continue assisting on the harmonisation of diatom and XRF databases, following PalaeOpen guidelines.
+
+## Acknowledgements
+
+I would like to express my gratefulness to Nora, Martín and Pedro for their willingness to participate, and to PalaeOpen COST Action for giving me the opportunity to foster a rich exchange between European research groups and for funding not only scientific community building but also helping communication initiatives for the wide public.
+
+---
+*This STSM was funded by the COST Action CA23116 — PalaeOpen.*
