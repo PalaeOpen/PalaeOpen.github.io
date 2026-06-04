@@ -1,0 +1,78 @@
+---
+date: 2026/06/02
+date-format: long
+date-modified: last-modified
+author: "Anișoara Filip"
+description: "Anișoara Filip reflects on her 2026 STSM in Bratislava, where she harmonized and digitized a Bulgarian subfossil chironomid dataset for Neotoma."
+image: "../../../Materials/blogposts/filip_bratislava_2026/filip_bratislava_2026_1.png"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience in Bratislava {text-align="center"}
+
+::: {#heading}
+:::
+
+In the spring of 2026, I had the opportunity to undertake a Short-Term Scientific Mission (STSM) as part of the PalaeOpen COST Action CA23116. Over 3 weeks, I immersed myself in the world of subfossil chironomid taxonomy and came home with a harmonized dataset, a regional inventory, a draft protocol, and a renewed enthusiasm for open palaeoecological science.
+
+:::{.callout-red text-align="left"}
+### 👩‍🔬Who?
+
+**Anișoara Filip** (Early Career Researcher, PhD student)
+
+Universitatea Stefan Cel Mare Din Suceava, Romania
+:::
+
+:::{.callout-red}
+### 🌍Where?
+
+Institute of Zoology, Slovak Academy of Sciences, Bratislava, Slovakia
+:::
+
+:::{.callout-red}
+### 📅When?
+
+26 April – 16 May 2026
+:::
+
+## Overview
+
+My STSM focused on the taxonomic harmonization and digitization of a new Bulgarian subfossil chironomid dataset, with the goal of preparing it in a format and quality that is compliant with the Neotoma Palaeoecology Database. As part of WG2 of the PalaeOpen COST Action, contributing well-structured, carefully reviewed, and openly accessible datasets is one of our core objectives. Although this kind of work starts with the technical training of researchers, hands-on expertise is best acquired through direct collaboration with experienced researchers.
+
+## What I worked on
+
+The main reason for going to Slovakia was exactly that: to work side by side with a renowned European chironomid expert, prof. Ing. Ladislav Hamerlík, PhD. Taxonomic harmonization involves a large variety of decisions about how to group similar morphotypes, how to name the categories properly, what to do with the ambiguous material you encounter, and how to approach non-chironomid remains. Having those conversations in person, with reference collections from different regions, focused on different subfamilies, slides in front of you, and experienced researchers made an enormous difference in both the time needed and the quality of the harmonization process.
+
+Over 3 weeks, we reviewed all the material, worked through the identification together, structured and digitized the dataset, and documented everything in order to draft a short protocol to share the workflow with other WG2 contributors. The chironomid datasets available from Romania (my home country), Bulgaria (site country), and Slovakia (host country) were brought together in a regional inventory, which helped map out the data gaps. As a plus, several other researchers from the host institution were eager to help with the identification of non-chironomid remains.
+
+::: {#fig-1}
+
+![](/Materials/blogposts/filip_bratislava_2026/filip_bratislava_2026_1.png)
+
+Panels shown: (A) PhD student Anișoara Filip and prof. Ladislav Hamerlík, discussing a challenging chironomid head capsule; (B) PhD student Anișoara Filip reviewing chironomids on slides at the Institute of Zoology, Bratislava; (C) A large variety of keys were used in the taxonomic harmonization process, including the recent ones, such as Bitušík et al., 2024. Photo credit: (A) Ladislav Hamerlík, (B,C) Anișoara Filip.
+
+:::
+
+::: {#fig-2}
+
+![](/Materials/blogposts/filip_bratislava_2026/filip_bratislava_2026_2.png)
+
+The reviewing process included using the taxonomical keys (A) and comparing within-sample and within-site individuals (B).
+
+:::
+
+## Outcomes and next steps
+
+Overall, this STSM was a very productive experience. I went there with lots of slides and even a higher number of questions, and I returned with a Neotoma-ready dataset, new practical skills in data curation and database standards, and a stronger connection with the Central European palaeoecological community. I am grateful for the guidance and availability of my host, prof. Ing. Ladislav Hamerlík, PhD., throughout the visit, and to the PalaeOpen Action for supporting this activity.
+
+## Acknowledgements
+
+*This STSM was funded by the COST Action CA23116 — PalaeOpen.*
