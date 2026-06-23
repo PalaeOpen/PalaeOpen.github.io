@@ -155,6 +155,24 @@ writeLines(
 -   [<img src="`r paste0('https://img.shields.io/badge/Leadership-WG4--Co--Leader-', gsub('#', '%23', colors$purple))`"/>](/About/working_groups.qmd#wg4-outreach-and-education)
 
 
+## ECR Representatives
+
+### Mgr. Anna Šolcová, Ph.D.
+
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-ECR--Representative-', gsub('#', '%23', colors$brown))`"/>
+-   🏦 Institute of Botany, Czech Academy of Sciences, Czechia
+-   📬 email: anna.solcova(at)ibot.cas.cz
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0001--6220--3434-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0001-6220-3434)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.researchgate.net/profile/Anna-Solcova)
+
+### Dr Ramesh Glückler
+
+-   <img src="`r paste0('https://img.shields.io/badge/Leadership-ECR--Representative-', gsub('#', '%23', colors$brown))`"/>
+-   🏦 Utrecht University, Netherlands
+-   📬 email: r.m.s.gluckler(at)uu.nl
+-   [![orcid](`r paste0('https://img.shields.io/badge/orcid-0000--0003--1800--8601-', gsub('#', '%23', colors$red), '.svg')`)](https://orcid.org/0000-0003-1800-8601)
+-   [![personal website](`r paste0('https://img.shields.io/badge/🔗-personal--website-', gsub('#', '%23', colors$yellow), '.svg')`)](https://www.rameshglueckler.com/)
+
 ## Non active Members of the Core Group
 
 ### Prof Elisabeth Dietze <img src="https://www.uni-goettingen.de/storage/pictures/6d8dddf8e82d9ca5fa5b9401bb766439.jpg" align="right" width="120"/>
