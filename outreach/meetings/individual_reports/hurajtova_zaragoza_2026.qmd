@@ -1,0 +1,85 @@
+---
+title: "How can palaeofire research have the most beneficial impact for fire management policy and practice?"
+date: 2026/06/29
+date-format: long
+date-modified: last-modified
+author: "Natália Hurajtová and Ramesh Glückler"
+description: "A PalaeOpen workshop brought researchers and practitioners together to identify how long-term fire records can better support fire management and policy."
+image: "../../../Materials/meeting_reports/zaragoza_2026/zaragoza_workshop_1.jpg"
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+**Affiliations:** Natália Hurajtová — Slovak Academy of Sciences, Slovakia; Ramesh Glückler — Utrecht University, Netherlands
+
+As climate warming accelerates and fire regimes intensify across Europe, how can we best inform fire management policy and practice? Funded by PalaeOpen, the “Palaeofire researchers and fire practitioners workshop” at CSIC in Zaragoza, Spain, brought together experts from both academic and applied backgrounds. The workshop aimed to improve mutual understanding of different perspectives and methodologies on a shared subject and to identify concrete opportunities for palaeofire research to better support fire management and policymaking.
+
+::: {.callout-note}
+## 📅 Event details
+
+**Dates:** 27–29 April 2026  
+**Location:** CSIC Zaragoza, Spain  
+**Organizers:** Dr Graciela Gil-Romera, Prof Richard Bradshaw, Dr Bérangère Leys, Prof Elisabeth Dietze, Dr Ramesh Glückler, and Dr Přemysl Bobek
+:::
+
+::: {#fig-zaragoza-participants}
+
+![Workshop participants at CSIC in Zaragoza, Spain.](/Materials/meeting_reports/zaragoza_2026/zaragoza_workshop_1.jpg)
+
+Workshop participants at CSIC in Zaragoza, Spain.
+
+:::
+
+## Introductions to state-of-the-art and challenges in research, policy, and practice
+
+The workshop programme featured thematic presentations from both applied and research-oriented participants, introducing key concepts, methods, the current state of the art, and current challenges. These presentations often sparked the group discussions that followed. Applied topics took precedence and covered:
+
+- challenges and opportunities for wildfire resilience in Germany, featuring the [PreGraze project](https://www.hs-rottenburg.net/aktuelles/aktuelle-meldungen/meldungen/aktuell/waldbrandpraevention-mit-hilfe-modellhafter-biodiversitaetsfoerdernder-massnahmen/);
+- the impact of past natural and cultural fire regimes on the Science–Policy–Practitioner Interface;
+- current approaches to estimating potential fire spread in Spain;
+- the theory and practice of prescribed burning to restore natural fire regimes in Sweden, featuring the Life2Taiga project; and
+- insights into active prescribed burning and its policy-related challenges in southern France.
+
+Palaeofire researchers introduced their methods for working with fire proxies in natural archives and their current database efforts to store and use the generated data efficiently—another effort actively supported by the PalaeOpen community. Exemplary case studies from Fennoscandia, La Réunion, eastern Siberia, and Czechia described the kinds of results that palaeofire research can offer, using methods ranging from lake- and peat-sediment proxies to fire scars in tree-ring chronologies.
+
+During a field trip in the Pyrenees, we visited the experimental sites of the LIFE MIDMACC project. Dr Estela Nadal-Romero presented the project’s activities, which focused on extensive grazing as a management tool for abandoned mountain landscapes and wildfire risk reduction. We also visited the Pyrenean Institute of Ecology (CSIC) in Jaca, where we observed facilities for processing palaeoecological samples and discussed sample collection, handling, and storage procedures. The final stop was Hoz de Jaca, where Dr Graciela Gil-Romera introduced the results of long-term research on the palaeoenvironmental history of the Tena Valley.
+
+::: {#fig-zaragoza-core}
+
+![Dr Graciela Gil-Romera describes a sediment core at the Pyrenean Institute of Ecology in Jaca.](/Materials/meeting_reports/zaragoza_2026/zaragoza_workshop_3.jpg)
+
+Dr Graciela Gil-Romera describing a sediment core in the facilities of the Pyrenean Institute of Ecology (CSIC) in Jaca.
+
+:::
+
+The field trip provided an opportunity to observe the real impacts of extensive grazing management on mountain landscapes and its role in wildfire prevention. The example of palaeoecological research in the Tena Valley deepened our understanding of the role of fire in landscape development and human modification of the environment, as well as its ecological importance in maintaining resilient and healthy ecosystems. The visit also created an opportunity to compare methodological approaches across institutions and allowed participants from other disciplines to gain firsthand insight into palaeoecological methods.
+
+::: {#fig-tena-valley}
+
+![A view over the green slopes, lake, and cloud-covered mountains of the Tena Valley.](/Materials/meeting_reports/zaragoza_2026/zaragoza_workshop_2.jpg)
+
+View over the Tena Valley during the field trip.
+
+:::
+
+## How can palaeofire research best support fire management policy and practice?
+
+During the workshop, guided group discussions focused on the applicability of palaeoecological data for contemporary landscape management and policy development. The discussions highlighted several challenges, including differences among landscape types, such as Central European forests, which have less pronounced natural fire regimes than Mediterranean and boreal forests. Another important issue was the diversity of environmental policies and approaches to ecosystem protection across European countries.
+
+The discussions revealed the importance of palaeoecological research as a key way to support communication about legislative changes and with the public, as well as to inform landscape management practices. An emerging theme was the use of palaeoecological data to identify factors that reduce wildfire risk, such as grazing, historical forest species composition, and past landscape responses to fire. Regional maps synthesizing and showcasing past states of vegetation cover and fire regimes were identified as a helpful resource that palaeoecological research can provide to support practitioners and the policymaking process.
+
+## Fusing expertise from thirteen different countries
+
+The workshop brought together diverse expertise and perspectives from participants across thirteen countries. Beyond national boundaries, this diverse group of participants meant that many major biogeographical regions were represented, following the classification of the European Environment Agency: Mediterranean (Spain, southern France, Portugal, and Türkiye), Alpine (including Slovakia and Switzerland), Atlantic (the UK and the Netherlands), Continental (Ukraine, Czechia, and Germany), and Boreal (Lithuania and Sweden). This breadth of biogeographical representation reflected genuinely pan-European perspectives on fire management challenges.
+
+## Key takeaways
+
+- Participants gained a deeper understanding of the concrete contributions palaeofire research can make to support fire managers in the policymaking process.
+- Region-based solutions are necessary because transferring research findings and management approaches across regions with differing ecosystem dynamics and environmental policies remains challenging.
+- The group established a roadmap for a formal joint policy brief and sustained cooperation among workshop participants.
+
+## What’s next
+
+Following the guided discussions during the workshop, participants are now drafting a policy brief. This document will outline the need to consider long-term perspectives in fire management policy, ensuring the best possible data foundation for facing the challenges that climate change is predicted to pose to Europe. Building on the workshop’s success, participants also agreed to establish ongoing communication channels to support future collaboration among palaeofire researchers, policy experts, and fire management practitioners.
