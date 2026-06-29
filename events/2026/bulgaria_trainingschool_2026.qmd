@@ -7,7 +7,7 @@ event-end-date: 2026/06/18
 description: Training school on quantitative numerical analyses and data stewardship
   for paleoecological datasets.
 sidebar: no
-categories: Future
+categories: Past
 ---
 
 # Training School
