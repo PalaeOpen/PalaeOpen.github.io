@@ -1,0 +1,73 @@
+---
+date: 2026/07/23
+date-format: long
+date-modified: last-modified
+author: "Beatriz Trejo"
+description: "In June 2026, Beatriz Trejo spent a month at the University of Cambridge to help build a comprehensive database of Pleistocene mammals as part of a PalaeOpen STSM."
+image: "../../../Materials/blogposts/trejo_cambridge_2026/trejo_cambridge_2026_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience at University of Cambridge {text-align="center"}
+
+::: {#heading}
+:::
+
+In June 2026 I had the opportunity to spend a Short-Term Scientific Mission (STSM) at the University of Cambridge as part of the PalaeOpen COST Action. The main goal of the mission was to lay the foundations for what will become a comprehensive database of Pleistocene mammals.
+
+:::{.callout-red text-align="left"}
+### 👩‍🔬 Who?
+
+**Beatriz Trejo** (PhD student)
+
+Complutense University of Madrid
+:::
+
+:::{.callout-red}
+### 🌍 Where?
+
+Department of Zoology, University of Cambridge, Cambridge, United Kingdom
+:::
+
+:::{.callout-red}
+### 📅 When?
+
+1–30 June 2026
+:::
+
+A major challenge in Pleistocene research is that information on archaeological and palaeontological sites is often dispersed across scientific publications, reports, and different databases. This fragmentation makes large-scale quantitative analyses difficult and time-consuming. To address this issue, my work focused on compiling and standardising information on site location, chronology, and faunal composition into a single dataset that can be easily used, updated, and expanded by researchers.
+
+Working alongside Dr. Marco Vidal-Cordasco and members of the Evolutionary Ecology Group at the Department of Zoology, I reviewed, validated, and expanded an existing dataset that I had been developing as part of my PhD research. This involved revisiting the published literature for individual sites, verifying faunal and chronological information, updating records when necessary, and incorporating additional localities that were not included in previous versions of the dataset. The aim was to ensure that the information was as accurate, consistent, and comprehensive as possible.
+
+We also enriched the dataset by incorporating environmental and ecological information for each locality using palaeoclimatic reconstructions and ecological estimates. Bringing together faunal, chronological, climatic, and ecological information creates new opportunities to explore questions related to biodiversity change, ecosystem structure, and the environmental factors that shaped mammalian communities through time.
+
+::: {#fig-1}
+
+![](/Materials/blogposts/trejo_cambridge_2026/trejo_cambridge_2026_1.jpg)
+
+Some of the people I had the pleasure of working with during my stay (from left to right: Marco Vidal-Cordasco, Andrea Pozzi, Michela Leonardi, Beatriz Trejo and Margherita Colucci). Photo credit: Beatriz Trejo.
+
+:::
+
+Beyond the scientific work, the stay was also an enriching personal experience. From the moment I arrived in Cambridge, I was welcomed into a supportive and inspiring environment that made both the research and everyday life especially enjoyable. I had the opportunity not only to collaborate closely with the research group, but also to experience the city, its colleges, and its unique academic atmosphere. I am sincerely grateful to everyone in the Evolutionary Ecology Group for their hospitality, support, and friendship throughout my visit.
+
+::: {#fig-2}
+
+![](/Materials/blogposts/trejo_cambridge_2026/trejo_cambridge_2026_2.jpg)
+
+One of Cambridge's most iconic sights: punting on the River Cam. Photo credit: Beatriz Trejo.
+
+:::
+
+Finally, I would like to thank the PalaeOpen COST Action for making this experience possible and for supporting international scientific collaboration. Opportunities like this are invaluable for building new connections, sharing knowledge, and developing future research collaborations.
+
+---
+*This STSM was funded by the COST Action CA23116 — PalaeOpen.*
