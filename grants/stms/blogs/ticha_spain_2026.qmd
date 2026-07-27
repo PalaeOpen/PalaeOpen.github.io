@@ -1,0 +1,73 @@
+---
+date: 2026/07/27
+date-format: long
+date-modified: last-modified
+author: "Anna Ticha"
+image: "../../../Materials/blogposts/ticha_spain_2026/ticha_pic1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience at IRTA, Spain {text-align="center"}
+
+::: {#heading}
+:::
+
+In July 2026, I traveled for my STSM to Institute of Agri-Food Research and Technology (IRTA) in La Ràpita, Catalunya. Together with my host, Xavier Benito, we intended to tackle one of the most frustrating obstacles preventing the effective upload of diatom data into the Neotoma database – their taxonomic inconsistency. Have we managed this task without sacrificing our mental health? This blog post introduces the results of our work and the pathway that led us to them.
+
+:::{.callout-red text-align="left"}
+### 👩‍🔬 Who?
+
+**Anna Ticha** (Assistant Professor, Charles University, Prague, Czechia)
+
+
+:::
+
+:::{.callout-red}
+### 🌍 Where?
+
+Marine and Continental Waters Program, Institute for Agrifood Sciences and Technology (IRTA), Spain
+:::
+
+:::{.callout-red}
+### 📅 When?
+
+13-17 July 2026
+:::
+
+My mission started with a 400 km road trip along the Mediterranean coast with my host Xavier Benito and his family from the European Diatom Meeting in Murcia. We left the scorching desert behind us, leaving the fires that had just broken out in our wake, and before we reached the Ebro River delta, which was only slightly cooler but all the more humid, we had already divided up the tasks for our new collaboration.
+
+Our decision to fit the STSM into just one week resulted in probably the most effective seven days I have ever spent focusing on a single project. During this monastery-like week without maternal duties, I was able to practice a two-phase workflow: the first with Xavier during the day at the IRTA institute, and the second after a siesta, during the late evening hours, fixing the problems we had previously identified. Step by step, I made Xavier adopt this toxic approach too, and our screens illuminated the deep night darkness. Fortunately, the STSM ended before we managed to totally devastate each other.
+
+
+::: {#fig-1}
+
+![](/Materials/blogposts/ticha_spain_2026/ticha_pic2.png)
+
+Working together at IRTA. Photo credit: Anastasia Ivanova
+
+:::
+
+Nevertheless, by the end of this process, we had delivered the targeted new automatic workflow for cleaning and harmonizing diatom taxonomic data for upload into Neotoma. Given the tangled nature of diatom nomenclature, this Diatom Dictionary will significantly help future data stewards make informed decisions when matching diatom taxon names from palaeoecological studies to the Neotoma diatom master list. The desired outcome of this transparent and reproducible workflow will be greater consistency of diatom repository data and their more effective future use in meta-analyses.
+
+Our last day was dedicated to wrapping up, discussing the release strategy for the Diatom Dictionary, and social networking with the IRTA staff. By a lucky coincidence, the long-lasting collaboration between IRTA diatomists and local artists culminated in an art performance inspired by diatoms, which took place at the very end of my STSM. It provided the best possible farewell event in the middle of a riparian forest.
+
+::: {#fig-2}
+
+![](/Materials/blogposts/ticha_spain_2026/ticha_pic3.png)
+
+Admiring diatoms in virtual reality. Photo credit: Rosa Trobajo
+
+:::
+
+This STSM gave me a very intensive week full of scientific inspiration, the feeling of contributing something useful to the broader community, and a wonderful time with kind and welcoming people. My very first thanks belong to Xavier, who generously took care of me during the STSM and constantly encouraged me to become a more proactive member of the PalaeOpen community. The overall atmosphere at IRTA was exceptionally friendly, and I especially remember Anastasia, Rosa, and David. I also feel very grateful to the entire PalaeOpen community and its core team for making my travel to IRTA possible and for once again pushing my personal frontiers a little further.
+
+---
+*This STSM was funded by the COST Action CA23116 — PalaeOpen.*
