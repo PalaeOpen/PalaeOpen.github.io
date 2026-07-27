@@ -1,0 +1,77 @@
+---
+title: "Training School on Quantitative Numerical Analyses and Data Stewardship"
+date: 2026/07/25
+date-format: long
+date-modified: last-modified
+author: "Yoanna Katreva and Kilian Jungkeit Milla"
+description: "A five-day training school in Sofia brought together 50 participants from 18 COST Member countries to build practical skills in quantitative analyses and data stewardship for palaeoecological datasets."
+image: "../../../Materials/meeting_reports/sofia_2026/sofia_training_1.jpg"
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+**Affiliations:** Yoanna Katreva — IBER-BAS, Bulgaria; Kilian Jungkeit Milla — IPE-CSIC, Spain
+
+::: {.callout-note}
+## 📅 Event details
+
+**Dates:** 15–19 June 2026  
+**Location:** Sofia, Bulgaria
+:::
+
+A five-day training school on quantitative numerical analyses and data stewardship for palaeoecological datasets was held on 15–19 June in Sofia, Bulgaria. Through lectures and practical sessions, participants received hands-on experience in data analysis, age-depth modelling, visualisation workflows, and advanced data stewardship.
+
+## Introduction
+
+How can we best analyse and steward complex palaeoecological datasets to support the goals of the PalaeOpen COST Action?
+
+This transversal question brought together 50 participants from 18 COST Member countries with a wide range of proxy expertise and palaeoecological datasets. The event was jointly organised by members of the Core Group together with researchers from the Institute of Biodiversity and Ecosystem Research, BAS, and Sofia University St. Kliment Ohridski.
+
+The programme featured lectures and training courses such as accessing and analysing Neotoma datasets through the `neotoma2` R package, age-depth modelling, community analyses with `vegan`, and visualisation workflows. Participants interested in becoming data stewards took part in an advanced course using Tilia 3.2. While some attendees were new to the PalaeOpen COST Action, many had previously participated in PalaeOpen activities as part of proxy-specific meetings, demonstrating how the Action is strengthening its network while training members to analyse complex palaeoecological datasets and organise them for future multi-proxy reconstructions at large spatial scales.
+
+::: {#fig-sofia-1}
+![Dr Gavin Simpson giving a lecture on multivariate data analysis using `vegan`](/Materials/meeting_reports/sofia_2026/sofia_training_1.jpg)
+:::
+
+## Key themes
+
+The event started with an introductory lecture on the history of palaeoecological research and its outcomes, as well as the modern vegetation and flora of Bulgaria, followed by an icebreaker event.
+
+Throughout the training school, keynote lectures and hands-on practical sessions on advanced numerical analyses in R were led by Dr Gavin Simpson, offering participants different approaches for analysing palaeoecological data such as Generalised Additive Models and Topic Modelling. Afternoon specialised workshop sessions were led by Dr Thomas Giesecke, Dr Walter Finsinger, Dr Anneli Poska, Dr Xavier Benito, and Dr Gavin Simpson. These sessions covered hands-on exercises to generate stratigraphic plots, build chronologies with Clam and Bayesian methods, model multivariate species data through ordination methods, and structure and upload datasets to Neotoma using Tilia software. The sessions also addressed specific questions from members of different proxy groups and demonstrated open data practices through reproducible workflows. All teaching materials are available to the wider PalaeOpen community on [GitHub](https://github.com/orgs/PalaeOpen/repositories).
+
+
+::: {#fig-sofia-3}
+![Dr Thomas Giesecke handing out gifts to local organisers](/Materials/meeting_reports/sofia_2026/sofia_training_3.jpg)
+:::
+
+Using the Zulip channel is becoming increasingly common at PalaeOpen. We agreed to use this platform for general questions about R analysis. A new, publicly accessible channel for PalaeOpen members dedicated to data stewardship questions has also been created.
+
+After the training school, participants joined a field trip to Vitosha Nature Park, guided by Dessislava Guyrova, a representative of the park. During the excursion, they visited different vegetation zones and a protected peat bog area, gaining first-hand insight into the region's biodiversity, ecosystems, and conservation efforts. The trip connected the analytical techniques discussed during the course with field observations of present-day ecosystems.
+
+::: {#fig-sofia-2}
+![Field trip to Vitosha Nature Park led by Dessislava Guyrova, local representative of the park’s directorate](/Materials/meeting_reports/sofia_2026/sofia_training_2.jpg)
+:::
+
+## In focus
+
+Through this event, we not only gathered palaeoecologists from different disciplines and career stages around a shared interest in making sense of our datasets, but also celebrated the unity of our community and shared moments of delight and joy. During the gala dinner, the Core Group handed out small gifts to the event organisers in recognition of their hospitality and the friendly relationships built over the years.
+
+## Future directions
+
+Trainees learned a variety of quantitative methods to analyse palaeoecological datasets, including cross-proxy data types. The training also encouraged new collaborations between researchers working with different proxies and between those who provide data and those who process it. These interactions are expected to support future multi-proxy studies and strengthen cooperation across the PalaeOpen network.
+
+::: {#fig-sofia-4}
+![Group photo from the Sofia training school](/Materials/meeting_reports/sofia_2026/sofia_training_4.jpg)
+:::
+
+## Key takeaways
+
+- Hands-on training in quantitative analyses and data stewardship equipped participants with practical skills in R, age-depth modelling, ordination methods, data visualisation, and Neotoma workflows.
+- Cross-proxy collaboration was strengthened, bringing together 50 researchers from 18 COST Member countries to build a shared methodological framework for future large-scale palaeoecological research.
+- Long-term networking and knowledge exchange will continue through openly available teaching materials on GitHub and dedicated Zulip channels supporting R analyses and data stewardship.
+
+## What’s next
+
+Looking ahead to future goals within the PalaeOpen COST Action, participants are encouraged to apply the methods and approaches learned during the training to their own research and across their networks covering a range of proxy data types. To facilitate ongoing collaboration and support, participants can use the Zulip channel to exchange ideas, ask questions, and discuss data wrangling and R analyses. While online communication will help maintain knowledge exchange, future PalaeOpen meetings will remain essential for supporting the further development of a well-connected palaeoecology research network in Europe.
