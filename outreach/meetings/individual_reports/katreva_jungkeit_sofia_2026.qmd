@@ -32,7 +32,7 @@ This transversal question brought together 50 participants from 18 COST Member c
 The programme featured lectures and training courses such as accessing and analysing Neotoma datasets through the `neotoma2` R package, age-depth modelling, community analyses with `vegan`, and visualisation workflows. Participants interested in becoming data stewards took part in an advanced course using Tilia 3.2. While some attendees were new to the PalaeOpen COST Action, many had previously participated in PalaeOpen activities as part of proxy-specific meetings, demonstrating how the Action is strengthening its network while training members to analyse complex palaeoecological datasets and organise them for future multi-proxy reconstructions at large spatial scales.
 
 ::: {#fig-sofia-1}
-![Photo 1. Dr Gavin Simpson giving a lecture on multivariate data analysis using vegan.](/Materials/meeting_reports/sofia_2026/sofia_training_1.jpg)
+![Dr Gavin Simpson giving a lecture on multivariate data analysis using `vegan`](/Materials/meeting_reports/sofia_2026/sofia_training_1.jpg)
 :::
 
 ## Key themes
@@ -43,7 +43,7 @@ Throughout the training school, keynote lectures and hands-on practical sessions
 
 
 ::: {#fig-sofia-3}
-![Photo 3. Dr Thomas Giesecke handing out gifts to local organisers.](/Materials/meeting_reports/sofia_2026/sofia_training_3.jpg)
+![Dr Thomas Giesecke handing out gifts to local organisers](/Materials/meeting_reports/sofia_2026/sofia_training_3.jpg)
 :::
 
 Using the Zulip channel is becoming increasingly common at PalaeOpen. We agreed to use this platform for general questions about R analysis. A new, publicly accessible channel for PalaeOpen members dedicated to data stewardship questions has also been created.
@@ -51,7 +51,7 @@ Using the Zulip channel is becoming increasingly common at PalaeOpen. We agreed 
 After the training school, participants joined a field trip to Vitosha Nature Park, guided by Dessislava Guyrova, a representative of the park. During the excursion, they visited different vegetation zones and a protected peat bog area, gaining first-hand insight into the region's biodiversity, ecosystems, and conservation efforts. The trip connected the analytical techniques discussed during the course with field observations of present-day ecosystems.
 
 ::: {#fig-sofia-2}
-![Photo 2. Field trip to Vitosha Nature Park led by Dessislava Guyrova, local representative of the park’s directorate.](/Materials/meeting_reports/sofia_2026/sofia_training_2.jpg)
+![Field trip to Vitosha Nature Park led by Dessislava Guyrova, local representative of the park’s directorate](/Materials/meeting_reports/sofia_2026/sofia_training_2.jpg)
 :::
 
 ## In focus
@@ -63,7 +63,7 @@ Through this event, we not only gathered palaeoecologists from different discipl
 Trainees learned a variety of quantitative methods to analyse palaeoecological datasets, including cross-proxy data types. The training also encouraged new collaborations between researchers working with different proxies and between those who provide data and those who process it. These interactions are expected to support future multi-proxy studies and strengthen cooperation across the PalaeOpen network.
 
 ::: {#fig-sofia-4}
-![Photo 4 Group photo from the Sofia training school.](/Materials/meeting_reports/sofia_2026/sofia_training_4.jpg)
+![Group photo from the Sofia training school](/Materials/meeting_reports/sofia_2026/sofia_training_4.jpg)
 :::
 
 ## Key takeaways
