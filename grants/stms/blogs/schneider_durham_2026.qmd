@@ -53,7 +53,7 @@ Fecal biomarkers, including sterols and bile acids, are molecular traces that ca
 
 However, laboratories still differ considerably in how they extract and analyze these compounds, and even in how they name and report them. These differences make results harder to compare and datasets more difficult to combine or reuse.
 
-This challenge was discussed at the Cost Action PalaeOpen biomarker workshop in Potsdam in March 2026. Building on those discussions, my STSM aimed to compare the workflows used at Durham and Eawag, contribute to common terminology and reporting standards, and lay the groundwork for an inter-laboratory fecal-biomarker reference library.
+This challenge was discussed at the COST Action PalaeOpen biomarker workshop in Potsdam in March 2026. Building on those discussions, my STSM aimed to compare the workflows used at Durham and Eawag, contribute to common terminology and reporting standards, and lay the groundwork for an inter-laboratory fecal-biomarker reference library.
 
 ## Comparing workflows at the laboratory bench
 
