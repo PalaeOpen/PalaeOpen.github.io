@@ -1,0 +1,73 @@
+---
+date: 2026/07/02
+date-format: long
+date-modified: last-modified
+author: "Mattias Sjölander"
+description: "In June 2026, Mattias Sjölander visited Utrecht University to host a brainstorming session on integrating subfossil insect and pollen data in future analyses."
+image: "../../../Materials/blogposts/Sjolander_Utrecht/sjolander_utrecht_2026_1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+# My STSM Experience in Utrecht 2026 {text-align="center"}
+
+::: {#heading}
+:::
+
+In June 2026 I had the opportunity to spend a Short-Term Scientific Mission (STSM) at Utrecht University, Netherlands. The main goal of the visit was to host a brainstorming session on how to integrate subfossil insect and pollen data in future analyses. Moving beyond simple qualitative comparisons is difficult, but the exercise highlighted a number of potential avenues for future exploration.
+
+:::{.callout-red text-align="left"}
+### 👨‍🔬 Who?
+
+**Mattias Sjölander** (Postdoc), Environmental Archaeologist at the Center for the Human Past, Uppsala University.
+:::
+
+:::{.callout-red}
+### 🌍 Where?
+
+Department of Physical Geography - Utrecht University, Utrecht, Netherlands
+:::
+
+:::{.callout-red}
+### 📅 When?
+
+8–10 June 2026
+:::
+
+## Overview
+
+During my ongoing postdoctoral project at the Center for the Human Past at Uppsala University, I have been working with the subfossil insect data in the Strategic Environmental Archaeology Database (SEAD). Insect data is a great source of information on past landscape and climate development and is currently underutilized in large-scale systematic analyses. As I have been exploring the data currently in SEAD, one thing on my mind has been how this valuable information can be better combined with other proxies, in particular palynological data which describes vegetation development.
+
+## What I worked on
+
+During the first day I was able to familiarize myself with the ongoing research and methodologies present at the Department of Physical Geography, including palynological biodiversity and paleofire studies. The day concluded with a seminar where I gave a brief overview of palaeoentomological research and my own ongoing study of Coleopteran biodiversity on the British Isles.
+
+The second day was devoted to the main brainstorming session where a smaller group of researchers at the department and I sat down to review the two proxies (Figure 1). As we were now more familiar with the basic data structures of the two datasets we next took to reviewing past studies that included both insect and pollen data. We discussed the conditions under which the data would be representative and robust enough that meaningful inferences can be made of insect-vegetation interactions. We also explored research questions where the integration of both proxies could help advance current state of research.
+
+:::{#fig-1}
+
+![](/Materials/blogposts/Sjolander_Utrecht/sjolander_utrecht_2026_1.jpg)
+
+Brainstorming session with (from left) Thomas Giesecke, Wim Hoek, Ramesh Glückler, Tobias Vervaart, Catrien Hoffman and Mattias Sjölander. Photo credit: Thomas Giesecke.
+
+:::
+
+The last day started with a review of the brainstorming session and discussion of what the focus should be for future opportunities. Following this I spent the day digging into the insect data and following up on some of the points that had been raised from our previous discussions. I then sat down with Thomas Giesecke to go over what I had discovered during the day and to summarize my stay at their department.
+
+## Outcomes and next steps
+
+While my visit was short, I felt that it set in motion an important aspect of the PalaeOpen COST Action, which is bridging the different disciplines. Both insect and pollen data have come far in terms of digitization and offer up ample opportunity to pursue these questions of integration.
+
+## Acknowledgements
+
+I am incredibly grateful to the PalaeOpen Action for making this visit possible, and to Thomas Giesecke and the team at Utrecht University for hosting me in such a beautiful town! I would also like to thank Wim Hoek, Ramesh Glückler, Tobias Vervaart and Catrien Hoffman for participating in the brainstorming session, and for interesting discussions!
+
+---
+*This STSM was funded by the COST Action CA23116 — PalaeOpen.*
