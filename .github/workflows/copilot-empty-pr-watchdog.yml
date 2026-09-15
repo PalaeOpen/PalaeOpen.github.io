@@ -1,0 +1,118 @@
+name: Recover empty Copilot PRs
+
+# Copilot creates its draft PR before starting work, so an empty PR is normal
+# while its check is running. This watchdog acts only after the Copilot check
+# has completed and the PR still has no changed files.
+
+on:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: copilot-empty-pr-watchdog
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Retry or report empty Copilot PRs
+        uses: actions/github-script@v9
+        with:
+          # A user token is intentional: Copilot ignores @copilot comments from
+          # actors without repository write access, including GITHUB_TOKEN bots.
+          github-token: ${{ secrets.COPILOT_TRIGGER_PAT }}
+          script: |
+            const retryMarker = '<!-- copilot-empty-pr-watchdog:retry-v1 -->';
+            const exhaustedMarker = '<!-- copilot-empty-pr-watchdog:exhausted-v1 -->';
+            const implementationMarker = '<!-- copilot-implementation-attempted -->';
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const openPulls = await github.paginate(github.rest.pulls.list, {
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100,
+            });
+
+            for (const summary of openPulls) {
+              const login = summary.user?.login?.toLowerCase() ?? '';
+              const isCopilot =
+                (login === 'copilot' || login === 'copilot-swe-agent[bot]') &&
+                summary.head.ref.startsWith('copilot/');
+
+              if (!isCopilot) continue;
+
+              const { data: pr } = await github.rest.pulls.get({
+                owner,
+                repo,
+                pull_number: summary.number,
+              });
+
+              if (pr.changed_files > 0) continue;
+
+              const { data: checks } = await github.rest.checks.listForRef({
+                owner,
+                repo,
+                ref: pr.head.sha,
+                filter: 'latest',
+                per_page: 100,
+              });
+
+              const copilotCheck = checks.check_runs
+                .filter(({ name }) => name.toLowerCase() === 'copilot')
+                .sort((a, b) => Date.parse(b.started_at) - Date.parse(a.started_at))[0];
+
+              // Do not interfere with a session that has not started or is running.
+              if (!copilotCheck || copilotCheck.status !== 'completed') continue;
+
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner,
+                repo,
+                issue_number: pr.number,
+                per_page: 100,
+              });
+              const retryComment = comments.find(({ body }) => body?.includes(retryMarker));
+              const exhaustedComment = comments.find(({ body }) => body?.includes(exhaustedMarker));
+
+              const body = pr.body ?? '';
+              const claimsImplementation =
+                body.includes(implementationMarker) ||
+                (/\b(added|updated|generated|implemented|fixed)\b/i.test(body) &&
+                  /`[^`]+\.[a-z0-9]+`/i.test(body));
+
+              if (!retryComment && claimsImplementation) {
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: pr.number,
+                  body: `${retryMarker}\n@copilot The previous session completed and its PR summary claims an implementation, but the PR still has a zero-file diff. This usually means the managed final push failed after the work was done. Re-implement the linked issue on this existing PR branch, verify \`git status --short\` and \`git diff --name-only\` are non-empty, and let the Copilot platform commit and push the result. Do not only explain the failure.`,
+                });
+                core.warning(`Requested one automatic recovery for empty Copilot PR #${pr.number}.`);
+                continue;
+              }
+
+              const retryFinished = retryComment &&
+                Date.parse(copilotCheck.started_at) > Date.parse(retryComment.created_at);
+
+              if (retryFinished && !exhaustedComment) {
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: pr.number,
+                  body: `${exhaustedMarker}\n⚠️ The automatic Copilot retry also completed without producing a file diff. @OndrejMottl and @xbenitogranell, please inspect the latest **View session** log. Unassigning and reassigning Copilot starts a fresh task if the failure was transient.`,
+                });
+                core.setFailed(`Copilot PR #${pr.number} is still empty after one retry.`);
+                continue;
+              }
+
+              if (!retryComment && !claimsImplementation) {
+                core.notice(`Copilot PR #${pr.number} is empty, but its summary does not claim an implementation; it may be intentionally blocked on issue validation.`);
+              }
+            }

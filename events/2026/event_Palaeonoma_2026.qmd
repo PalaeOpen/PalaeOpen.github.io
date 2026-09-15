@@ -9,7 +9,7 @@ description: Two-part workshop on nomenclature (ICNafp) and the Neotoma Paleoeco
   Database (Tilia), tailored for fossil workers. Hosted at the University of Bonn,
   Germany.
 sidebar: no
-categories: Future
+categories: Past
 ---
 
 # PalaeoNoma 2026

@@ -1,5 +1,5 @@
 ---
-description: "Main orchestrator agent for the PalaeOpen website. Handles the full issue-to-PR workflow: validates issue completeness, creates branch, implements .qmd changes, renders Quarto, invokes the change-reviewer subagent, and opens a draft PR. Use when: processing a new GitHub Issue, adding event pages, updating grant calls, adding content, or fixing website bugs."
+description: "Main orchestrator agent for the PalaeOpen website. Handles the full issue-to-PR workflow: validates issue completeness, implements .qmd changes on Copilot's managed branch, renders Quarto, invokes the change-reviewer subagent, and prepares the existing draft PR. Use when: processing a new GitHub Issue, adding event pages, updating grant calls, adding content, or fixing website bugs."
 tools: [read, edit, search, execute, agent, todo, web]
 argument-hint: "GitHub Issue number or URL, e.g. #42 or https://github.com/PalaeOpen/PalaeOpen.github.io/issues/42"
 ---
@@ -37,6 +37,7 @@ Collect **all** problems before posting a comment — never post multiple commen
 | `[Grant call]` | `💶 area:grants` | 05 |
 | `[Archive/Remove]` | `🗃️ type:archive-remove` | 06 |
 | `[Bug]` | `🐞 type:bug` | 07 |
+| `[STSM Blog]` | `💶 area:grants` + `✍️ type:new-content` | 08 |
 
 #### A2. Per-Template Field Checks
 
@@ -91,6 +92,16 @@ Flag any field that is empty, contains only whitespace, or still contains the te
 - `Steps to reproduce` — must not be the placeholder steps.
 - `Browser and device` — must not be empty.
 
+**Template 08 — STSM blog post:**
+- `Submission format` — a specific option must be selected.
+- `Author name` — must not be empty.
+- `Home institution` — must not be empty.
+- `Host institution` — must not be empty.
+- `STSM dates` — must not be empty and must look like a real date range.
+- `Blog post title` — must not be empty.
+- `Full blog content` — must contain a real report, not the template skeleton.
+- All three `Confirmation` checkboxes — must be checked.
+
 #### A3. File and Link Checks
 
 After field checks, verify every reference in the issue body:
@@ -113,7 +124,7 @@ After field checks, verify every reference in the issue body:
 - If the issue body contains links to Google Docs, Dropbox, OneDrive, or GitHub attachments, attempt to fetch them.
 - If a link is broken or requires login that prevents access, flag it.
 
-**Proposed file paths (templates 01, 04, 05):**
+**Proposed file paths (templates 01, 04, 05, and 08 when supplied):**
 - If the issue specifies a `target-path`, check whether a file at that path already exists in the repository.
 - For **new** content: if the file already exists, flag the conflict and ask the submitter whether this is an update request instead.
 - For **updates**: if the file does not exist, flag it.
@@ -150,15 +161,11 @@ Then **stop**. Do not create a branch or make any changes until the issue is upd
 
 **If all checks pass:** proceed to Step B.
 
-### Step B — Create a Branch
+### Step B — Confirm the Managed Branch
 
-```bash
-git checkout main
-git pull origin main
-git checkout -b issue[N]-short-description
-```
+GitHub Copilot cloud agent has already created the `copilot/` branch and draft PR before this session starts. Work on the current branch. Do **not** create or switch branches, and do not open a second PR.
 
-Replace `[N]` with the issue number and `short-description` with 2–4 words describing the change (e.g., `issue42-add-basel-workshop`).
+Run `git status --short --branch` to confirm the working branch. If it is not a `copilot/` branch, report the blocker and stop.
 
 ### Step C — Implement Changes
 
@@ -192,15 +199,11 @@ The required steps are:
    ```
 
 Verify exit code is `0` and `docs/` HTML is updated.
-If any installation step fails, follow the fallback procedure in the rendering instructions: commit source only, note the failure prominently in the PR description, and tag @OndrejMottl.
+If any installation step fails, follow the fallback procedure in the rendering instructions: preserve the source changes, note the failure prominently in the PR description, and tag @OndrejMottl.
 
-Commit all changes (source + docs):
+Before finishing, run `git status --short` and `git diff --name-only` (plus `git diff --cached --name-only` if anything is staged). A completed implementation must have at least one intended changed file. Do not claim success with an empty diff.
 
-```bash
-git add .
-git commit -m "[brief description]; render docs — closes #[N]"
-git push origin issue[N]-short-description
-```
+Do **not** run `git commit` or `git push`. Copilot's managed finalizer commits and pushes the working-tree changes to the already-provisioned PR branch after the session ends.
 
 ### Step E — Review
 
@@ -210,12 +213,12 @@ Invoke the `change-reviewer` subagent. Provide it:
 
 Read the reviewer's report:
 - If **✅ ALL CHECKS PASSED** → proceed to Step F.
-- If **⚠️ FLAGS FOUND** → fix every flagged item, re-render if needed, commit, then invoke the reviewer again.
+- If **⚠️ FLAGS FOUND** → fix every flagged item, re-render if needed, then invoke the reviewer again.
   Repeat until the reviewer passes.
 
-### Step F — Open a Draft PR
+### Step F — Prepare the Existing Draft PR
 
-Create a **draft** Pull Request with this description format:
+The draft PR already exists. Provide a final summary in this format so Copilot can update it:
 
 ```markdown
 ## Summary
@@ -227,13 +230,13 @@ Create a **draft** Pull Request with this description format:
 
 ## Closes
 - close #[issue number]
+
+<!-- copilot-implementation-attempted -->
 ```
 
 - Assign **@OndrejMottl** and **@xbenitogranell** as reviewers.
 - Apply the same label(s) from the issue.
-- Keep the PR as a **draft** — do not mark it ready for review yet.
-
-After Step E confirms all checks pass, mark the PR as **ready for review**.
+- Keep the PR as a **draft**. Copilot cloud agent cannot mark its own PR ready for review; a maintainer does that after reviewing the result.
 
 ---
 
@@ -247,10 +250,8 @@ Another PR may have been merged into `main` while this branch was open.
 Always rebase before making any fixes to avoid divergence.
 
 ```bash
-git checkout main
-git pull origin main
-git checkout issue[N]-short-description
-git rebase main
+git fetch origin main
+git rebase origin/main
 ```
 
 During the rebase, **conflicts in `docs/` can always be resolved by accepting the incoming (main) version** — `docs/` will be fully regenerated by `quarto render` in the next step, so its pre-rebase content is irrelevant:
@@ -278,17 +279,9 @@ quarto render
 
 Verify exit code is `0` and `docs/` is updated.
 
-#### G4. Commit and Force-Push
+#### G4. Verify the Working Tree
 
-Because the branch was rebased, a force-push is required:
-
-```bash
-git add .
-git commit -m "Address review feedback; re-render docs"
-git push --force-with-lease origin issue[N]-short-description
-```
-
-Use `--force-with-lease` (not `--force`) — this is safer and will fail if someone else pushed to the branch in the meantime.
+Run `git status --short` and verify the requested source and rendered files are changed. Leave those changes for Copilot's managed finalizer to commit and push. Do not run `git commit`, `git push`, or a force-push from the session.
 
 #### G5. Re-invoke the Reviewer
 
@@ -303,4 +296,6 @@ Fix any new flags, then re-request review from @OndrejMottl and @xbenitogranell 
 - Never commit directly to `main`.
 - Never set `categories:` in event `.qmd` files.
 - Never hand-edit `events/events.qmd`.
+- Never manually create a branch, commit, push, or open another PR from a Copilot cloud-agent session; GitHub manages those operations.
+- Never describe an implementation as complete when the working-tree diff is empty.
 - Squash-merge is the only accepted merge strategy (for maintainers to apply).

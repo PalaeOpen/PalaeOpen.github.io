@@ -74,5 +74,5 @@ Output a table with one row per checklist item:
 | … | … | … | … |
 
 End the report with one of:
-- **✅ ALL CHECKS PASSED** — proceed to mark PR ready for review.
-- **⚠️ FLAGS FOUND** — fix all flagged items before marking PR ready.
+- **✅ ALL CHECKS PASSED** — the PR is ready for a maintainer to review and mark ready.
+- **⚠️ FLAGS FOUND** — fix all flagged items before requesting maintainer review.
