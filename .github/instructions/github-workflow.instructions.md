@@ -4,7 +4,22 @@ description: "Use when working with git branches, commits, pull requests, or any
 
 # GitHub Workflow — PalaeOpen
 
-## Branching
+## Copilot Cloud-Agent Exception
+
+When these instructions run inside GitHub Copilot cloud agent, GitHub has already provisioned a `copilot/` branch and draft PR. In that environment:
+
+- Work only on the current managed branch; do not create or switch branches.
+- Do not run `git commit`, `git push`, or create another PR. GitHub's managed finalizer performs those operations after the session.
+- Before finishing an implementation, verify `git status --short` and the staged/unstaged diff contain the intended files. An empty diff is not a completed implementation.
+- Keep the PR in draft. Copilot cannot mark its own PR ready for review.
+
+The manual commands below are for human/local workflows only.
+
+## Manual Human/Local Workflow
+
+The remaining branch, commit, and PR commands in this file are for maintainers working locally. They do not override the Copilot cloud-agent exception above.
+
+### Branching
 
 - **Always** create a new branch for every issue. Never commit to `main` directly.
 - Branch naming: `issue[N]` or `issue[N]-short-description`
@@ -16,13 +31,13 @@ description: "Use when working with git branches, commits, pull requests, or any
   git checkout -b issue[N]-short-description
   ```
 
-## Commits
+### Commits
 
 - Commit often; each commit message must be meaningful and describe what changed.
 - Commit source (`.qmd`) changes and `docs/` output together in the same commit (or as consecutive commits on the same branch before the PR is opened).
 - Use imperative mood: `Add event page for Basel 2026`, not `Added` or `Adding`.
 
-## Pull Requests
+### Pull Requests
 
 ### Required PR Description Format
 
@@ -53,13 +68,13 @@ Always assign **both** @OndrejMottl and @xbenitogranell as reviewers on every PR
 
 Apply the same label(s) used on the source issue to the PR.
 
-## Merge Policy
+### Merge Policy
 
 - Merges to `main` use **squash and merge** only. This keeps a clean git history.
 - **The agent must NEVER merge a PR** unless a maintainer (@OndrejMottl or @xbenitogranell) explicitly gives the instruction to do so. This is rare.
 - After a merge, delete the feature branch.
 
-## Handling PR Feedback and Iteration
+### Handling PR Feedback and Iteration
 
 When a maintainer requests changes on an open PR:
 
@@ -82,7 +97,7 @@ When a maintainer requests changes on an open PR:
    ```
 5. **Re-invoke `change-reviewer`** and re-request review from @OndrejMottl and @xbenitogranell.
 
-## When Blocked
+### When Blocked
 
 If the agent encounters an unforeseen problem that prevents progress:
 

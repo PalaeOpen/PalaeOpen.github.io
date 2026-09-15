@@ -25,16 +25,20 @@ on:
   issues:
     types: [opened]
 
+permissions:
+  contents: read
+
 jobs:
   assign-to-copilot:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Assign issue to Copilot Coding Agent
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.COPILOT_TRIGGER_PAT }}
           script: |
-            await github.request('POST /repos/{owner}/{repo}/issues/{issue_number}/assignees', {
+            const response = await github.request('POST /repos/{owner}/{repo}/issues/{issue_number}/assignees', {
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
@@ -43,10 +47,24 @@ jobs:
                 target_repo: `${context.repo.owner}/${context.repo.repo}`,
                 base_branch: 'main',
                 custom_agent: 'website-maintainer',
-                custom_instructions: 'Read all instructions in .github/ first (especially .github/agents/website-maintainer.agent.md), then follow the full issue → PR workflow defined there.',
+                custom_instructions: [
+                  'Implement the issue now; do not stop after writing a plan.',
+                  'Read all instructions in .github/ first, especially .github/agents/website-maintainer.agent.md.',
+                  'Work on the branch and draft PR provisioned by Copilot. Do not manually create a branch, commit, push, or open another PR.',
+                  'Before finishing an implementation, verify that git status shows the intended changes and include <!-- copilot-implementation-attempted --> in the final PR summary.',
+                ].join(' '),
                 model: ''
               },
               headers: {
+                accept: 'application/vnd.github+json',
                 'X-GitHub-Api-Version': '2022-11-28'
               }
             });
+
+            const assigned = response.data.assignees
+              .map(({ login }) => login.toLowerCase())
+              .some((login) => login === 'copilot' || login === 'copilot-swe-agent[bot]');
+
+            if (!assigned) {
+              core.setFailed('GitHub accepted the request but did not assign Copilot to the issue.');
+            }

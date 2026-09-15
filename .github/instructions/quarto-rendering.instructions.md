@@ -38,6 +38,8 @@ git add .
 git commit -m "Add/update [description]; render docs"
 ```
 
+Inside GitHub Copilot cloud agent, do not run these commit commands. Verify that both source and `docs/` appear in `git status --short`, then leave them in the working tree for Copilot's managed finalizer to commit and push.
+
 The `docs/` folder is **not** in `.gitignore` — it must be committed.
 GitHub Pages serves the site directly from `docs/` on the `main` branch.
 
@@ -125,18 +127,15 @@ Verify success:
 - `docs/index.html` should have an updated modification timestamp.
 - The HTML file for the changed page must exist under `docs/`.
 
-### Step 5 — Commit `docs/`
+### Step 5 — Preserve `docs/` for the PR
 
-```bash
-git add .
-git commit -m "Add/update [description]; render docs"
-```
+Verify `git status --short` includes the expected source and `docs/` changes. In a local human workflow, commit them together. In Copilot cloud agent, leave them for the managed finalizer; do not commit or push manually.
 
 ## Fallback: If the Environment Cannot Be Set Up
 
 If any installation step fails and cannot be resolved:
 
-1. Commit the source `.qmd` changes **without** the `docs/` output.
+1. Preserve the source `.qmd` changes **without** the `docs/` output (commit them in a local human workflow; leave them in the working tree in Copilot cloud agent).
 2. Add a clearly visible note in the PR description:
 
    ```

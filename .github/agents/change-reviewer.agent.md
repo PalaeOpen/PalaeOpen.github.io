@@ -70,5 +70,5 @@ Print a Markdown table:
 | 2.3 | No placeholder text | FLAG | Line 42: "TBD" in registration section |
 
 Conclude with **one** of:
-- **✅ ALL CHECKS PASSED** — the `website-maintainer` may mark the PR ready for review.
-- **⚠️ FLAGS FOUND ([N] items)** — list each flag; the `website-maintainer` must fix all flags and re-invoke this reviewer before marking the PR ready.
+- **✅ ALL CHECKS PASSED** — the PR is ready for a maintainer to review and mark ready.
+- **⚠️ FLAGS FOUND ([N] items)** — list each flag; the `website-maintainer` must fix all flags and re-invoke this reviewer before requesting maintainer review.

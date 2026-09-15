@@ -66,8 +66,8 @@ All content requests come via structured GitHub Issue templates. The workflow fo
 
 ### 2. **Branch**
 
-- Create a new branch: `issue[N]` or `issue[N]-short-description`
-- Example: `issue42-add-basel-workshop`
+- GitHub provisions a managed `copilot/` branch and draft PR for the coding agent
+- Human contributors should create `issue[N]` or `issue[N]-short-description` branches
 - **Never work on `main` directly**
 
 ### 3. **Implement**
@@ -91,11 +91,12 @@ All content requests come via structured GitHub Issue templates. The workflow fo
 
 ### 6. **Open PR**
 
-- Create a **draft** PR with:
+- Update the managed **draft** PR with:
   - Summary of changes
   - `- close #[issue number]`
   - Tag @OndrejMottl and @xbenitogranell as reviewers
-- Mark as ready for review only after change-reviewer passes
+- A maintainer marks it ready after the change-reviewer passes
+- A scheduled watchdog retries once if Copilot finishes but the PR still has no file changes, then alerts both maintainers if recovery fails
 - **Agents must NEVER merge a PR** unless explicitly instructed by a maintainer
 
 ---

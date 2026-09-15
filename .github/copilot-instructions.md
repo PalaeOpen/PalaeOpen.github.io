@@ -85,21 +85,22 @@ When assigned an issue, the agent must follow this sequence:
    If any are missing, post a comment tagging the issue submitter requesting the missing info.
    If blocked by an unforeseen problem, tag @OndrejMottl or @xbenitogranell for help.
 
-2. **Branch** — Create a new branch named `issue[N]` or `issue[N]-short-description` (e.g., `issue42-add-basel-workshop`).
-   Never work on `main` directly.
+2. **Branch** — Work on the current `copilot/` branch and draft PR provisioned by GitHub. Never work on `main`, create another branch, or open another PR from the cloud-agent session.
 
 3. **Implement** — Write/edit `.qmd` files following the relevant instruction files.
 
-4. **Render** — Run `quarto render` and commit the `docs/` output.
+4. **Render** — Run `quarto render` and preserve the `docs/` output with the source changes.
 
 5. **Review** — Invoke the `change-reviewer` subagent.
    Fix any flagged violations before continuing.
 
-6. **Open PR** — Create a **draft** PR initially. The description must include:
+6. **Prepare PR** — Update the existing **draft** PR summary. It must include:
    - Summary of changes
    - `- close #[issue number]`
    - Tag @OndrejMottl and @xbenitogranell as reviewers
-   Mark as ready for review only after the change-reviewer passes.
+   - `<!-- copilot-implementation-attempted -->` after a non-empty implementation
+
+Before finishing, verify that `git status --short` and the staged/unstaged diff contain the intended changed files. Do not report a completed implementation with an empty diff. Do not run `git commit`, `git push`, or create a PR manually; GitHub's managed finalizer performs those operations. Keep the PR in draft for a maintainer to mark ready.
 
 > **The agent must NEVER merge a PR** unless explicitly instructed by a maintainer.
 
