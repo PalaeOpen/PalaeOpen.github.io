@@ -50,3 +50,26 @@ We currently use [Zulip](https://zulip.com/) as our main communication platform 
 
 
 ::::
+
+<br>
+
+### Instagram 
+
+:::: {.columns}
+
+::: {.column width=10%}
+![](/Materials/Logos/instagram/Instagram_logo_2016.svg)
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=85%}
+
+Want to stay in the loop with all our latest content and updates? Follow our official [Instagram page](https://www.instagram.com/palaeopenexplains) **@palaeopenexplains** for regular posts, infographics, exclusive community updates, and many more suprises. Follow us!
+
+:::
+
+
+
+::::
