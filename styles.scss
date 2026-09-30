@@ -314,6 +314,26 @@ ul ul {
   }
 }
 
+/* Join Us communication channels */
+.community-channel {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: $largeMargin;
+  align-items: start;
+  margin-bottom: $largeMargin;
+}
+
+.community-channel p {
+  margin-top: 0;
+}
+
+@media (max-width: 576px) {
+  .community-channel {
+    grid-template-columns: 1fr;
+    gap: $smallMargin;
+  }
+}
+
 .callout-red {
   margin: 1em 0;
   border: 2px solid $black;
