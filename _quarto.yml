@@ -70,6 +70,8 @@ website:
     tools:
       - icon: github
         href: https://github.com/PalaeOpen/
+      - icon: instagram
+        href: https://www.instagram.com/palaeopenexplains/
 
 format:
   html:
