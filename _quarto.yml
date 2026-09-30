@@ -11,6 +11,7 @@ website:
 
   page-footer:
     left: "&copy; Copyright 2025, PalaeOpen"
+    center: '<a href="https://www.instagram.com/palaeopenexplains/" aria-label="PalaeOpen on Instagram"><i class="bi bi-instagram" aria-hidden="true"></i> <span>&#64;palaeopenexplains</span></a>'
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/) by Ondřej Mottl."
 
   site-url: https://palaeopen.github.io/
@@ -60,18 +61,17 @@ website:
           - text: Open Call for STSM Grants
             href: grants/stms/stms_2026_3ndcall.qmd
 
-      - text: Join Us
-        href: join_us.qmd
-
     right:
       - text: Join us!
-        href: https://e-services.cost.eu/action/CA23116/working-groups/applications
+        href: join_us.qmd
 
     tools:
-      - icon: github
-        href: https://github.com/PalaeOpen/
       - icon: instagram
         href: https://www.instagram.com/palaeopenexplains/
+        text: PalaeOpen on Instagram
+      - icon: github
+        href: https://github.com/PalaeOpen/
+        text: PalaeOpen on GitHub
 
 format:
   html:
