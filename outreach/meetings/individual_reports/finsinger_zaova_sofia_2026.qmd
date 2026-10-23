@@ -1,0 +1,56 @@
+---
+title: "Data Stewardship Workshop"
+date: 2026/07/25
+date-format: long
+date-modified: last-modified
+author: "Dushica Zaova an Walter Finsinger"
+description: "How can Data Stewards best ensure high data quality?"
+image: "../../../Materials/meeting_reports/montpellier_2026/1_DAS_workshop_group_photo.jpg"
+sidebar: false
+format:
+  html:
+    embed-resources: true
+---
+
+**Affiliations:** Dušica Zaova — Saints Cyril and Methodius University of Skopje, Bulgaria; Walter Finsinger — University of Montpellier, France
+
+::: {.callout-note}
+## 📅 Event details
+
+**Dates:** 22–24 September 2026  
+**Location:** Montpelier, France
+:::
+
+The workshop brought together 22 in-person participants from 15 countries in Montpellier, France. Some had joined previous PalaeOpen activities, including the [Training School on Quantitative Numerical Analyses and Data Stewardship](https://palaeopen.github.io/outreach/meetings/individual_reports/katreva_jungkeit_sofia_2026.html), while others were discovering the  PalaeOpen COST Action for the first time. Early-career researchers and participants from ITC countries were well represented (both ca. 50% of the participants), and good gender balance was maintained. In addition to the 22 in-person participants, four participants joined remotely on the first day of the workshop.
+
+## Raising awareness of workflows and best practises in data stewardship
+
+The program of the first day kicked off with a series of short lectures from Lead Data Stewards and representatives of proxy communities, who shared updates on their communities’status, workflows, and plans for the future. Dr. Steffen Wolters (Niedersächsisches Institut für historische Küstenforschung, Germany) spoke about taxonomy challenges and best practices in Neotoma data stewardship.  Dr. Anna Tichá (Univerzita Karlova, Czechia) with Dr. Xavier Benito (Institute of Agrifood Research and Technology, Spain) presented a new human-supervised workflow for nomenclatural harmonization for diatoms they recently created. Ms. Socorro Esther Dominguez-Vidana (University of Wisconsin-Madison, United States) gave an in-depth overview of features relevant to Data Stewards that have been recently added to the Neotoma Palaeoecology Database (including the ORCID integration and the command-line operated Data Bulk-Upload System (DataBUS)).
+
+The presentations stimulated discussions which touched upon questions of data stewardship both within and across proxy groups. These discussions shifted the perspective of many data stewards. Firstly, they raised awareness of the need for clearly established workflows within each of the proxy-specific data steward communities. Secondly, rather than viewing data stewardship just as a set of data management practices specific to individual proxy groups, data stewards realised the necessity to share some common ground when curating datasets. Hence, one of the clearest takeaways from these discussions was the growing need for optimized communication among data steward communities. 
+
+
+::: {#fig-montpellier-1}
+![](/Materials/meeting_reports/montpellier_2026/2_DAS_workshop_group_photo.jpg)
+:::
+
+## Learning through practice
+
+Hands-on training was split up into two smaller groups, each following a different pathway for data stewardship. More experienced data stewards helped a larger group of participants to improve their skills in curating datasets and uploading them to the Neotoma Palaeoecology Database through Tilia. Questions regarding the curation of both downcore record datasets as well as sets of surface samples have been addressed. A smaller group, instead, received an in-depth introduction and training by Ms. Socorro Esther Dominguez-Vidana (University of Wisconsin-Madison, United States) in data management and upload practises through the Data Bulk-Upload System (DataBUS).
+
+
+::: {#fig-montpellier-2}
+![](/Materials/meeting_reports/montpellier_2026/3_DAS_workshop_group_photo.jpg)
+:::
+
+## Key takeways
+
+- Data Stewardship is expanding across diverse ecological and geographical contexts.
+- Hands-on approaches are central to training data stewards.
+- Communication among data stewards is essential for ensuring high data quality in databases and data repositories.
+
+## What's next
+
+The workshop gave an impulse for follow-up actions.
+A group of volunteers dwelled on the insights from the lectures and on the outcomes of the discussions, and drafted a technical document that will serve as a basis for a guideline for different data steward communities.
+At the same time, data stewards improved their data curation and upload skills. These will be further improved and shared with data stewards who were not able to join the workshop, for instance through online Q&A sessions, the Zulip channel dedicated to discussions among data stewards, and video recordings.
