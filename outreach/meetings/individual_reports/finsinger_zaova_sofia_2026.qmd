@@ -5,7 +5,7 @@ date-format: long
 date-modified: last-modified
 author: "Dushica Zaova an Walter Finsinger"
 description: "How can Data Stewards best ensure high data quality?"
-image: "../../../Materials/meeting_reports/montpellier_2026/1_DAS_workshop_group_photo.jpg"
+image: "../../../Materials/meeting_reports/montpellier_2026/1_DAS_workshop_group_photo.jpeg"
 sidebar: false
 format:
   html:
@@ -31,7 +31,7 @@ The presentations stimulated discussions which touched upon questions of data st
 
 
 ::: {#fig-montpellier-1}
-![](/Materials/meeting_reports/montpellier_2026/2_DAS_workshop_group_photo.jpg)
+![](/Materials/meeting_reports/montpellier_2026/2_DAS_workshop_group_photo.jpeg)
 :::
 
 ## Learning through practice
@@ -40,7 +40,7 @@ Hands-on training was split up into two smaller groups, each following a differe
 
 
 ::: {#fig-montpellier-2}
-![](/Materials/meeting_reports/montpellier_2026/3_DAS_workshop_group_photo.jpg)
+![](/Materials/meeting_reports/montpellier_2026/3_DAS_workshop_group_photo.jpeg)
 :::
 
 ## Key takeways
