@@ -36,7 +36,6 @@ The presentations stimulated discussions which touched upon questions of data st
 ::: {#fig-1}
 ![](/Materials/meeting_reports/montpellier_2026/2_DAS_workshop_group_photo.jpeg)
 Stefen Wolters presenting taxonomic aspects of data stewardship during the first day of presentations. Photo credit: Walter Finsinger.
-
 :::
 
 ## Learning through practice
@@ -47,7 +46,6 @@ Hands-on training was split up into two smaller groups, each following a differe
 ::: {#fig-2}
 ![](/Materials/meeting_reports/montpellier_2026/3_DAS_workshop_group_photo.jpeg)
 On second day, participants worked by individual proxy communities. Photo credit: Walter Finsinger.
-
 :::
 
 ## Key takeways
