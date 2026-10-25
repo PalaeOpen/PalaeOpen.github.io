@@ -1,12 +1,15 @@
 ---
 title: "Data Stewardship Workshop"
-date: 2026/07/25
+date: 2026/10/25
 date-format: long
 date-modified: last-modified
 author: "Dushica Zaova an Walter Finsinger"
 description: "How can Data Stewards best ensure high data quality?"
 image: "../../../Materials/meeting_reports/montpellier_2026/1_DAS_workshop_group_photo.jpeg"
-sidebar: false
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
 format:
   html:
     embed-resources: true
