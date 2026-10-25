@@ -37,7 +37,7 @@ The program of the first day kicked off with a series of short lectures from Lea
 The presentations stimulated discussions which touched upon questions of data stewardship both within and across proxy groups. These discussions shifted the perspective of many data stewards. Firstly, they raised awareness of the need for clearly established workflows within each of the proxy-specific data steward communities. Secondly, rather than viewing data stewardship just as a set of data management practices specific to individual proxy groups, data stewards realised the necessity to share some common ground when curating datasets. Hence, one of the clearest takeaways from these discussions was the growing need for optimized communication among data steward communities. 
 
 
-::: {#fig-2}
+:::{#fig-2}
 
 ![](/Materials/meeting_reports/montpellier_2026/2_DAS_workshop_group_photo.jpeg)
 
@@ -50,7 +50,7 @@ Stefen Wolters presenting taxonomic aspects of data stewardship during the first
 Hands-on training was split up into two smaller groups, each following a different pathway for data stewardship. More experienced data stewards helped a larger group of participants to improve their skills in curating datasets and uploading them to the Neotoma Palaeoecology Database through Tilia. Questions regarding the curation of both downcore record datasets as well as sets of surface samples have been addressed. A smaller group, instead, received an in-depth introduction and training by Ms. Socorro Esther Dominguez-Vidana (University of Wisconsin-Madison, United States) in data management and upload practises through the Data Bulk-Upload System (DataBUS).
 
 
-::: {#fig-3}
+:::{#fig-3}
 ![](/Materials/meeting_reports/montpellier_2026/3_DAS_workshop_group_photo.jpeg)
 On second day, participants worked by individual proxy communities. Photo credit: Walter Finsinger.
 
