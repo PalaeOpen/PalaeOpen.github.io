@@ -41,7 +41,7 @@ Held with contributions from experts and collaborators, the workshop focused on 
 
 :::{#fig-1}
 
-![](/Materials/meeting_reports/Basel_2026/photo2.jpg)
+![](/Materials/meeting_reports/basel_2026/photo2.jpg)
 
 Group discussion and presentations during the workshop.
 
@@ -75,7 +75,7 @@ The project also highlights the added value of data sharing: datasets included i
 
 :::{#fig-2}
 
-![](/Materials/meeting_reports/Basel_2026/photo3.jpg)
+![](/Materials/meeting_reports/basel_2026/photo3.jpg)
 
 Participants enjoying the boat field trip.
 
