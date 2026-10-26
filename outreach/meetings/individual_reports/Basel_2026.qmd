@@ -1,0 +1,98 @@
+---
+date: 2026/05/21
+date-format: long
+date-modified: last-modified
+image: "../../../Materials/meeting_reports/basel_2026/photo1.jpg"
+about:
+  id: heading
+  template: jolla
+  image-shape: round
+  image-width: 250px
+format:
+  html:
+    embed-resources: true
+---
+
+# Archiving and Amalgamation of Chironomid Surface Sediment Datasets {text-align="center"}
+
+::: {#heading}
+:::
+
+A collaborative initiative to standardise and preserve European chironomid-climate calibration datasets (“Training sets”) for long-term scientific use.
+
+:::{.callout-red text-align="left"}
+### 🌍 Where?
+
+University of Basel, Switzerland
+:::
+
+:::{.callout-red}
+### 📅 When?
+
+20-21 May 2026
+:::
+
+## Introduction
+
+What happens to valuable scientific data once a project ends? This question lies at the heart of a recent workshop dedicated to chironomid surface sediment datasets. Organised within the framework of the PalaeOpen EU COST Action, the event brought together researchers of subfossil chironomid remains to address a pressing issue: the fragmentation and potential loss of palaeoecological data.
+
+Held with contributions from experts and collaborators, the workshop focused on developing a coordinated effort to collect, standardise, and archive chironomid-climate calibration datasets used for temperature reconstruction studies. Discussions centred on future-oriented strategies for data preservation and accessibility. By establishing shared principles and workflows, participants aimed to ensure that these datasets remain usable, visible, and impactful for the broader scientific community
+
+
+:::{#fig-1}
+
+![](/Materials/meeting_reports/Basel_2026/photo2.jpg)
+
+Group discussion and presentations during the workshop.
+
+:::
+
+## Safeguarding endangered scientific data
+
+A central concern highlighted during the workshop was the vulnerability of existing chironomid datasets. Many surface sediment training sets—used to reconstruct past temperatures—are not publicly accessible and risk permanent loss. These datasets, often developed over years of field and laboratory work, are a critical resource for palaeoclimate research.
+This initiative aims to prevent this loss by creating a comprehensive archive. By compiling both published and unpublished datasets, the project seeks to ensure long-term preservation while increasing their visibility and usability. The emphasis is not only on storage but also on documentation, enabling future researchers to understand and reuse the data effectively.
+Importantly, the project prioritises a realistic scope: focusing initially on European temperature calibration datasets. This targeted approach increases feasibility and allows the group to deliver meaningful results within a reasonable timeframe.
+
+
+## Building a standardised and accessible database
+
+A key challenge lies in harmonising datasets that differ in format, taxonomic resolution, and metadata completeness. Chironomid data can vary significantly depending on identification methods and sampling strategies, making standardisation essential for meaningful comparison.
+To address this, the workshop outlined a structured workflow. This includes collecting raw datasets, standardising taxonomic classifications, and compiling essential metadata such as geographic coordinates, water depth, and summer temperature. Additional environmental variables—such as water chemistry—may also be included where available.
+In addition to temperature calibration datasets, the project also considers other types of surface sediment data, such as within-lake datasets (e.g. depth transects). These datasets, while not directly used for temperature reconstruction, provide valuable insights into ecological variability and further enhance the overall scope of the compilation.
+The final objective is to integrate these datasets into platforms such as Neotoma, an open-access palaeoecological database. By adhering to FAIR data principles (Findable, Accessible, Interoperable, Reusable), the project ensures that the compiled datasets can support a wide range of future applications.
+
+## Collaboration, authorship, and data sharing ethics
+
+The success of the project depends heavily on collaboration across the scientific community. To facilitate this, a clear framework for data contribution and authorship was discussed. Contributors providing datasets—whether published or unpublished—are recognised through co-authorship opportunities in resulting publications.
+Different levels of contribution are acknowledged, ranging from core project members to data providers. This structured approach aims to balance inclusivity with practical limits on authorship. At the same time, the initiative promotes transparency by clearly communicating expectations from the outset, particularly through invitation emails sent to potential contributors.
+A crucial principle is that all compiled data will become publicly available after publication. This commitment reflects a broader shift in scientific culture toward open data, encouraging reuse and maximising the impact of individual datasets.
+
+## From data compilation to scientific impact
+
+Beyond data preservation, the project seeks to generate tangible scientific outputs. Two main products are planned: a comprehensive dataset publication with individual DOIs, and a synthesis paper providing an overview of available chironomid calibration datasets.
+Rather than producing new climate reconstructions immediately, the focus is on creating a robust foundation for future research. By making harmonised datasets widely available, the initiative enables new analyses, comparative studies, and large-scale syntheses.
+The project also highlights the added value of data sharing: datasets included in large compilations tend to be more widely used and cited. This creates a strong incentive for participation and reinforces the collective benefits of open science.
+
+:::{#fig-2}
+
+![](/Materials/meeting_reports/Basel_2026/photo3.jpg)
+
+Participants enjoying the boat field trip.
+
+:::
+
+## Key Takeaways
+
+- Many chironomid datasets are currently inaccessible and at risk of being lost
+- Standardisation is essential to enable comparison and reuse across studies
+- Open-access platforms like Neotoma play a key role in long-term data preservation
+- Transparent authorship and collaboration framework encourage data sharing
+
+
+## What's next
+
+The next phase of the project focuses on actively collecting datasets from contributors across Europe. This involves contacting researchers, processing submitted data, and developing standardised formats.
+In parallel, the team will refine metadata structures and address technical challenges such as taxonomic consistency. Future extensions may include additional geographic regions. A parallel project is also compiling and archiving downcore records for public sharing. Ultimately, the initiative aims to establish a scalable model for collaborative data sharing in the environmental sciences.
+
+
+[Loïs Petitjean](mailto:lois.petitjean@unibas.ch), University of Basel, Switzerland
