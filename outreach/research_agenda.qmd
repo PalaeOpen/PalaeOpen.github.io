@@ -9,34 +9,36 @@ European palaeoecology is undergoing a period of rapid transformation. Advances 
 
 These challenges require scientific evidence that extends beyond the temporal limits of ecological monitoring and historical observations. Palaeoecology is uniquely positioned to provide such evidence by documenting ecosystem responses to environmental change over decades, centuries, and millennia.
 
-Recognising both the opportunities and challenges facing the discipline, members of the PalaeOpen community undertook a structured consultation exercise to identify priorities for the future development of European palaeoecology. Through facilitated discussions involving researchers from diverse disciplinary backgrounds (Fig 1), participants identified key scientific challenges, methodological needs, societal opportunities, and community-development priorities. 
+Recognising both the opportunities and challenges facing the discipline, members of the PalaeOpen community undertook a structured consultation exercise to identify priorities for the future development of European palaeoecology. Through facilitated discussions involving researchers from diverse disciplinary backgrounds (@fig-consultation), participants identified key scientific challenges, methodological needs, societal opportunities, and community-development priorities. 
 
 
-:::: {#fig-pollen layout-ncol=2}
+:::: {#fig-consultation layout="[[64,36]]" layout-valign="top"}
 
-![a)  Part of the attendees from one of the workouts groups discussing our research agenda](/Materials/research_agenda/photo2.jpg)
+![a) Part of the attendees from one of the breakout groups discussing our research agenda](/Materials/research_agenda/photo2.jpg){fig-alt="Meeting attendees seated at desks in a lecture room, turned towards each other in discussion, with a shared document projected on a screen."}
 
 
-![b) some of the responses given by attendees on how to connect palaeoecology to society in our first Open Science Meeting (Prague, June 2025)](/Materials/research_agenda/photo3.jpg)
+![b) Some of the responses given by attendees on how to connect palaeoecology to society in our first Open Science Meeting (Prague, June 2025)](/Materials/research_agenda/photo3.jpg){fig-alt="Whiteboard headed 'Question 1' covered with handwritten sticky notes from attendees."}
+
+Community consultation on the research agenda.
 
 ::::
 
 
-**A shared vision for European palaeoecology**: The consultation revealed broad agreement that palaeoecology should increasingly contribute to understanding ecosystem functioning and informing contemporary environmental challenges:
+**A shared vision for European palaeoecology**: The consultation revealed broad agreement that palaeoecology should increasingly contribute to understanding ecosystem functioning and informing contemporary environmental challenges (@fig-flowchart):
 
-- *Priority theme I*: understanding long-term ecosystem functioning: Key topics include ecosystem resilience, ecological interactions, disturbance dynamics and ecological thresholds. 
+- *Priority theme I – Understanding long-term ecosystem functioning.* Key topics include ecosystem resilience, ecological interactions, disturbance dynamics and ecological thresholds. 
 
-- *Priority theme II*: integrating multiple proxies: Future developments should focus on integrated analytical frameworks, common metadata standards, harmonised chronologies, quantitative proxy integration, and network-based approaches to ecosystem reconstruction.
+- *Priority theme II – Integrating multiple proxies.* Future developments should focus on integrated analytical frameworks, common metadata standards, harmonised chronologies, quantitative proxy integration, and network-based approaches to ecosystem reconstruction.
  
-- *Priority theme III*: open data and shared infrastructure: Priorities include data accessibility, recognition and incentives for data sharing, analytical reproducibility and long-term infrastructure development.
+- *Priority theme III – Open data and shared infrastructure.* Priorities include data accessibility, recognition and incentives for data sharing, analytical reproducibility and long-term infrastructure development.
 
-- *Priority theme IV*: connecting palaeoecology with society: Palaeoecology can inform biodiversity conservation, ecological restoration, protected area management, sustainability planning, wildfire management, climate adaptation and landscape planning. 
+- *Priority theme IV – Connecting palaeoecology with society.* Palaeoecology can inform biodiversity conservation, ecological restoration, protected area management, sustainability planning, wildfire management, climate adaptation and landscape planning. 
 
-- *Priority theme V*: capacity building and community development: Training priorities include advanced statistics, Bayesian modelling, machine learning, artificial intelligence, network analysis, computational ecology, ecological theory, restoration ecology and stakeholder engagement. 
+- *Priority theme V – Capacity building and community development.* Training priorities include advanced statistics, Bayesian modelling, machine learning, artificial intelligence, network analysis, computational ecology, ecological theory, restoration ecology and stakeholder engagement. 
  
-::: {#fig-1}
+::: {#fig-flowchart}
 
-![](/Materials/research_agenda/palaeOpen_flowchart_resAgenda.png)
+![](/Materials/research_agenda/palaeOpen_flowchart_resAgenda.png){fig-alt="Flow chart of the five PalaeOpen priority themes. Societal challenges (biodiversity loss, climate change, ecosystem degradation, need for effective restoration) feed into Theme I, understanding long-term ecosystem functioning, with its key topics and five future research directions. Theme II (integrating multiple proxies) and Theme III (open data and shared infrastructure) feed into Theme I. Theme I transfers to Theme IV (connecting palaeoecology with society), which informs responses to the societal challenges. Theme V (capacity building and community development) underpins every theme through training, skills and computational and theoretical tools."}
 
 Flow chart connecting the research questions, priorities and transference to society of PalaeOpen
 
@@ -50,4 +52,4 @@ Flow chart connecting the research questions, priorities and transference to soc
 - Learning from restoration analogues,
 - Human-ecosystem coexistence. 
 
-This community consultation represents the first stage of developing a comprehensive European research agenda for palaeoecology and should be considered as a  living framework because the discipline possesses both complementary and unique long-term evidence capable of addressing some of the most pressing environmental challenges facing society. 
+This community consultation represents the first stage of developing a comprehensive European research agenda for palaeoecology and should be considered as a living framework because the discipline possesses both complementary and unique long-term evidence capable of addressing some of the most pressing environmental challenges facing society. 
