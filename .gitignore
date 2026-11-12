@@ -61,3 +61,6 @@ Temp/
 _environment.local
 
 /_*.local
+
+# Local and CI preview renders (docs/ is built only after merge)
+/_preview/

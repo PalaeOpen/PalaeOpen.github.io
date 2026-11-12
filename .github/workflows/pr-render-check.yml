@@ -1,0 +1,79 @@
+name: PR render check
+
+# Checks every pull request into main before it is merged:
+#   1. The PR must not change docs/. docs/ (the published site) is generated
+#      only by the "Re-render site after merge" workflow after the merge.
+#   2. The whole site must render without errors. The output goes to a
+#      throwaway _preview/ folder and is uploaded as the "site-preview"
+#      artifact (download it from the run's Summary page to inspect the pages).
+#
+# Pull requests opened by the Copilot coding agent need a maintainer to click
+# "Approve and run workflows" on the PR before this check runs, unless that
+# requirement is turned off in the repository's Copilot coding agent settings.
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-render-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  render-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out the PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check that docs/ is not changed
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE_SHA" HEAD -- docs/)
+          if [ -n "$changed" ]; then
+            echo "::error::This PR changes docs/. docs/ is rebuilt automatically after merge, so PRs must change source files only."
+            echo "Changed generated files:"
+            echo "$changed" | head -20
+            echo ""
+            echo "To fix it, restore docs/ from main on the PR branch and commit:"
+            echo "  git fetch origin main"
+            echo "  git checkout origin/main -- docs/"
+            echo "  git commit -m \"docs: remove generated output from PR\""
+            exit 1
+          fi
+          echo "docs/ is unchanged."
+
+      - name: Install Quarto
+        run: |
+          wget -q https://quarto.org/download/latest/quarto-linux-amd64.deb
+          sudo dpkg -i quarto-linux-amd64.deb
+          quarto --version
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.1'
+
+      - name: Restore R packages via renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Render site into _preview/
+        run: quarto render --output-dir _preview
+
+      - name: Upload rendered preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: _preview/
+          retention-days: 7

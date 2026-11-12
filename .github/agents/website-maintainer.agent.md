@@ -1,5 +1,5 @@
 ---
-description: "Main orchestrator agent for the PalaeOpen website. Handles the full issue-to-PR workflow: validates issue completeness, implements .qmd changes on Copilot's managed branch, renders Quarto, invokes the change-reviewer subagent, and prepares the existing draft PR. Use when: processing a new GitHub Issue, adding event pages, updating grant calls, adding content, or fixing website bugs."
+description: "Main orchestrator agent for the PalaeOpen website. Handles the full issue-to-PR workflow: validates issue completeness, implements .qmd source changes on Copilot's managed branch (docs/ is rebuilt by CI after merge), invokes the change-reviewer subagent, and prepares the existing draft PR. Use when: processing a new GitHub Issue, adding event pages, updating grant calls, adding content, or fixing website bugs."
 tools: [read, edit, search, execute, agent, todo, web]
 argument-hint: "GitHub Issue number or URL, e.g. #42 or https://github.com/PalaeOpen/PalaeOpen.github.io/issues/42"
 ---
@@ -23,70 +23,77 @@ Follow these steps in order. Use the todo tool to track progress.
 Work through the following sub-steps in order.
 Collect **all** problems before posting a comment — never post multiple comments for one validation pass.
 
+> **Readiness gate.** On GitHub, template issues are checked automatically by `.github/scripts/issue-readiness-check.js` (workflow `copilot-readiness-check.yml`) before you are assigned. It applies the field rules in A2 and labels the issue `🤖 ready-for-copilot` only when they pass. Still run A2 (it is the only check for local or VS Code runs and for issues assigned manually) and always run A3: the script cannot check files, links, or attachments.
+
 #### A1. Fetch and Identify
 
 1. Fetch the full GitHub Issue: number, title, body, labels, author (`@handle`), and any attachments or linked files.
-2. Identify the template type from the title prefix or labels:
+2. Identify the template type from the title prefix. If the submitter edited the prefix away, use the field headings in the body (labels are not enough: templates 05 and 08 share the same labels):
 
-| Title prefix | Labels | Template |
+| Title prefix | Distinctive field heading | Template |
 |---|---|---|
-| `[New content]` | `✍️ type:new-content` | 01 |
-| `[Update content]` | `🛠️ type:update-content` | 02 |
-| `[Media]` | `🖼️ type:media` | 03 |
-| `[Event]` | `📅 area:events` | 04 |
-| `[Grant call]` | `💶 area:grants` | 05 |
-| `[Archive/Remove]` | `🗃️ type:archive-remove` | 06 |
-| `[Bug]` | `🐞 type:bug` | 07 |
-| `[STSM Blog]` | `💶 area:grants` + `✍️ type:new-content` | 08 |
+| `[New content]` | `Public title` | 01 |
+| `[Update content]` | `Exact change request` | 02 |
+| `[Media]` | `Asset list` | 03 |
+| `[Event]` | `Event request type` | 04 |
+| `[Grant call]` | `Call request type` | 05 |
+| `[Archive/Remove]` | `Requested action` | 06 |
+| `[Bug]` | `Current behavior` | 07 |
+| `[STSM Blog]` | `Blog post title` | 08 |
 
 #### A2. Per-Template Field Checks
 
 Check that every required field is filled and not left as the default placeholder text.
-Flag any field that is empty, contains only whitespace, or still contains the template's example/placeholder value.
+Flag any field that is empty, says `_No response_`, or still contains only the template's example/placeholder text.
+These rules match `.github/scripts/issue-readiness-check.js`; keep the two in sync.
 
 **Template 01 — New content:**
 - `Website area` — a specific option must be selected (not blank).
 - `Public title` — must not be empty.
 - `One-paragraph summary` — must not be the placeholder text `"Provide a concise summary suitable for website visitors."`.
 - `Full content draft` — must not be just the placeholder skeleton (`## Overview / Add the full draft content here. / ## Details / - Point 1`).
+- All three `Content and rights confirmation` checkboxes — must be checked.
 
 **Template 02 — Update content:**
-- `Page URL to update` — must be a non-empty URL, ideally under `https://palaeopen.github.io/`.
+- `Page URL to update` — must be a URL under `https://palaeopen.github.io/`.
 - `Type of update` — a specific option must be selected.
-- `Exact change request` — must contain actual replacement content under `### Current` and `### New`, not just the placeholder headings.
+- `Exact change request` — must describe the actual change, not just the placeholder headings (`### Current / ### New / ### Location in page`).
+- `Confirmation` checkbox — must be checked.
 
 **Template 03 — Media request:**
-- `Target page URL` — must not be empty.
-- `Asset list` — at least one asset must be filled in with a non-placeholder `Asset:` and `Source:` line.
+- `Website area` — a specific option must be selected.
+- `Target page URL` — must be a URL under `https://palaeopen.github.io/`.
+- `Asset list` — must contain real assets (filled `Asset:`/`Source:` lines or attached files), not just the empty skeleton.
 - `Alt text and captions` — must not be the unfilled placeholder.
 - `Asset action` — a specific option must be selected.
-- `Rights confirmation` checkbox — must be checked.
+- Both `Rights confirmation` checkboxes — must be checked.
 
 **Template 04 — Event post:**
 - `Event request type` — a specific option must be selected.
 - `Event name` — must not be empty.
-- `Event date(s)` — must not be empty; must look like a real date range (e.g., `2026-05-10 to 2026-05-12`).
+- `Event date(s)` — must not be empty and must include the year (e.g., `2026-05-10 to 2026-05-12`).
 - `Location` — must not be empty.
-- `Proposed file path` — must not be empty; must follow `events/YYYY/event_name_YYYY.qmd` pattern.
-- `Body / content` — if present, must not be just a placeholder.
+- `Proposed file path` — must not be empty. If it does not follow `events/YYYY/event_name_YYYY.qmd`, do not flag it: choose the correct path yourself (meeting reports live under `outreach/meetings/`) and explain the choice in the PR summary.
+- `Full event text` — must not be just the placeholder skeleton.
 
 **Template 05 — Grant call:**
-- `Request type` — a specific option must be selected.
+- `Call request type` — a specific option must be selected.
 - `Call cycle or year` — must not be empty.
-- `Proposed file path` — must not be empty; must follow `grants/stms/` pattern.
+- `Proposed file path` — must not be empty. If it does not follow the `grants/stms/` pattern, choose the correct path yourself and explain it in the PR summary.
 - `Eligibility and scope` — must not be the unfilled placeholder (`## Eligibility / Describe who can apply.`).
 - `Key dates` — at least one date line must be filled in (not just `Opens: / Submission deadline:` with no values).
 - `Application process and links` — must not be just the placeholder steps.
+- `Confirmation` checkbox — must be checked.
 
 **Template 06 — Archive/Remove:**
-- `Target page URL` — must not be empty.
+- `Target page URL` — must be a URL under `https://palaeopen.github.io/`.
 - `Requested action` — a specific option must be selected.
 - `Reason for archive/removal` — must not be the placeholder text.
 - `Approval reference` — must not be empty.
 - If action is `Redirect to another page` — `Redirect URL` must also be provided.
 
 **Template 07 — Bug:**
-- `Affected page URL` — must not be empty.
+- `Affected page URL` — must be a URL under `https://palaeopen.github.io/`.
 - `Current behavior` — must not be the placeholder `"Describe exactly what happens now."`.
 - `Expected behavior` — must not be the placeholder `"Describe what should happen."`.
 - `Steps to reproduce` — must not be the placeholder steps.
@@ -97,7 +104,7 @@ Flag any field that is empty, contains only whitespace, or still contains the te
 - `Author name` — must not be empty.
 - `Home institution` — must not be empty.
 - `Host institution` — must not be empty.
-- `STSM dates` — must not be empty and must look like a real date range.
+- `STSM dates` — must not be empty and must include the year (any date format is fine).
 - `Blog post title` — must not be empty.
 - `Full blog content` — must contain a real report, not the template skeleton.
 - All three `Confirmation` checkboxes — must be checked.
@@ -178,30 +185,20 @@ Load the relevant instruction file(s):
 Write or edit the `.qmd` source file(s) following those instructions exactly.
 Do not set `categories:` in event files. Do not edit `events/events.qmd`.
 
-### Step D — Set Up Environment and Render
+### Step D — Verify a Source-Only Diff (no rendering)
 
-Follow [quarto-rendering.instructions.md](.github/instructions/quarto-rendering.instructions.md) for the full setup sequence.
-The required steps are:
+`docs/` (the published site) is generated **only** by the `Re-render site after merge` workflow after the PR is merged. The `PR render check` workflow renders every PR in CI and fails if the site does not build or if `docs/` was changed. See [quarto-rendering.instructions.md](.github/instructions/quarto-rendering.instructions.md).
 
-1. Install Quarto (`.deb` or tarball from <https://quarto.org>).
-2. Install R **4.5.1** (exact version from `renv.lock`) via `rig`:
-   ```bash
-   curl -Ls https://github.com/r-lib/rig/releases/latest/download/rig-linux-amd64.tar.gz | sudo tar xz -C /usr/local
-   rig install 4.5.1 && rig default 4.5.1
-   ```
-3. Restore R packages via `{renv}`:
-   ```bash
-   Rscript -e "renv::restore(prompt = FALSE)"
-   ```
-4. Render:
-   ```bash
-   quarto render
-   ```
+So in this step:
 
-Verify exit code is `0` and `docs/` HTML is updated.
-If any installation step fails, follow the fallback procedure in the rendering instructions: preserve the source changes, note the failure prominently in the PR description, and tag @OndrejMottl.
+- Do **not** install R, `{renv}`, or Quarto, and do **not** run `quarto render`.
+- Run `git status --short` and `git diff --name-only` (plus `git diff --cached --name-only` if anything is staged).
+- The diff must contain only the intended source files (`.qmd`, images, PDFs, config). It must not contain:
+  - anything under `docs/` or `_preview/`;
+  - changes to `events/events.qmd` or `categories:` lines in event files (the render hook writes those).
 
-Before finishing, run `git status --short` and `git diff --name-only` (plus `git diff --cached --name-only` if anything is staged). A completed implementation must have at least one intended changed file. Do not claim success with an empty diff.
+  If any of these appear, restore them before finishing: `git checkout -- docs/ events/events.qmd` and revert any `categories:` lines you did not write.
+- A completed implementation must have at least one intended changed file. Do not claim success with an empty diff.
 
 Do **not** run `git commit` or `git push`. Copilot's managed finalizer commits and pushes the working-tree changes to the already-provisioned PR branch after the session ends.
 
@@ -213,8 +210,15 @@ Invoke the `change-reviewer` subagent. Provide it:
 
 Read the reviewer's report:
 - If **✅ ALL CHECKS PASSED** → proceed to Step F.
-- If **⚠️ FLAGS FOUND** → fix every flagged item, re-render if needed, then invoke the reviewer again.
-  Repeat until the reviewer passes.
+- If **⚠️ FLAGS FOUND**:
+  - **Fixable flags** (wrong content, missing file, YAML error, stray `docs/` change): fix them, then invoke the reviewer again. Repeat until the reviewer passes.
+  - **Unfixable flags** (information only the submitter can provide, an inaccessible attachment, an environment problem): do not keep retrying. Put this banner at the top of the PR summary in Step F, followed by the full flag table:
+
+    ```markdown
+    > ⚠️ **REVIEW BLOCKED — unfixable flags found. @OndrejMottl @xbenitogranell please review before merging.**
+    >
+    > [paste the full flag table here]
+    ```
 
 ### Step F — Prepare the Existing Draft PR
 
@@ -226,13 +230,18 @@ The draft PR already exists. Provide a final summary in this format so Copilot c
 
 ## Changes
 - [file1.qmd] — [what changed]
-- [docs/...] — rendered output
+- [Materials/...] — [added image or file, if any]
 
 ## Closes
 - close #[issue number]
 
+---
+_Requested by @[issue author's GitHub handle]_
+
 <!-- copilot-implementation-attempted -->
 ```
+
+List source files only; `docs/` is never part of the PR.
 
 - Assign **@OndrejMottl** and **@xbenitogranell** as reviewers.
 - Apply the same label(s) from the issue.
@@ -254,7 +263,7 @@ git fetch origin main
 git rebase origin/main
 ```
 
-During the rebase, **conflicts in `docs/` can always be resolved by accepting the incoming (main) version** — `docs/` will be fully regenerated by `quarto render` in the next step, so its pre-rebase content is irrelevant:
+PRs no longer touch `docs/`, so `docs/` conflicts should not occur. If one appears (for example on an older branch), take `main`'s version — `docs/` is rebuilt by CI after merge:
 
 ```bash
 # If there are conflicts in docs/:
@@ -271,19 +280,11 @@ Address every comment left by the reviewer.
 Load the relevant instruction files again if the nature of the fix touches events, grants, or writing conventions.
 Do not set `categories:` in event files. Do not hand-edit `events/events.qmd`.
 
-#### G3. Re-render
+#### G3. Verify the Working Tree
 
-```bash
-quarto render
-```
+Repeat the Step D checks: the requested source files are changed, and nothing under `docs/`, `_preview/`, `events/events.qmd`, or event `categories:` lines is. Do not render; the `PR render check` workflow re-renders the updated PR. Leave the changes for Copilot's managed finalizer to commit and push. Do not run `git commit`, `git push`, or a force-push from the session.
 
-Verify exit code is `0` and `docs/` is updated.
-
-#### G4. Verify the Working Tree
-
-Run `git status --short` and verify the requested source and rendered files are changed. Leave those changes for Copilot's managed finalizer to commit and push. Do not run `git commit`, `git push`, or a force-push from the session.
-
-#### G5. Re-invoke the Reviewer
+#### G4. Re-invoke the Reviewer
 
 Invoke the `change-reviewer` subagent again with the updated file list.
 Fix any new flags, then re-request review from @OndrejMottl and @xbenitogranell on the PR.
@@ -296,6 +297,7 @@ Fix any new flags, then re-request review from @OndrejMottl and @xbenitogranell 
 - Never commit directly to `main`.
 - Never set `categories:` in event `.qmd` files.
 - Never hand-edit `events/events.qmd`.
+- Never change or commit `docs/`, and never render the site in the Copilot session; CI renders it.
 - Never manually create a branch, commit, push, or open another PR from a Copilot cloud-agent session; GitHub manages those operations.
 - Never describe an implementation as complete when the working-tree diff is empty.
 - Squash-merge is the only accepted merge strategy (for maintainers to apply).
