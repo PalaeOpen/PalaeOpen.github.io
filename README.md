@@ -47,7 +47,7 @@ Use one of these structured templates when submitting your content request:
 
 - **Static site generator:** [Quarto](https://quarto.org/)
 - **Source files:** `*.qmd` files (YAML frontmatter + Markdown/R)
-- **Output:** `docs/` folder (committed to the repository)
+- **Output:** `docs/` folder, rendered and committed automatically by CI after every merge into `main` (never changed in pull requests)
 - **Styling:** `styles.scss` + `_colors.scss` + `colors.json`
 - **Site config:** `_quarto.yml`
 - **R pre-render script:** `R/_categorize_events.R`
@@ -60,8 +60,9 @@ All content requests come via structured GitHub Issue templates. The workflow fo
 
 ### 1. **Validate**
 
-- Check that all required issue fields are present
-- If any fields are missing, post a comment requesting the missing information
+- A readiness check runs automatically whenever a template issue is opened or edited. It labels the issue `❓ status:needs-info` and lists what is missing in one status comment, or labels it `🤖 ready-for-copilot` and assigns the Copilot coding agent
+- Add the `⏸️ no-agent` label to stop Copilot from being assigned automatically; maintainers can assign it by hand with the "Assign issue to Copilot (manual)" workflow
+- The agent additionally checks referenced files and links; if anything is missing, it comments on the issue
 - If blocked, tag @OndrejMottl or @xbenitogranell for help
 
 ### 2. **Branch**
@@ -75,14 +76,12 @@ All content requests come via structured GitHub Issue templates. The workflow fo
 - Write/edit `.qmd` files following the relevant instruction files (see below)
 - Follow the project's code conventions and file naming standards
 
-### 4. **Render**
+### 4. **Render (CI)**
 
-- Run `quarto render` from the repository root
-- This command:
-  - Executes `R/_categorize_events.R` (pre-render hook)
-  - Renders all `.qmd` files to HTML
-  - Writes output to `docs/`
-- **Commit the `docs/` output alongside the source `.qmd` changes**
+- Pull requests contain **source files only**; never commit `docs/`
+- The `PR render check` workflow renders every PR and fails if the site does not build or if `docs/` was changed
+- After merge, the `Re-render site after merge` workflow renders the site into `docs/` and commits it
+- To preview locally, run `quarto render --output-dir _preview` from the repository root, then discard the changes the pre-render hook (`R/_categorize_events.R`) makes to `events/` files
 
 ### 5. **Review**
 
@@ -94,8 +93,9 @@ All content requests come via structured GitHub Issue templates. The workflow fo
 - Update the managed **draft** PR with:
   - Summary of changes
   - `- close #[issue number]`
+  - `_Requested by @[issue author]_` footer
   - Tag @OndrejMottl and @xbenitogranell as reviewers
-- A maintainer marks it ready after the change-reviewer passes
+- A maintainer marks it ready after the change-reviewer and the PR render check pass
 - A scheduled watchdog retries once if Copilot finishes but the PR still has no file changes, then alerts both maintainers if recovery fails
 - **Agents must NEVER merge a PR** unless explicitly instructed by a maintainer
 

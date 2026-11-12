@@ -1,65 +1,59 @@
 ---
-description: "Use when reviewing any changes made to the PalaeOpen website — by the agent or locally. Covers the full checklist that the change-reviewer agent applies before a PR is opened: YAML validity, content vs issue requirements, file path existence, instruction compliance, and grammar."
+description: "Use when reviewing any changes made to the PalaeOpen website — by the agent or locally. Covers the full checklist that the change-reviewer agent applies before a PR is handed to maintainers: YAML validity, content vs issue requirements, file path existence, source-only diff, instruction compliance, and grammar."
 ---
 
 # Review Checklist — PalaeOpen
 
-The `change-reviewer` agent (or a human reviewer) must verify every item below before a PR is marked ready for review.
-Each item must be reported as **PASS** or **FLAG** with a short explanation.
+The `change-reviewer` agent (or a human reviewer) must verify every item below before a PR is handed to the maintainers.
+Each item must be reported as **✅ PASS** or **⚠️ FLAG** with a short explanation.
+
+PRs contain **source changes only**. The site is rendered by CI: the `PR render check` workflow builds every PR, and the `Re-render site after merge` workflow builds `docs/` after merge. Review the source files; do not expect or ask for rendered HTML in the PR.
 
 ---
 
 ## 1. YAML Frontmatter Validity
 
-- [ ] All `.qmd` files modified have valid YAML frontmatter (between `---` markers).
-- [ ] Required fields are present for the file type (see [events.instructions.md](.github/instructions/events.instructions.md) and [grants.instructions.md](.github/instructions/grants.instructions.md)).
-- [ ] No tab characters in YAML (use spaces only).
-- [ ] No bare colons inside unquoted string values.
-- [ ] `date` and `event-date` values follow `YYYY/MM/DD` format.
-- [ ] `categories:` field in event files is **not** manually set (it is written by `R/_categorize_events.R` at render time; a manually set value will be overwritten).
+- [ ] 1.1 All `.qmd` files modified have valid YAML frontmatter (between `---` markers).
+- [ ] 1.2 Required fields are present for the file type (see [events.instructions.md](.github/instructions/events.instructions.md) and [grants.instructions.md](.github/instructions/grants.instructions.md)).
+- [ ] 1.3 No tab characters in YAML (use spaces only), and no bare colons inside unquoted string values.
+- [ ] 1.4 `date` and `event-date` values follow `YYYY/MM/DD` format.
+- [ ] 1.5 `categories:` field in event files is **not** manually set (it is written by `R/_categorize_events.R` at render time).
 
 ## 2. Content Matches Issue Requirements
 
-- [ ] All information requested in the issue has been implemented.
-- [ ] Public title matches the `title:` field (or `## Heading`) in the `.qmd` file.
-- [ ] Dates, locations, links, and contact details match what the issue specified.
-- [ ] No placeholder text remains (e.g., `Add content here`, `TODO`, `TBD`).
-- [ ] If the issue specified an existing source file or URL, those match the implemented content.
+- [ ] 2.1 All information requested in the issue has been implemented.
+- [ ] 2.2 Public title matches the `title:` field (or `## Heading`) in the `.qmd` file.
+- [ ] 2.3 Dates, locations, links, and contact details match what the issue specified.
+- [ ] 2.4 No placeholder text remains (e.g., `Add content here`, `TODO`, `TBD`, template example text).
+- [ ] 2.5 The submitter's text is reproduced faithfully: no invented facts, no silently dropped sections.
 
-## 3. File Paths and Links
+## 3. File Paths and Links (source level)
 
-- [ ] All file paths referenced in `.qmd` files (images, other pages, materials)
-  exist in the repository.
-- [ ] All external URLs in the content are plausible (correct domain, no obvious typos). Do not open URLs; check structure only.
-- [ ] New files are placed at the path specified in the issue (or the convention from the relevant instruction file).
-- [ ] `events/events.qmd` has **not** been hand-edited — it is auto-generated.
+- [ ] 3.1 All files referenced in changed `.qmd` files (images, PDFs, other pages) exist in the repository at the path the reference resolves to, relative to the `.qmd` file (or to the project root for paths starting with `/`). Flag `../` traversal errors.
+- [ ] 3.2 Internal links to other site pages point to `.qmd` (or `.html`) pages whose source exists in the repository.
+- [ ] 3.3 All external URLs in the content are plausible (correct domain, no obvious typos). Do not open URLs; check structure only.
+- [ ] 3.4 New files are placed at the path specified in the issue, or at the conventional path from the relevant instruction file (with the choice explained in the PR summary).
+- [ ] 3.5 File naming follows `snake_case` with year suffix for events/grants (e.g., `basel_workshop_2026.qmd`, `stms_2026_3rdcall.qmd`).
 
-## 4. Instruction Compliance
+## 4. Source-Only Diff
 
-- [ ] File naming follows `snake_case` with year suffix for events/grants (e.g., `basel_workshop_2026.qmd`, `stms_2026_3rdcall.qmd`).
-- [ ] `docs/` HTML output is committed on the same branch as the source changes.
-- [ ] The branch name follows `issue[N]` or `issue[N]-short-description` convention.
-- [ ] The PR description contains `- close #[issue number]`.
-- [ ] Both @OndrejMottl and @xbenitogranell are assigned as PR reviewers.
-- [ ] No merge has been performed by the agent.
+- [ ] 4.1 The PR does not change anything under `docs/` (generated by CI after merge).
+- [ ] 4.2 The PR does not add `_preview/` or other render output.
+- [ ] 4.3 `events/events.qmd` is not changed — it is regenerated at render time.
+- [ ] 4.4 The diff is not empty and contains only files the issue requires.
 
-## 5. Spelling and Grammar
+## 5. Workflow Compliance
 
-- [ ] No obvious spelling errors in headings and body text.
-- [ ] No obvious grammatical errors that would embarrass the organisation.
-- [ ] Scientific terms and proper nouns are capitalised correctly (e.g., *PalaeOpen*, *COST Action*, *CA23116*, *Quarto*).
+- [ ] 5.1 Branch is `copilot/*` (Copilot coding agent) or `issue[N]` / `issue[N]-short-description` (local work).
+- [ ] 5.2 The PR summary contains `- close #[issue number]`.
+- [ ] 5.3 The PR summary ends with `_Requested by @[issue author]_`.
+- [ ] 5.4 Both @OndrejMottl and @xbenitogranell are requested as reviewers (Copilot PRs: the maintainers are notified by the issue assignment; do not flag a missing reviewer request there).
+- [ ] 5.5 No merge has been performed by the agent.
 
-## 6. Rendered HTML Validation
+## 6. Spelling and Grammar
 
-After `quarto render`, inspect the generated HTML files in `docs/` for the changed pages.
-
-- [ ] The expected HTML file exists at the correct path under `docs/` (e.g., `docs/events/2026/basel_workshop_2026.html`).
-- [ ] The HTML file is non-empty and contains readable content (not a blank page or Quarto error output).
-- [ ] All `<img>` tags in the rendered HTML have `src` paths that resolve to files that exist under `docs/` or are absolute URLs. Flag any `src` that contains `../` traversal errors or points to a non-existent path.
-- [ ] All internal `<a href>` links that point to other pages on `palaeopen.github.io` resolve to HTML files that exist under `docs/`. Flag any `href` that results in a 404.
-- [ ] No Quarto error banners appear in the rendered page (e.g., `Error: path not found`, `object not found`).
-- [ ] Event pages: the page contains the event date, location, and description visible in the rendered output (not just in frontmatter).
-- [ ] The `docs/events/events.html` listing page includes the newly added or updated event.
+- [ ] 6.1 No obvious spelling or grammatical errors in headings and body text.
+- [ ] 6.2 Scientific terms and proper nouns are capitalised correctly (e.g., *PalaeOpen*, *COST Action*, *CA23116*, *Quarto*).
 
 ---
 
@@ -67,12 +61,14 @@ After `quarto render`, inspect the generated HTML files in `docs/` for the chang
 
 Output a table with one row per checklist item:
 
-| # | Check | Status | Notes |
-|---|-------|--------|-------|
-| 1.1 | Valid YAML frontmatter | PASS | — |
-| 2.3 | No placeholder text | FLAG | Line 42 of `events/2026/foo.qmd` still has "TBD" |
-| … | … | … | … |
+| # | Category | Check | Status | Notes |
+|---|----------|-------|--------|-------|
+| 1.1 | YAML | Valid frontmatter | ✅ PASS | — |
+| 2.4 | Content | No placeholder text | ⚠️ FLAG | Line 42 of `events/2026/foo.qmd` still has "TBD" |
+| 4.1 | Diff | `docs/` not changed | ✅ PASS | — |
+| … | … | … | … | … |
 
 End the report with one of:
+
 - **✅ ALL CHECKS PASSED** — the PR is ready for a maintainer to review and mark ready.
-- **⚠️ FLAGS FOUND** — fix all flagged items before requesting maintainer review.
+- **⚠️ FLAGS FOUND ([N] items)** — list each flag on its own line, and mark each as *fixable* (the agent can correct it) or *unfixable* (needs the submitter or a maintainer).

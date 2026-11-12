@@ -1,11 +1,20 @@
-name: Auto-assign issues to Copilot
+name: Assign issue to Copilot (manual)
 
-# This workflow assigns copilot-swe-agent[bot] when a new issue is opened,
-# triggering the GitHub Copilot coding agent (if enabled for the org).
+# Manual maintainer override: assigns one issue to the GitHub Copilot coding
+# agent regardless of its readiness labels (it still skips closed issues and
+# issues that Copilot is already assigned to). Use it for issues that do not
+# use a template, or to restart Copilot after fixing a failed assignment.
+#
+# Template issues do NOT need this: copilot-readiness-check.yml assigns
+# Copilot automatically as soon as an issue passes the readiness check.
+#
+# Run it from the Actions tab ("Run workflow") or with:
+#   gh workflow run copilot-assign.yml -f issue_number=<N>
 #
 # It requires a Personal Access Token (PAT) stored as COPILOT_TRIGGER_PAT.
 # The built-in GITHUB_TOKEN cannot assign copilot-swe-agent[bot]; a real user
-# token from someone with a Copilot seat is required.
+# token from someone with a Copilot seat is required. The same secret is used
+# by copilot-readiness-check.yml and copilot-empty-pr-watchdog.yml.
 #
 # How to create the PAT (fine-grained):
 #   1. Sign in as @OndrejMottl (must have an active Copilot seat)
@@ -22,49 +31,35 @@ name: Auto-assign issues to Copilot
 #      (Repository Settings → Secrets and variables → Actions → New repository secret)
 
 on:
-  issues:
-    types: [opened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to assign to Copilot"
+        required: true
+        type: number
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   assign-to-copilot:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: read
     steps:
-      - name: Assign issue to Copilot Coding Agent
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Assign issue to Copilot coding agent
         uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.COPILOT_TRIGGER_PAT }}
           script: |
-            const response = await github.request('POST /repos/{owner}/{repo}/issues/{issue_number}/assignees', {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.issue.number,
-              assignees: ['copilot-swe-agent[bot]'],
-              agent_assignment: {
-                target_repo: `${context.repo.owner}/${context.repo.repo}`,
-                base_branch: 'main',
-                custom_agent: 'website-maintainer',
-                custom_instructions: [
-                  'Implement the issue now; do not stop after writing a plan.',
-                  'Read all instructions in .github/ first, especially .github/agents/website-maintainer.agent.md.',
-                  'Work on the branch and draft PR provisioned by Copilot. Do not manually create a branch, commit, push, or open another PR.',
-                  'Before finishing an implementation, verify that git status shows the intended changes and include <!-- copilot-implementation-attempted --> in the final PR summary.',
-                ].join(' '),
-                model: ''
-              },
-              headers: {
-                accept: 'application/vnd.github+json',
-                'X-GitHub-Api-Version': '2022-11-28'
-              }
+            const assignCopilot = require('./.github/scripts/assign-copilot.js');
+            await assignCopilot({
+              github,
+              context,
+              core,
+              issueNumber: Number(context.payload.inputs.issue_number),
+              force: true,
             });
-
-            const assigned = response.data.assignees
-              .map(({ login }) => login.toLowerCase())
-              .some((login) => login === 'copilot' || login === 'copilot-swe-agent[bot]');
-
-            if (!assigned) {
-              core.setFailed('GitHub accepted the request but did not assign Copilot to the issue.');
-            }

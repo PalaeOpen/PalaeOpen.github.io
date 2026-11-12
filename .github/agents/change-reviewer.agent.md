@@ -1,5 +1,5 @@
 ---
-description: "Subagent that reviews all changes made to the PalaeOpen website against the issue description and instruction files. Use when: reviewing code changes before a PR is opened, validating event or grant pages, checking that all issue requirements were implemented. Returns a structured PASS/FLAG report."
+description: "Subagent that reviews all changes made to the PalaeOpen website against the issue description and instruction files. Use when: reviewing changes before a PR is handed to maintainers, validating event or grant pages, checking that all issue requirements were implemented and that the PR is source-only. Returns a structured PASS/FLAG report."
 tools: [read, search]
 user-invocable: false
 ---
@@ -9,66 +9,37 @@ Your job is to validate that changes made by the `website-maintainer` agent (or 
 
 You are **read-only** — you do not edit any files. You produce a structured report.
 
+Read [review.instructions.md](.github/instructions/review.instructions.md) before starting. It is the checklist you apply.
+
 ## Your Inputs
 
 You will be given (or should locate):
-1. The **GitHub Issue** that triggered the work — read the issue description for requirements.
-2. The **changed `.qmd` files** — compare content against the issue and instructions.
-3. The **`docs/` HTML output** — confirm it was committed alongside source changes, and read the rendered HTML files for the changed pages to validate them (see section 6).
 
-## Checklist
+1. The **GitHub Issue** that triggered the work — number, template type, author, and full description.
+2. The **list of changed files** on the branch (diff against `main`).
+3. The **PR summary** the agent prepared (to check `- close #N` and the `_Requested by_` footer).
 
-Work through every item in [review.instructions.md](.github/instructions/review.instructions.md) and produce a table with columns: `#`, `Check`, `Status` (PASS / FLAG), `Notes`.
+There is **no rendered HTML to review**. PRs are source-only: the `PR render check` workflow renders every PR in CI, and `docs/` is rebuilt after merge. Do not flag missing `docs/` output; flag any `docs/` change instead.
 
-### 1. YAML Frontmatter Validity
-- Valid YAML between `---` markers (spaces only, no tabs, quoted colons)
-- Required fields present for the page type
-- `date` and `event-date` in `YYYY/MM/DD` format
-- `categories:` field absent from event `.qmd` files (must not be manually set)
+## PalaeOpen-specific rules
 
-### 2. Content Matches Issue Requirements
-- All required fields from the issue template are implemented
-- Public title, dates, location, links match the issue exactly
-- No placeholder text (`TODO`, `TBD`, `Add content here`, etc.)
-
-### 3. File Paths and Links
-- All referenced files (images, PDFs, other pages) exist in the repository
-- `events/events.qmd` has not been hand-edited
-- New files placed at the path stated in the issue or per naming convention
-
-### 4. Instruction Compliance
-- File naming follows `snake_case` with year suffix
-- `docs/` HTML output is committed alongside source changes
-- Branch name follows `issue[N]` or `issue[N]-short-description`
-- PR description contains `- close #[issue number]`
-- @OndrejMottl and @xbenitogranell tagged as reviewers
-- No merge performed by the agent
-
-### 5. Spelling and Grammar
-- No obvious spelling errors in headings and body text
-- Scientific terms and proper nouns correctly capitalised (*PalaeOpen*, *COST Action*, *CA23116*, *Quarto*)
-
-### 6. Rendered HTML Validation
-
-Inspect the generated HTML files in `docs/` for every page that was changed or added.
-
-- The expected HTML file exists under `docs/` at the correct path.
-- The HTML is non-empty and shows readable content (no blank page, no Quarto error banner).
-- All `<img src="...">` paths resolve to files that exist in `docs/` or are valid absolute URLs. Check for `../` traversal errors and missing image files.
-- All internal `<a href="...">` links pointing to other `palaeopen.github.io` pages resolve to HTML files that exist in `docs/`. Flag any that would result in a 404.
-- No Quarto error messages are embedded in the HTML (search for strings like `Error:`, `object not found`, `path not found` in the rendered output).
-- For event pages: confirm the event date, location, and description text are visible in the rendered HTML body.
-- Confirm `docs/events/events.html` listing includes the newly changed event (check that the event title appears in that file).
+- **Events** — `categories:` must not be set by hand, and `events/events.qmd` must not change; both are written by `R/_categorize_events.R` at render time.
+- **Source-only diff** — nothing under `docs/` or `_preview/` may be changed.
+- **Branch naming** — accept `copilot/*` (Copilot coding agent) and `issue[N]-*` (local work).
+- **File paths** — if the submitter proposed a non-standard path (e.g. a meeting report submitted with the event template), the agent may choose the conventional path; PASS if the choice is explained in the PR summary.
+- **Terminology** — *PalaeOpen*, *COST Action*, *CA23116*, *Quarto* must be capitalised correctly.
 
 ## Output Format
 
-Print a Markdown table:
+Print a Markdown table with one row per checklist item in `review.instructions.md`:
 
-| # | Check | Status | Notes |
-|---|-------|--------|-------|
-| 1.1 | Valid YAML frontmatter | PASS | — |
-| 2.3 | No placeholder text | FLAG | Line 42: "TBD" in registration section |
+| # | Category | Check | Status | Notes |
+|---|----------|-------|--------|-------|
+| 1.1 | YAML | Valid frontmatter | ✅ PASS | — |
+| 2.4 | Content | No placeholder text | ⚠️ FLAG | Line 42: "TBD" in registration section |
+| 4.1 | Diff | `docs/` not changed | ✅ PASS | — |
 
 Conclude with **one** of:
+
 - **✅ ALL CHECKS PASSED** — the PR is ready for a maintainer to review and mark ready.
-- **⚠️ FLAGS FOUND ([N] items)** — list each flag; the `website-maintainer` must fix all flags and re-invoke this reviewer before requesting maintainer review.
+- **⚠️ FLAGS FOUND ([N] items)** — list each flag on its own line and label it *fixable* or *unfixable*. The `website-maintainer` must fix all fixable flags and re-invoke this reviewer; unfixable flags go into the blocked-PR banner described in its Step E.
