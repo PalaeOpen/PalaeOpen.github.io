@@ -56,3 +56,8 @@ Temp/
 # Installer files
 *.deb
 *.tar.gz
+
+# Machine-specific Quarto environment (e.g. QUARTO_R)
+_environment.local
+
+/_*.local
