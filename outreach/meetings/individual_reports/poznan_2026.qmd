@@ -65,7 +65,7 @@ Key takeaways and future directions
 
 ## Key Takeaways
 
-- Many chironomid datasets are currently inaccessible and at risk of being lost
+- Testate amoeba datasets remain scarce in Neotoma, particularly from Europe
 - Standardisation is essential to enable comparison and reuse across studies
 - Open-access platforms like Neotoma play a key role in long-term data preservation
 - Transparent authorship and collaboration framework encourage data sharing
